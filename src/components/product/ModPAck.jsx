@@ -15,22 +15,22 @@ const ModPAck = ({modpack}) => {
             facilisi donec egestas egestas pellentesque magna.
           </p>
           <Row>
-          {modpack.map((feature, mod_card) => {
+          {modpack.map((modpack, mod_card) => {
               return (
-            <Col key={mod_card}>
-              <div>
-                <div>
-                  <div><img src={modpack.modimg} alt="minecraft"className="w-100" /></div>
+            <Col key={mod_card} lg={4} md={6}>
+              
+                <div className="bg_darkblack p_25 border_r_15">
+                  <div><img src={modpack.modimg} alt="minecraft"className="w_55" /></div>
                   <h4 className="ff_rubik fw-semibold clr_white fs_6xl">{modpack.bigheading}</h4>
-                  <p className="ff_inter clr_offblue fw-normal fs-lg">{modpack.bluepara}</p>
-                  <p className="ff_inter clr_offwhite fw-normal fs-lg">{modpack.para}</p>
-                  <h3 className="ff_inter clr_offblue fw-bold fs_7xl">{modpack.smallheading}</h3>
+                  <p className="ff_inter clr_offblue fw-normal fs-lg mb-0">{modpack.bluepara}</p>
+                  <p className="ff_inter clr_offwhite fw-normal fs-lg mb-0">{modpack.whitepara}</p>
+                  <p className="ff_inter clr_offblue fw-normal fs-lg mb-0">{modpack.bluepara}</p>
+                  <h3 className="ff_inter clr_offblue fw-bold fs_7xl mb-0">{modpack.smallheading}</h3>
                   <div className="d-flex">
-                    <button></button>
-                    <button></button>
+                    <button>{modpack.popularbtn}</button>
+                    <button>{modpack.officalbtn}</button>
                   </div>
-                  <button></button>
-                </div>
+                  <button>{modpack.startup} <img src={modpack.rightarrow} alt="right arrow" /> </button>
               </div>
             </Col>
               );

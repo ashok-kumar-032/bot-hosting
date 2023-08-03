@@ -57,6 +57,7 @@
   --color-clr_blue: #0D6EFD !important;
   --color-clr_offblue: #2F7FEE !important;
   --color-bg-offblack: #18181F !important;
+  --color-bg-darkblack:#111116 !important;
 
 }
 
@@ -64,6 +65,9 @@
 
 .bg_offblack {
   background-color: var(--color-bg-offblack);
+}
+.bg_darkblack {
+  background-color: var(--color-bg-darkblack);
 }
 
 /* coloer */

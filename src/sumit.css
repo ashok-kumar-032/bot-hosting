@@ -10,6 +10,10 @@
 .border_r_10 {
     border-radius: 10px;
 }
+.border_r_15 {
+    border-radius: 10px;
+}
+.w_55{width: 55px;}
 
 .mw_647 {
     max-width: 647px;
