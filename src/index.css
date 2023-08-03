@@ -53,17 +53,32 @@
   --fs-xsm: 12px;
 
   --color-clr_white: #FFF !important;
+  --color-clr_offwhite: #FCFCFF !important;
   --color-clr_blue: #0D6EFD !important;
+  --color-clr_offblue: #2F7FEE !important;
+  --color-bg-offblack: #18181F !important;
 
+}
+
+
+
+.bg_offblack {
+  background-color: var(--color-bg-offblack);
 }
 
 /* coloer */
 .clr_white {
   color: var(--color-clr_white);
 }
+.clr_white {
+  color: var(--color-clr_offwhite);
+}
 
 .clr_blue {
   color: var(--color-clr_blue);
+}
+.clr_offblue {
+  color: var(--color-clr_offblue);
 }
 
 /* font_size */
