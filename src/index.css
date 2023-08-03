@@ -156,6 +156,10 @@
 }
 
 @media (min-width: 1200px) {
+  .container {
+    max-width: 1156px !important;
+  }
+
   :root {
     --fs-9xl: 60px;
     --fs-8xl: 40px;
