@@ -6,6 +6,7 @@ import Helper from "./components/common/Helper";
 import Mynav from "./components/Mynav";
 import Ddhf from "./components/home/Ddhf";
 import Zxc from "./components/product/Zxc";
+import Game from "./components/common/Game";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Mynav />
       <Ddhf />
       <Zxc />
+      <Game />
     </div>
   );
 }
