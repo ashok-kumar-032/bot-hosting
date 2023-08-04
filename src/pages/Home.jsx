@@ -6,7 +6,7 @@ import Pricing from "../components/home/Pricing";
 import ChooseUs from "../components/product/ChooseUs";
 import { Choose } from "../components/common/Helper";
 import Testimonials from "../components/common/Testimonials";
-
+import { Clientdata } from "../components/common/Helper";
 const Home = () => {
   return (
     <div className="page_back">
@@ -15,7 +15,7 @@ const Home = () => {
 
       <Hosting />
       <ChooseUs ChooseUs={Choose} />
-      <Testimonials />
+      <Testimonials clients={Clientdata} />
     </div>
   );
 };

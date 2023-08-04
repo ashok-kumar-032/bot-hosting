@@ -21,8 +21,13 @@ import mod_6 from "../../assets/img/png/modpack6.png";
 
 import price1 from "../../assets/img/png/pricing1.png";
 import price2 from "../../assets/img/png/pricing2.png";
-// features map data start
 
+//Our Clients Say About Us images
+import Viola from "../../assets/img/png/viola.png";
+import Bryan from "../../assets/img/png/bryan.png";
+import Joshua from "../../assets/img/png/joshua.png";
+import George from "../../assets/img/png/george.png";
+// features map data start
 export const feature = [
   {
     f_img: f_img1,
@@ -139,6 +144,30 @@ export const pricing_data = [
     main_heading: "Enterprise",
   },
 ];
-export const Clientdata = [{
-    
-}];
+//client data
+export const Clientdata = [
+  {
+    id: 1,
+    manimg: Viola,
+    para: "I received great customer service from the specialists who helped me. I would recommend to anyone who wants quality.",
+    name: "Viola Manisa",
+  },
+  {
+    id: 2,
+    manimg: Bryan,
+    para: "Very responsive and competent! I've never dealt with an insurance company this customer-friendly in my entire life.",
+    name: "Bryan Arnoldy",
+  },
+  {
+    id: 3,
+    manimg: Joshua,
+    para: "My experience with this platform so far has been great. Everything is easy, from signing the contract to making an appointment.",
+    name: "Joshua William",
+  },
+  {
+    id: 4,
+    manimg: George,
+    para: "It's the best online insurance you can find. Easy, without hidden costs and you can be very sure. your data is completely save.",
+    name: "George Scott",
+  },
+];
