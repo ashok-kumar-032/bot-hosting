@@ -53,6 +53,8 @@
   --fs-xsm: 12px;
 
   --color-clr_white: #FFF !important;
+  --color-clr-gray: #9A9EA6 !important;
+  --color-clr-blue200: #0062FF !important;
   --color-clr_white100: #FCFCFF !important;
   --color-clr_white200: #FbFbFb !important;
   --color-clr_white300: #F9F9F9 !important;
@@ -81,9 +83,17 @@
 }
 
 /* coloer */
-.clr_blue100{color: var(--color-clr_blue100);}
+.clr_blue100 {
+  color: var(--color-clr_blue100);
+}
+.clr_blue200{color: var(--color-clr-blue200);}
+
 .clr_white {
   color: var(--color-clr_white);
+}
+
+.clr_gray {
+  color: var(--color-clr-gray);
 }
 
 .clr_white100 {
@@ -93,6 +103,7 @@
 .clr_white200 {
   color: var(--color-clr_white200);
 }
+
 .clr_white300 {
   color: var(--color-clr_white300);
 }
@@ -104,6 +115,7 @@
 .clr_offblue {
   color: var(--color-clr_offblue);
 }
+
 .clr_gray {
   color: var(--color-clr-gray);
 }

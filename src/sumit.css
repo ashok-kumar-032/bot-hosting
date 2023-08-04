@@ -51,6 +51,7 @@
 .w_55 {
     width: 55px;
 }
+.mw_457{max-width: 457px;}
 
 .mw_550 {
     max-width: 550px;
@@ -93,6 +94,8 @@
     max-width: 165px;
 }
 
+/* utilits end */
+
 /* feature card start */
 .feature_card {
     transition: all 300ms linear;
@@ -101,6 +104,8 @@
 .feature_card:hover {
     transform: scale(1.04);
 }
+
+/* features end */
 
 /* modpack components start */
 .popular_btn {
@@ -155,6 +160,7 @@
 }
 
 /* modpack components end */
+/* chooseus section start */
 .choose_darkbg {
     background-image: url(./assets/img/webp/our_card_black.webp);
     background-repeat: no-repeat;
@@ -166,6 +172,8 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+
+/* chooseus section end */
 
 /* pricing section start */
 .pricing_startup_btn {
@@ -229,6 +237,18 @@
     background: transparent;
 }
 
+/* pricing section end */
+
+/* footer start*/
+.footer_s ul li {padding-top: 20px;}
+.footer_s ul li a {
+    color: #FFF;
+    font-family: 'DM Sans';
+    font-size: var(--fs-md);
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
 @media (min-width:576px) {}
 
 @media (min-width:768px) {
@@ -240,8 +260,6 @@
     .p_md_40 {
         padding: 40px;
     }
-
-
 }
 
 @media (min-width:992px) {
