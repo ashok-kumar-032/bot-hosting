@@ -8,10 +8,10 @@ const Hero = () => {
       <section className="bg_heroimg ">
         <Header />
         <Container className="pt-lg-5 mt-3 pb-5">
-          <Row className=" align-items-center justify-content-center">
+          <Row className="align-items-center justify-content-center">
             <Col lg={6}>
               <div className="text-center text-lg-start align-items-lg-start d-flex flex-column align-items-center position-relative z-3">
-                <p className="ff_inter fs_md fw-medium text-uppercase clr_white mb-2 box_host ls_4 ps-4 ms-2">
+                <p className="ff_inter fs_md fw-medium text-uppercase clr_white mb-2 box_host ls_4 ps-4 ms-2 position-relative">
                   Hosting
                 </p>
                 <h2 className="ff_rubik fw-bold fs_9xl clr_white py-lg-4 mb-0">

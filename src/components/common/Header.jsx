@@ -89,7 +89,7 @@ const Header = () => {
               <a href="#">
                 <img src={linkdin} alt="linkdin" width={48} height={48} />
               </a>
-              <button className="bg-black border-0 rounded-pill clr_white ff_rubik fs_3xl fw-bold btn_login ms-2 d-flex align-items-center gap-2">
+              <button className="bg-black border-0 rounded-pill clr_white ff_rubik fs_3xl fw-bold btn_login ms-2 d-flex align-items-center gap-2 end-0">
                 <img src={add} alt="add" width={23} height={23} /> Login
               </button>
             </div>

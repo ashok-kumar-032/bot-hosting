@@ -32,3 +32,32 @@
 .pointer {
     cursor: pointer;
 }
+
+.z_50 {
+    z-index: 50;
+}
+
+/* top */
+.top_btn {
+    width: 50px;
+    z-index: 80;
+}
+
+.top_animtion {
+    animation: float 2.4s linear infinite;
+    -webkit-animation: float 2.4s linear infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translatey(0) scale(.998);
+    }
+
+    50% {
+        transform: translatey(-7px) scale(1.1023);
+    }
+
+    100% {
+        transform: translatey(0) scale(.998);
+    }
+}
