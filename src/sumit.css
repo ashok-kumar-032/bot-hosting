@@ -23,10 +23,8 @@
     padding-top: 10px;
 }
 
-.p_40 {
-    padding: 40px;
-}
 
+.mw_1920{max-width: 1920px;}
 
 .pt_30 {
     padding-top: 30px;
@@ -39,6 +37,7 @@
 .border_r_10 {
     border-radius: 10px;
 }
+.p_xs_36{padding: 36px;}
 
 .border_r_15 {
     border-radius: 10px;
@@ -130,4 +129,21 @@
     background-image: url(./assets/img/webp/our_card_light.webp);
     background-repeat: no-repeat;
     background-size:100% 100%;
+}
+
+
+@media (min-width:576px) {
+    
+}
+
+@media (min-width:768px) {
+    .chooseus_bgline{top: 40%;
+        z-index: 1;}
+        .p_md_40{padding: 40px;}
+}
+
+@media (min-width:992px) {
+    .chooseus_bgline{top: 15%;
+        z-index: 1;}
+    
 }
