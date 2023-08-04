@@ -41,10 +41,13 @@ const Testimonials = ({ clients }) => {
                   <img src={star} alt="star" width={19} height={19} />
                   <img src={star} alt="star" width={19} height={19} />
                 </div>
-                <p className="ff_open">
+                <p className="ff_open fs_lg fw-normal clr_gray">
                   I received great customer service from the specialists who
                   helped me. I would recommend to anyone who wants quality.
                 </p>
+                <div>
+                  {/* <img src={} alt="" /> */}
+                </div>
               </div>
             </Col>
           </Row>
