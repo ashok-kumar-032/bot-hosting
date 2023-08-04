@@ -203,6 +203,12 @@
 .pricing_card:hover .pricing_startup_btn {
     background: linear-gradient(27deg, rgba(0, 63, 243, 0.80) 0%, rgba(48, 156, 255, 0.80) 100%), #2898FF;
 }
+.pricing_top_box{top: -10%;
+    z-index: 1;
+right: -20%;}
+.pricing_bottom_box{bottom:-0.5%;
+left: -8%;
+z-index: 1;}
 
 @media (min-width:576px) {}
 
@@ -215,6 +221,7 @@
     .p_md_40 {
         padding: 40px;
     }
+   
 
 }
 
@@ -227,5 +234,8 @@
     .pt_lg_30 {
         padding-top: 30px;
     }
+    .pricing_top_box{top: -20%;
+        z-index: 1;
+    right: -20%;}
 
 }
