@@ -101,27 +101,27 @@ export const modpack = [
 // chooseus start
 export const Choose = [
   {
-    choose_card: "choose_darkbg",
+    choose_card: "choose_lightbg",
     bigheading: "Enterprise Hardware",
   },
   {
-    choose_card: "choose_lightbg",
+    choose_card: "choose_darkbg",
     bigheading: "Budget Friendly",
   },
   {
-    choose_card: "choose_darkbg ",
+    choose_card: "choose_lightbg",
     bigheading: "Amazing Support",
   },
   {
-    choose_card: "choose_lightbg ",
+    choose_card: "choose_darkbg",
     bigheading: "Premium Locations",
   },
   {
-    choose_card: "choose_darkbg ",
-    bigheading: "EInstant Setup",
+    choose_card: "choose_lightbg",
+    bigheading: "Instant Setup",
   },
   {
-    choose_card: "choose_lightbg ",
+    choose_card: "choose_darkbg",
     bigheading: "DDoS Protection",
   },
 ];
@@ -139,6 +139,4 @@ export const pricing_data = [
     main_heading: "Enterprise",
   },
 ];
-export const Clientdata = [{
-    
-}];
+export const Clientdata = [{}];

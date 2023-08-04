@@ -1,3 +1,4 @@
+/* hero */
 .box_host::after {
     content: "";
     position: absolute;
@@ -7,6 +8,7 @@
     left: 2px;
     top: 4px;
 }
+
 .crical_host::before {
     content: "";
     position: absolute;
@@ -21,4 +23,12 @@
 
 .ls_4 {
     letter-spacing: 4px;
+}
+
+.ls_05 {
+    letter-spacing: 0.525px;
+}
+
+.pointer {
+    cursor: pointer;
 }

@@ -6,13 +6,13 @@ import rightarrow from "../../assets/img/png/started_r_arrow.png"
 const ModPAck = ({ modpack }) => {
   return (
     <>
-      <section className="position-relative py-5">
+      <section className="position-relative py-5 mt-5">
         <img src={modpack_right} alt="box_grops" className="modpack_rightimg z-0 position-absolute" />
         <Container className="position-relative z-1">
           <h2 className="common_heading text-center">
             GET A PRE <span className="clr_blue">-INSTALLED MODPACK</span>
           </h2>
-          <p className="common_para mw_647 mx-auto pb-lg-5 pb-4">
+          <p className="common_para mw_550 mx-auto pb-lg-5 pb-4 pt-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lacus
             facilisi donec egestas egestas pellentesque magna.
           </p>

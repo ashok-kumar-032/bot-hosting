@@ -25,12 +25,18 @@
 .mw_534 {
   max-width: 534px;
 }
+
 .bg_imggrap {
   background-image: url(./assets/img/webp/grapbg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 .wwwcome input {
   outline: none;
 }
+
 .wwwcome ::placeholder {
   color: var(--color-clr-gray);
   font-family: DM Sans;
@@ -38,6 +44,7 @@
   font-style: normal;
   font-weight: 400;
 }
+
 @media (max-width: 576px) {
   .mw_534 {
     max-width: 292px;

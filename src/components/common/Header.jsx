@@ -24,7 +24,7 @@ const Header = () => {
       <section className="pt-5">
         <Container>
           <div className="d-flex justify-content-between align-items-center">
-            <h4 className="ff_oswald fs_6xl fw-semibold clr_white">
+            <h4 className="ff_oswald fs_6xl fw-semibold clr_white pointer">
               Web Design
             </h4>
             <div onClick={showUl} className="z_30">
@@ -62,17 +62,33 @@ const Header = () => {
                 </li>
               </ul>
               <div className="d-flex align-items-center gap-2 d-xl-none">
-                <img src={facebook} alt="facebook" width={48} height={48} />
-                <img src={instagram} alt="instagram" width={48} height={48} />
-                <img src={twitter} alt="twitter" width={48} height={48} />
-                <img src={linkdin} alt="linkdin" width={48} height={48} />
+                <a href="#">
+                  <img src={facebook} alt="facebook" width={48} height={48} />
+                </a>
+                <a href="#">
+                  <img src={instagram} alt="instagram" width={48} height={48} />
+                </a>
+                <a href="#">
+                  <img src={twitter} alt="twitter" width={48} height={48} />
+                </a>
+                <a href="#">
+                  <img src={linkdin} alt="linkdin" width={48} height={48} />
+                </a>
               </div>
             </div>
             <div className="align-items-center gap-2 d-none d-xl-flex">
-              <img src={facebook} alt="facebook" width={48} height={48} />
-              <img src={instagram} alt="instagram" width={48} height={48} />
-              <img src={twitter} alt="twitter" width={48} height={48} />
-              <img src={linkdin} alt="linkdin" width={48} height={48} />
+              <a href="#">
+                <img src={facebook} alt="facebook" width={48} height={48} />
+              </a>
+              <a href="#">
+                <img src={instagram} alt="instagram" width={48} height={48} />
+              </a>
+              <a href="#">
+                <img src={twitter} alt="twitter" width={48} height={48} />
+              </a>
+              <a href="#">
+                <img src={linkdin} alt="linkdin" width={48} height={48} />
+              </a>
               <button className="bg-black border-0 rounded-pill clr_white ff_rubik fs_3xl fw-bold btn_login ms-2 d-flex align-items-center gap-2">
                 <img src={add} alt="add" width={23} height={23} /> Login
               </button>

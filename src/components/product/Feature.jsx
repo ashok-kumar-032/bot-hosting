@@ -9,9 +9,9 @@ const Feature = ({ feature }) => {
         <Container>
           <h2 className="common_heading mw_750 mx-auto text-center">
             YOU SHOULDN'T HAVE TO PAY EXTRA FORs
-            <span className="clr_blue">BASIC FEATURES</span>
+            <span className="clr_blue"> BASIC FEATURES</span>
           </h2>
-          <p className="common_para mw_647 mx-auto pb-md-4 mb-2">
+          <p className="common_para mw_550 mx-auto pb-md-4 mb-2 pt-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lacus
             facilisi donec egestas egestas pellentesque magna.
           </p>
