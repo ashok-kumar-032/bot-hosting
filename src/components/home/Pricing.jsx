@@ -14,14 +14,17 @@ const Pricing = ({ Price }) => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lacus
             facilisi donec egestas egestas pellentesque magna.
           </p>
-          <Row>
+          <Row className="justify-content-center">
             {Price.map((price, plan) => {
               return (
-                <Col key={plan}>
+                <Col key={plan} lg={4} md={6} sm={11} className="mt_10 px_5px">
                   <div className="p-3 bg_darkblack rounded-3 pricing_card">
-                    <div className="p-3">
+                    <div className="p-sm-3">
+                      <div className="d-flex justify-content-between align-items-center">
                       <div>
                         <img className="w_40" src={price.topimg} alt="dimand" />
+                      </div>
+                      <div><button className="ff_inter fw-bold pricing_popular_btn clr_blue100 fs_xsm">POPULAR PLAN</button></div>
                       </div>
                       <h3 className="clr_white fw-semibold ff_rubik fs_6xl mb-0 pt-5">
                         {price.main_heading}
@@ -57,7 +60,7 @@ const Pricing = ({ Price }) => {
                           Up to 10,000 contacts
                         </p>
                       </div>
-                      <div className="d-flex align-items-center pt-3">
+                      <div className={`d-flex align-items-center pt-3 ${price.normal}`}>
                         <div>
                           <img
                             className="w_24"
@@ -66,12 +69,12 @@ const Pricing = ({ Price }) => {
                           />
                         </div>
                         <p
-                          className={`ps-2 clr_white300 fs_lg fw-medium ff_inter lh_143 mb-0 ${price.normalpara}`}
+                          className="ps-2 clr_white300 fs_lg fw-medium ff_inter lh_143 mb-0"
                         >
                           Normal support
                         </p>
                       </div>
-                      <div className="d-flex align-items-center pt-3">
+                      <div className={`d-flex align-items-center pt-3 ${price.mobile}`}>
                         <div>
                           <img
                             className="w_24"
@@ -80,7 +83,7 @@ const Pricing = ({ Price }) => {
                           />
                         </div>
                         <p
-                          className={`clr_white300 ps-2 fs_lg fw-medium ff_inter lh_143 mb-0 ${price.mobilepara}`}
+                          className="clr_white300 ps-2 fs_lg fw-medium ff_inter lh_143 mb-0"
                         >
                           Mobile app
                         </p>
