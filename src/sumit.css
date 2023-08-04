@@ -203,12 +203,31 @@
 .pricing_card:hover .pricing_startup_btn {
     background: linear-gradient(27deg, rgba(0, 63, 243, 0.80) 0%, rgba(48, 156, 255, 0.80) 100%), #2898FF;
 }
-.pricing_top_box{top: -10%;
+
+.pricing_top_box {
+    top: -10%;
     z-index: 1;
-right: -20%;}
-.pricing_bottom_box{bottom:-0.5%;
-left: -8%;
-z-index: 1;}
+    right: -20%;
+}
+
+.pricing_bottom_box {
+    bottom: -0.5%;
+    left: -8%;
+    z-index: 1;
+}
+
+.pricing_getbtn {
+    padding: 18px 35px;
+    border-radius: 90px;
+    background: linear-gradient(27deg, rgba(0, 63, 243, 0.80) 0%, rgba(48, 156, 255, 0.80) 100%), #2898FF;
+    border: 1px solid transparent;
+    transition: all 300ms linear;
+}
+
+.pricing_getbtn:hover {
+    border: 1px solid rgba(14, 75, 254, 0.55);
+    background: transparent;
+}
 
 @media (min-width:576px) {}
 
@@ -221,7 +240,7 @@ z-index: 1;}
     .p_md_40 {
         padding: 40px;
     }
-   
+
 
 }
 
@@ -234,8 +253,11 @@ z-index: 1;}
     .pt_lg_30 {
         padding-top: 30px;
     }
-    .pricing_top_box{top: -20%;
+
+    .pricing_top_box {
+        top: -20%;
         z-index: 1;
-    right: -20%;}
+        right: -20%;
+    }
 
 }
