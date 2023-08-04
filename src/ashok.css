@@ -61,3 +61,21 @@
         transform: translatey(0) scale(.998);
     }
 }
+
+/* / */
+.opacity_075 {
+    opacity: 0.75;
+}
+
+.our_box {
+    transform: translateY(250px);
+}
+
+.our_box {
+    background-image: url(../src/assets/img/webp/our_box_img.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: 8px 24px 96px 0px rgba(68, 77, 163, 0.08);
+}
