@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import { Col, Row } from "react-bootstrap/esm";
+import arrow from "../../assets/img/png/right_arrow.png"
 const Feature = ({ feature }) => {
   return (
     <>
@@ -18,7 +19,7 @@ const Feature = ({ feature }) => {
             {feature.map((feature, f_card) => {
               return (
                 <Col key={f_card} xl={4} md={6} className="px-2">
-                  <div className="d-flex align-items-center p_20 border_r_10 bg_offblack mt-3 justify-content-between">
+                  <div className="feature_card d-flex align-items-center p_20 border_r_10 bg_offblack mt-3 justify-content-between">
                     <div className="d-flex align-items-center">
                       <div>
                         <img
@@ -33,7 +34,7 @@ const Feature = ({ feature }) => {
                     </div>
                     <div>
                       <img
-                        src={feature.arrow}
+                        src={arrow}
                         className="w-100"
                         alt="right_arrow"
                       />
