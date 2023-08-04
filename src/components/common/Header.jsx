@@ -8,6 +8,7 @@ import twitter from "../../assets/img/png/twiter.png";
 import linkdin from "../../assets/img/png/linkdin.png";
 import add from "../../assets/img/png/adduser.png";
 import navbtn from "../../assets/img/svg/navbtn.svg";
+import { Link } from "react-router-dom";
 const Header = () => {
   const [head, sethead] = useState(true);
   function showUl() {
@@ -20,43 +21,44 @@ const Header = () => {
   }
   return (
     <>
-      <section className="bg-danger py-5">
+      <section className="pt-5">
         <Container>
           <div className="d-flex justify-content-between align-items-center">
-            <div className="position-relative z_30">
-              <h4 className="ff_oswald fs_6xl fw-semibold clr_white">
-                Web Design
-              </h4>
-            </div>
+            <h4 className="ff_oswald fs_6xl fw-semibold clr_white">
+              Web Design
+            </h4>
             <div onClick={showUl} className="z_30">
-              <h3 className="d-xl-none mb-0">
-                <img src={navbtn} alt="navbtn" />
+              <h3 className="d-xl-none mb-0 clr_blue">
+                {head ? <img src={navbtn} alt="navbtn" /> : <RxCross1 />}
               </h3>
             </div>
             <div
-              className={`gap-4 d-flex align-items-center flex-column phone ${
-                head ? "" : "left_0 justify-content-center"
+              className={`d-flex align-items-center justify-content-center flex-column phone ${
+                head ? "" : "left_0  clip_path"
               }`}
               onClick={() => sethead(true)}
             >
-              <button className="bg-black border-0 rounded-pill clr_white ff_rubik fs_3xl fw-bold btn_login ms-2">
+              <button className="bg_clrblue border-0 rounded-pill clr_white ff_rubik fs_3xl fw-bold btn_login mb-4 d-xl-none">
                 <img src={add} alt="add" width={23} height={23} /> Login
               </button>
-              <ul className="d-flex gap-4 align-xl-items-center p-0 mb-0 flex-column flex-xl-row">
+              <ul className="d-flex gap-xl-4 gap-3 align-xl-items-center p-0 mb-0 flex-column flex-xl-row">
                 <li className="nav_hvoer">
-                  <span className="ff_rubik fw-bold fs_2xl clr_white">
+                  <Link to="/" className="ff_rubik fw-bold fs_2xl clr_white">
                     MINECRAFT HOSTING
-                  </span>
+                  </Link>
                 </li>
                 <li className="nav_hvoer px-xl-3">
-                  <span className="ff_rubik fw-bold fs_2xl clr_white">
+                  <Link
+                    to="/product"
+                    className="ff_rubik fw-bold fs_2xl clr_white"
+                  >
                     GAME HOSTING
-                  </span>
+                  </Link>
                 </li>
                 <li className="nav_hvoer">
-                  <span className="ff_rubik fw-bold fs_2xl clr_white">
+                  <Link to="/" className="ff_rubik fw-bold fs_2xl clr_white">
                     MORE
-                  </span>
+                  </Link>
                 </li>
               </ul>
               <div className="d-flex align-items-center gap-2 d-xl-none">
@@ -71,7 +73,7 @@ const Header = () => {
               <img src={instagram} alt="instagram" width={48} height={48} />
               <img src={twitter} alt="twitter" width={48} height={48} />
               <img src={linkdin} alt="linkdin" width={48} height={48} />
-              <button className="bg-black border-0 rounded-pill clr_white ff_rubik fs_3xl fw-bold btn_login ms-2">
+              <button className="bg-black border-0 rounded-pill clr_white ff_rubik fs_3xl fw-bold btn_login ms-2 d-flex align-items-center gap-2">
                 <img src={add} alt="add" width={23} height={23} /> Login
               </button>
             </div>
