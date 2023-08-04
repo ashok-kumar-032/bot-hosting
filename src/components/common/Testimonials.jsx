@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import Slider from "react-slick";
-import { Container } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import star from "../../assets/img/svg/star.svg";
 const Testimonials = ({ clients }) => {
   var clientsslider = {
@@ -158,6 +158,19 @@ const Testimonials = ({ clients }) => {
               </svg>
             </div>
           </div>
+          <Row>
+            <Col>
+              <p className="ff_open fs_lg fw-normal clr_graywhite">
+                <span className="fw-bold">Friendly</span> customer support team
+              </p>
+            </Col>
+            <Col>
+              <p className="ff_open fs_lg fw-normal clr_graywhite"><span className="fw-bold">4.6 out of 5 stars </span> from 8.6k reviews</p>
+            </Col>
+            <Col>
+              <p className="ff_open fs_lg fw-normal clr_graywhite">We’re making <span className="fw-bold"> insurance as simple as</span> can be</p>
+            </Col>
+          </Row>
         </Container>
       </section>
     </>
