@@ -129,6 +129,8 @@ export const pricing_data = [
   {
     topimg: price1,
     main_heading: "Starter",
+    normalpara:"",
+    mobilepara:"opcity-25",
   },
   {
     topimg: price2,
@@ -137,5 +139,7 @@ export const pricing_data = [
   {
     topimg: price1,
     main_heading: "Enterprise",
+    normalpara:"",
+    mobilepara:"",
   },
 ];
