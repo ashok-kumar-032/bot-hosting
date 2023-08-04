@@ -2,37 +2,46 @@
 .btn_login {
   padding: 18px 40px;
 }
+
 .bg_clrblue {
   background: #206dfd;
 }
+
 .bg_heroimg {
   background-image: url(./assets/img/webp/herobg_image.webp);
   background-repeat: no-repeat;
+  top: 0;
   background-size: cover;
   height: 100vh;
 }
+
 .bg_productimg {
   background-image: url(./assets/img/webp/productimg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   height: 425px;
 }
+
 .mw_534 {
   max-width: 534px;
 }
+
 @media (max-width: 576px) {
   .mw_534 {
     max-width: 292px;
   }
 }
+
 @media (min-width: 1200px) {
   .position_absolute {
     position: absolute;
   }
+
   .gravelhost_top100 {
     top: 100px;
   }
 }
+
 @media (max-width: 1200px) {
   .phone {
     position: fixed;
@@ -46,17 +55,21 @@
     transition: all 500ms ease-out;
     pointer-events: none;
   }
+
   .left_0 {
     right: 0;
   }
+
   .clip_path {
     clip-path: circle(75%);
     pointer-events: all;
   }
+
   .z_30 {
     z-index: 30;
   }
 }
+
 @media (max-width: 576px) {
   .phone {
     width: 100%;

@@ -4,7 +4,7 @@ import { Col, Row } from "react-bootstrap/esm";
 const Feature = ({ feature }) => {
   return (
     <>
-      <section className="bg-success py-5">
+      <section className="py-5">
         <Container>
           <h2 className="common_heading mw_750 mx-auto text-center">
             YOU SHOULDN'T HAVE TO PAY EXTRA FORs

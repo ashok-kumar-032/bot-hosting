@@ -6,11 +6,11 @@ import Hosting from "../components/common/Hosting";
 
 const Home = () => {
   return (
-    <>
+    <div className="page_back">
       <Hero />
       <ModPAck modpack={modpack} />
       <Hosting />
-    </>
+    </div>
   );
 };
 

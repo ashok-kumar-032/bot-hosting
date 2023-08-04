@@ -1,22 +1,27 @@
 .common_heading {
-    color: var(--color-clr_white);
-    font-family: 'Rubik';
-    font-size: var(--fs-8xl);
-    font-style: normal;
-    font-weight: 700;
-    margin-bottom: 0;
+  color: var(--color-clr_white);
+  font-family: 'Rubik';
+  font-size: var(--fs-8xl);
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 0;
 }
-  
+
 .common_para {
-    color: var(--color-clr_white100);
-    text-align: 'center';
-    font-family: 'Rubik';
-    font-size: var(--fs-sm);
-    font-weight: 400;
-    margin-bottom: 0;
-    text-align: center;
+  color: var(--color-clr_white100);
+  text-align: 'center';
+  font-family: 'Rubik';
+  font-size: var(--fs-sm);
+  font-weight: 400;
+  margin-bottom: 0;
+  text-align: center;
 }
+
 * {
   list-style: none !important;
   text-decoration: none !important;
+}
+
+.page_back {
+  background-image: url(../src/assets/img/svg/page_back_img.svg);
 }

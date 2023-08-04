@@ -1,0 +1,24 @@
+.box_host::after {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: #00CDFA !important;
+    left: 2px;
+    top: 4px;
+}
+.crical_host::before {
+    content: "";
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    border-radius: 50% !important;
+    background: #00CDFA !important;
+    z-index: 0;
+    left: 2px;
+    top: 4px;
+}
+
+.ls_4 {
+    letter-spacing: 4px;
+}

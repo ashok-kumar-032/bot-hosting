@@ -5,7 +5,7 @@ import modpack_right from "../../assets/img/webp/modpack_rightimg.webp"
 const ModPAck = ({ modpack }) => {
   return (
     <>
-      <section className="bg-danger position-relative py-5">
+      <section className="position-relative py-5">
         <img src={modpack_right} alt="box_grops" className="modpack_rightimg z-0 position-absolute" />
         <Container className="position-relative z-1">
           <h2 className="common_heading text-center">

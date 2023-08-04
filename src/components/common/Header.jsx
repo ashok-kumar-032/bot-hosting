@@ -29,7 +29,7 @@ const Header = () => {
             </h4>
             <div onClick={showUl} className="z_30">
               <h3 className="d-xl-none mb-0 clr_blue">
-                {head ? <img src={navbtn} alt="navbtn" /> : <RxCross1 />}
+                <img src={navbtn} alt="navbtn" />
               </h3>
             </div>
             <div

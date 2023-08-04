@@ -3,7 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 const ChooseUs = ({ ChooseUs }) => {
   return (
     <>
-      <section className="bg-black py-5">
+      <section className="py-5">
         <Container>
           <h2 className="common_heading text-center">
             Why <span className="clr_blue">Choose Us?</span>

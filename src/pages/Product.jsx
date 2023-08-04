@@ -6,7 +6,7 @@ import Feature from "../components/product/Feature";
 import { feature } from "../components/common/Helper";
 const Product = () => {
   return (
-    <div>
+    <div className="page_back">
       <Producthero />
       <Feature feature={feature} />
       <ChooseUs ChooseUs={Choose} />
