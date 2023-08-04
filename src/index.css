@@ -1,40 +1,40 @@
 @import url(../src/ankit.css);
 @import url(../src/ashok.css);
 @import url(../src/sumit.css);
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;500;600;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
 
 .ff_oswald {
-  font-family: 'Oswald';
+  font-family: "Oswald";
 }
 
 .ff_rubik {
-  font-family: 'Rubik';
+  font-family: "Rubik";
 }
 
 .ff_inter {
-  font-family: 'Inter';
+  font-family: "Inter";
 }
 
 .ff_dmsans {
-  font-family: 'DM+Sans';
+  font-family: "DM+Sans";
 }
 
 .ff_overpass {
-  font-family: 'Overpass';
+  font-family: "Overpass";
 }
 
 .ff_open {
-  font-family: 'Open+Sans';
+  font-family: "Open+Sans";
 }
 
 .ff_roboto {
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 :root {
@@ -51,10 +51,8 @@
   --fs-md: 15px;
   --fs-sm: 14px;
   --fs-xsm: 12px;
-
-  --color-clr_white: #FFF !important;
-  --color-clr_blue: #0D6EFD !important;
-
+  --color-clr_white: #fff !important;
+  --color-clr_blue: #0d6efd !important;
 }
 
 /* coloer */
