@@ -1,9 +1,17 @@
-import React from 'react'
+import React from "react";
+import Hero from "../components/home/Hero";
+import ModPAck from "../components/product/ModPAck";
+import { modpack } from "../components/common/Helper";
+import Hosting from "../components/common/Hosting";
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <>
+      <Hero />
+      <ModPAck modpack={modpack} />
+      <Hosting />
+    </>
+  );
+};
 
-export default Home
+export default Home;

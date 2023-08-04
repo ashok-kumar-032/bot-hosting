@@ -6,7 +6,7 @@
     font-weight: 700;
     margin-bottom: 0;
 }
-
+  
 .common_para {
     color: var(--color-clr_white100);
     text-align: 'center';
@@ -15,4 +15,8 @@
     font-weight: 400;
     margin-bottom: 0;
     text-align: center;
+}
+* {
+  list-style: none !important;
+  text-decoration: none !important;
 }
