@@ -1,3 +1,4 @@
+/* utilites classes */
 .mw_750 {
     max-width: 750px;
 }
@@ -5,15 +6,47 @@
 .p_20 {
     padding: 20px;
 }
-.p_25{padding: 25px;}
+
+.p_25 {
+    padding: 25px;
+}
+
+.pt_20 {
+    padding-top: 20px;
+}
+
+.lh_24 {
+    line-height: 24px;
+}
+
+.pt_10 {
+    padding-top: 10px;
+}
+
+.p_40 {
+    padding: 40px;
+}
+
+
+.pt_30 {
+    padding-top: 30px;
+}
+
+.gap_10 {
+    gap: 10px;
+}
 
 .border_r_10 {
     border-radius: 10px;
 }
+
 .border_r_15 {
     border-radius: 10px;
 }
-.w_55{width: 55px;}
+
+.w_55 {
+    width: 55px;
+}
 
 .mw_647 {
     max-width: 647px;
@@ -22,4 +55,79 @@
 .w_48 {
     width: 48px;
 }
-.h_48{height: 48px;}
+
+.h_48 {
+    height: 48px;
+}
+
+.lh_143 {
+    line-height: 143%;
+}
+
+.mw_165 {
+    max-width: 165px;
+}
+
+/* modpack components start */
+.popular_btn {
+    border-radius: 10px;
+    background: linear-gradient(27deg, rgba(0, 63, 243, 0.80) 0%, rgba(48, 156, 255, 0.80) 100%), #2898FF;
+    padding: 16px 32px;
+    border: 1px solid transparent;
+    transition: all 300ms linear !important;
+}
+
+.popular_btn:hover {
+    border: 1px solid rgba(14, 75, 254, 0.55);
+    background: transparent;
+}
+
+.officalr_btn {
+    border-radius: 10px;
+    border: 1px solid rgba(14, 75, 254, 0.55);
+    background: transparent;
+    padding: 16px 32px;
+    transition: all 300ms linear;
+}
+
+.officalr_btn:hover {
+    background: linear-gradient(27deg, rgba(0, 63, 243, 0.80) 0%, rgba(48, 156, 255, 0.80) 100%), #2898FF;
+    padding: 16px 32px;
+    border: 1px solid transparent;
+}
+
+.started_btn {
+    border: 1px solid rgba(14, 75, 254, 0.55);
+    background-color: transparent;
+    border-radius: 10px;
+    transition: all 300ms linear;
+}
+
+.started_btn:hover {
+    background: linear-gradient(27deg, rgba(0, 63, 243, 0.80) 0%, rgba(48, 156, 255, 0.80) 100%), #2898FF;
+}
+
+.modpack_rightimg {
+    right: 0;
+    top: 2%;
+}
+
+.mod_card:hover {
+    transform: scale(1.03);
+}
+
+.mod_card {
+    transition: all 300ms linear;
+}
+
+/* modpack components end */
+.choose_darkbg {
+    background-image: url(./assets/img/webp/our_card_black.webp);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+.choose_lightbg {
+    background-image: url(./assets/img/webp/our_card_light.webp);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
