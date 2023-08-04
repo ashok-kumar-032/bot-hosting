@@ -4,7 +4,7 @@ import star from "../../assets/img/svg/star.svg";
 const Testimonials = ({ clients }) => {
   return (
     <>
-      <section className="bg-danger">
+      <section>
         <Container>
           <div className="text-center">
             <p className="ff_rubik fw-normal fs_2xl text-uppercase clr_blue mb-2">

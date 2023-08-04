@@ -1,11 +1,12 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
 import { Col } from "react-bootstrap/esm";
-import modpack_right from "../../assets/img/webp/modpack_rightimg.webp"
+import modpack_right from "../../assets/img/webp/modpack_rightimg.webp";
+import rightarrow from "../../assets/img/png/started_r_arrow.png"
 const ModPAck = ({ modpack }) => {
   return (
     <>
-      <section className="bg-danger position-relative py-5">
+      <section className="position-relative py-5">
         <img src={modpack_right} alt="box_grops" className="modpack_rightimg z-0 position-absolute" />
         <Container className="position-relative z-1">
           <h2 className="common_heading text-center">
@@ -27,32 +28,32 @@ const ModPAck = ({ modpack }) => {
                         className="w_55"
                       />
                     </div>
-                    <h4 className="ff_rubik fw-semibold clr_white fs_6xl pt_30 mb-0">
-                      {modpack.bigheading}
+                    <h4 className="ff_rubik fw-semibold clr_white fs_6xl pt_xs_20 pt_lg_30 mb-0">
+                    Minecraft Vanilla
                     </h4>
                     <p className="ff_inter clr_offblue fw-normal fs-lg mb-0 pt_10">
-                      {modpack.bluepara}
+                    2 GB recommended
                     </p>
                     <p className="ff_inter clr_white200 fw-normal fs-lg mb-0 lh_143 pt-3">
-                      {modpack.whitepara}
+                    Minecraft Vanilla is the official Minecraft version from Mojang.
                     </p>
                     <h3 className="ff_inter clr_offblue fw-bold fs_7xl mb-0 pt-4 mt-2">
-                      {modpack.smallheading}
+                    $49.99
                     </h3>
-                    <div className="d-flex pt_30 gap_10">
+                    <div className="d-flex pt_xs_20 pt_lg_30 gap_10">
                       <button className="popular_btn ff_inter fw-normal clr_white py-3 mw_165 w-100 fw-bold">
-                        {modpack.popularbtn}
+                      Popular
                       </button>
                       
                         <button className="officalr_btn ff_inter fw-normal clr_white py-3 mw_165 w-100 fw-bold">
-                          {modpack.officalbtn}
+                        Official
                         </button>
                       
                     </div>
-                    <div className="pt_30">
+                    <div className="pt_xs_20 pt_lg_30">
                       <button className="ff_inter fw-normal clr_white fw-bold py-3 w-100 started_btn">
-                        {modpack.startup}
-                        <img src={modpack.rightarrow} className="ps-1" alt="right arrow" />
+                      Get Started
+                        <img src={rightarrow} className="ps-1" alt="right arrow" />
                       </button>
                     </div>
                   </div>

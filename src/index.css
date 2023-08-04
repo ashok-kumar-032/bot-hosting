@@ -30,7 +30,7 @@
 }
 
 .ff_open {
-  font-family: "Open+Sans";
+  font-family: "Open Sans";
 }
 
 .ff_roboto {
@@ -38,12 +38,12 @@
 }
 
 :root {
-  --fs-9xl: 60px;
+  --fs-9xl: 28px;
   --fs-8xl: 40px;
   --fs-7xl: 32px;
   --fs-6xl: 25px;
   --fs-5xl: 24px;
-  --fs-4xl: 22px;
+  --fs-4xl: 16px;
   --fs-3xl: 20px;
   --fs-2xl: 18px;
   --fs-xl: 17px;
@@ -52,6 +52,14 @@
   --fs-sm: 14px;
   --fs-xsm: 12px;
 
+  --color-clr_white: #FFF !important;
+  --color-clr_white100: #FCFCFF !important;
+  --color-clr_white200: #FbFbFb !important;
+  --color-clr_white300: #F9F9F9 !important;
+  --color-clr_blue: #0D6EFD !important;
+  --color-clr_offblue: #2F7FEE !important;
+  --color-bg-offblack: #18181F !important;
+  --color-bg-darkblack: #111116 !important;
   --color-clr_white: #fff !important;
   --color-clr_white100: #fcfcff !important;
   --color-clr_white200: #fcfcff !important;
@@ -61,7 +69,6 @@
   --color-bg-darkblack: #111116 !important;
   --color-clr-gray: #b2b8c8 !important;
   --color-clr_white: #fff !important;
-  --color-clr_blue: #0d6efd !important;
 }
 
 .bg_offblack {
@@ -83,6 +90,9 @@
 
 .clr_white200 {
   color: var(--color-clr_white200);
+}
+.clr_white300 {
+  color: var(--color-clr_white300);
 }
 
 .clr_blue {

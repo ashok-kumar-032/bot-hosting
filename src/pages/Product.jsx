@@ -1,15 +1,15 @@
 import React from "react";
 import Producthero from "../components/product/Producthero";
-import ChooseUs from "../components/product/ChooseUs";
-import { Choose } from "../components/common/Helper";
 import Feature from "../components/product/Feature";
+import ModPAck from "../components/product/ModPAck";
+import { modpack } from "../components/common/Helper";
 import { feature } from "../components/common/Helper";
 const Product = () => {
   return (
-    <div>
+    <div className="page_back">
       <Producthero />
       <Feature feature={feature} />
-      <ChooseUs ChooseUs={Choose} />
+      <ModPAck modpack={modpack} />
     </div>
   );
 };
