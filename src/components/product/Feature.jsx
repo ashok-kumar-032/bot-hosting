@@ -44,6 +44,7 @@ const Feature = ({ feature }) => {
               );
             })}
           </Row>
+          <div className="text-center"><button className=" ff_inter clr_white fw-semibold fs_2xl pricing_getbtn">Get a Quote</button></div>
         </Container>
       </section>
     </>
