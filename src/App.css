@@ -8,7 +8,7 @@
 }
   
 .common_para {
-    color: var(--color-clr_offwhite);
+    color: var(--color-clr_white100);
     text-align: 'center';
     font-family: 'Rubik';
     font-size: var(--fs-sm);

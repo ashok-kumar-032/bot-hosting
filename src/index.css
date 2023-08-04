@@ -53,10 +53,12 @@
   --fs-xsm: 12px;
 
   --color-clr_white: #FFF !important;
-  --color-clr_offwhite: #FCFCFF !important;
+  --color-clr_white100: #FCFCFF !important;
+  --color-clr_white200: #FCFCFF !important;
   --color-clr_blue: #0D6EFD !important;
   --color-clr_offblue: #2F7FEE !important;
   --color-bg-offblack: #18181F !important;
+  --color-bg-darkblack: #111116 !important;
 
   --color-clr_white: #fff !important;
   --color-clr_blue: #0d6efd !important;
@@ -68,13 +70,21 @@
   background-color: var(--color-bg-offblack);
 }
 
+.bg_darkblack {
+  background-color: var(--color-bg-darkblack);
+}
+
 /* coloer */
 .clr_white {
   color: var(--color-clr_white);
 }
 
-.clr_white {
-  color: var(--color-clr_offwhite);
+.clr_white100 {
+  color: var(--color-clr_white100);
+}
+
+.clr_white200 {
+  color: var(--color-clr_white200);
 }
 
 .clr_blue {
