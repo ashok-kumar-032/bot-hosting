@@ -75,7 +75,7 @@ etur adipiscing elit.
                       </h4>
                       <button className="started_btn ff_inter fw-normal clr_white fw-bold py-3 w-100 ">Get Started
                       <img src={rightarrow} className="ps-1" alt="right arrow" /></button>
-                      <p>No credit card required</p>
+                      <p className="ff_dmsans fw-normal clr_white300 fs_lg mb-0 text-center">No credit card required</p>
                     </div>
                   </div>
                 </Col>
