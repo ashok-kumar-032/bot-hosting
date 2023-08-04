@@ -1,0 +1,23 @@
+/* login button */
+.btn_login {
+  padding: 18px 40px;
+}
+
+@media (max-width: 1200px) {
+  .phone {
+    position: fixed;
+    left: -100%;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    height: 100vh;
+    z-index: 29;
+    transition: all 0.4s linear;
+  }
+  .left_0 {
+    left: 0;
+  }
+  .z_30 {
+    z-index: 30;
+  }
+}
