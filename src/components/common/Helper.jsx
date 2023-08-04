@@ -139,3 +139,6 @@ export const pricing_data = [
     main_heading: "Enterprise",
   },
 ];
+export const Clientdata = [{
+    
+}];

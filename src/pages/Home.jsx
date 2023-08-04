@@ -1,19 +1,22 @@
 import React from "react";
 import Hero from "../components/home/Hero";
-import ModPAck from "../components/product/ModPAck";
-import { modpack, pricing_data } from "../components/common/Helper";
+import { pricing_data } from "../components/common/Helper";
 import Hosting from "../components/common/Hosting";
 import Pricing from "../components/home/Pricing";
-
+import ChooseUs from "../components/product/ChooseUs";
+import { Choose } from "../components/common/Helper";
+import Testimonials from "../components/common/Testimonials";
 
 const Home = () => {
   return (
     <div className="page_back">
       <Hero />
       <Pricing Price={pricing_data} />
-      <ModPAck modpack={modpack} />
+
       <Hosting />
-    </>
+      <ChooseUs ChooseUs={Choose} />
+      <Testimonials />
+    </div>
   );
 };
 

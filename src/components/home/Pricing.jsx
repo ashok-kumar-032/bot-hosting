@@ -1,11 +1,11 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import checkmark from "../../assets/img/png/checkmark.png";
-import rightarrow from "../../assets/img/png/started_r_arrow.png"
+import rightarrow from "../../assets/img/png/started_r_arrow.png";
 const Pricing = ({ Price }) => {
   return (
     <>
-      <section className="bg-dark">
+      <section>
         <Container>
           <h2 className="common_heading text-center">
             Awesome <span className="clr_blue">Pricing Plan</span>
@@ -27,55 +27,82 @@ const Pricing = ({ Price }) => {
                         {price.main_heading}
                       </h3>
                       <p className="clr_white200 fs_lg fw-normal ff_inter lh_143 mb-0">
-                      Lorem ipsum dolor sit amet, consect
-etur adipiscing elit.
+                        Lorem ipsum dolor sit amet, consect etur adipiscing
+                        elit.
                       </p>
                       <h5 className="clr_white300 fs_lg fw-bold ff_inter lh_143 mb-0">
-                      Whats Included :
+                        Whats Included :
                       </h5>
                       <div className="d-flex align-items-center">
                         <div>
-                          <img className="w_24" src={checkmark} alt="checkmark" />
+                          <img
+                            className="w_24"
+                            src={checkmark}
+                            alt="checkmark"
+                          />
                         </div>
                         <p className="clr_white300 fs_lg fw-medium ff_inter lh_143 mb-0">
-                        All basic CRM features
+                          All basic CRM features
                         </p>
                       </div>
-                    <div className="d-flex align-items-center">
-                      <div>
-                        <img className="w_24" src={checkmark} alt="checkmark" />
-                      </div>
-                    <p className="clr_white300 fs_lg fw-medium ff_inter lh_143 mb-0">
-                    Up to 10,000 contacts
-                      </p>
-                    </div>
-                     <div className="d-flex align-items-center">
-                      <div>
-                        <img className="w_24" src={checkmark} alt="checkmark" />
-                      </div>
-                     <p
-                        className={`clr_white300 fs_lg fw-medium ff_inter lh_143 mb-0 ${price.normalpara}`}
-
-                      >Normal support</p>
-                     </div>
                       <div className="d-flex align-items-center">
-                      <div>
-                        <img className="w_24" src={checkmark} alt="checkmark" />
+                        <div>
+                          <img
+                            className="w_24"
+                            src={checkmark}
+                            alt="checkmark"
+                          />
+                        </div>
+                        <p className="clr_white300 fs_lg fw-medium ff_inter lh_143 mb-0">
+                          Up to 10,000 contacts
+                        </p>
                       </div>
-                      <p
-                        className={`clr_white300 fs_lg fw-medium ff_inter lh_143 mb-0 ${price.mobilepara}`}
-                      >Mobile app</p>
+                      <div className="d-flex align-items-center">
+                        <div>
+                          <img
+                            className="w_24"
+                            src={checkmark}
+                            alt="checkmark"
+                          />
+                        </div>
+                        <p
+                          className={`clr_white300 fs_lg fw-medium ff_inter lh_143 mb-0 ${price.normalpara}`}
+                        >
+                          Normal support
+                        </p>
+                      </div>
+                      <div className="d-flex align-items-center">
+                        <div>
+                          <img
+                            className="w_24"
+                            src={checkmark}
+                            alt="checkmark"
+                          />
+                        </div>
+                        <p
+                          className={`clr_white300 fs_lg fw-medium ff_inter lh_143 mb-0 ${price.mobilepara}`}
+                        >
+                          Mobile app
+                        </p>
                       </div>
 
                       <h4 className="ff_inter fw-bold clr_offblue mb-0">
-                      $99.00
+                        $99.00
                         <span className="clr_white300 fs_lg fw-normel ff_inter lh_143 mb-0">
-                        / Month
+                          / Month
                         </span>
                       </h4>
-                      <button className="started_btn ff_inter fw-normal clr_white fw-bold py-3 w-100 ">Get Started
-                      <img src={rightarrow} className="ps-1" alt="right arrow" /></button>
-                      <p className="ff_dmsans fw-normal clr_white300 fs_lg mb-0 text-center">No credit card required</p>
+                      <button className="started_btn ff_inter fw-normal clr_white fw-bold py-3 w-100 ">
+                        Get Started
+                        <img
+                          src={rightarrow}
+                          className="ps-1"
+                          alt="right arrow"
+                        />
+                      </button>
+                      <p className="ff_dmsans fw-normal clr_white300 fs_lg mb-0 text-center">
+                        No credit card required
+                      </p>
                     </div>
                   </div>
                 </Col>
