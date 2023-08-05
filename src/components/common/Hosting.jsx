@@ -5,7 +5,7 @@ const Hosting = () => {
   return (
     <>
       <section>
-        <Container>
+        <Container className=" position-relative z-3">
           <div className="text-center">
             <p className="common_heading mb-3">
               Game Hosting, <span className="clr_blue">simplified</span>

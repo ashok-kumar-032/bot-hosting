@@ -16,12 +16,15 @@ const Home = () => {
       <Hero />
       <Pricing Price={pricing_data} />
       <Hosting />
-      <ChooseUs ChooseUs={Choose} />
       <Our />
+      <ChooseUs ChooseUs={Choose} />
+
       <div className="bg_footerimg">
-        <Testimonials clients={Clientdata} />
-        <Newsletter />
-        <Footer />
+        <div className="about_top">
+          <Testimonials clients={Clientdata} />
+          <Newsletter />
+          <Footer />
+        </div>
       </div>
     </div>
   );
