@@ -12,6 +12,10 @@ const Product = () => {
       <Feature feature={feature} />
       <ModPAck modpack={modpack} />
       <Hosting />
+      <div className="bg_footerimg">
+        <Testimonials clients={Clientdata} />
+        <Footer />
+      </div>
     </div>
   );
 };
