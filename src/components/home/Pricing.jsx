@@ -67,7 +67,7 @@ const Pricing = ({ Price }) => {
                       <h5 className="clr_white300 fs_lg fw-bold ff_inter lh_143 mb-0 pt-3 mt-3">
                         Whats Included :
                       </h5>
-                      <div className="d-flex align-items-center pt-3">
+                      <div className="d-flex align-items-center pt_14">
                         <div>
                           <img
                             className="w_24"
@@ -79,7 +79,7 @@ const Pricing = ({ Price }) => {
                           All basic CRM features
                         </p>
                       </div>
-                      <div className="d-flex align-items-center pt-3">
+                      <div className="d-flex align-items-center pt_14">
                         <div>
                           <img
                             className="w_24"
@@ -92,7 +92,7 @@ const Pricing = ({ Price }) => {
                         </p>
                       </div>
                       <div
-                        className={`d-flex align-items-center pt-3 ${price.normal}`}
+                        className={`d-flex align-items-center pt_14 ${price.normal}`}
                       >
                         <div>
                           <img
@@ -106,9 +106,9 @@ const Pricing = ({ Price }) => {
                         </p>
                       </div>
                       <div
-                        className={`d-flex align-items-center pt-3 ${price.mobile}`}
+                        className={`d-flex align-items-center pt_14 ${price.mobile}`}
                       >
-                        <div>
+                        <div className="pb-3">
                           <img
                             className="w_24"
                             src={checkmark}
@@ -116,7 +116,7 @@ const Pricing = ({ Price }) => {
                           />
                         </div>
                         <p
-                          className="clr_white300 ps-2 fs_lg fw-medium ff_inter lh_143 pt-4"
+                          className="clr_white300 ps-2 fs_lg fw-medium ff_inter lh_143"
                         >
                           Mobile app
                         </p>

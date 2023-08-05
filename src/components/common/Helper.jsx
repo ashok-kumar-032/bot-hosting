@@ -125,6 +125,8 @@ export const Choose = [
     bigheading: "DDoS Protection",
   },
 ];
+
+// pricing plan section map data
 export const pricing_data = [
   {
     topimg: price1,
