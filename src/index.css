@@ -40,7 +40,7 @@
 :root {
   --fs-9xl: 28px;
   --fs-8xl: 35px;
-  --fs-7xl: 32px; 
+  --fs-7xl: 32px;
   --fs-6xl: 25px;
   --fs-5xl: 24px;
   --fs-4xl: 16px;
@@ -251,5 +251,3 @@
     --fs-xsm: 12px;
   }
 }
-
-

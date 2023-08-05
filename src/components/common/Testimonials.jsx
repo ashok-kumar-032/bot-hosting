@@ -45,8 +45,10 @@ const Testimonials = ({ clients }) => {
   return (
     <>
       <section>
-        <Container>
-          <div className="text-center">
+        <Container >
+          <div
+            className="text-center "
+          >
             <p className="ff_rubik fw-normal fs_2xl text-uppercase clr_blue mb-2">
               testimonials
             </p>
@@ -232,7 +234,6 @@ const Testimonials = ({ clients }) => {
               </div>
             </Col>
           </Row>
-          
         </Container>
       </section>
     </>

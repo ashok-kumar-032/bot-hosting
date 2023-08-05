@@ -163,12 +163,6 @@
   transition: all 0.3s linear;
 }
 
-/* hvoer effect buttion submit in newsletter section */
-.btn_subimt:hover {
-  background: white;
-  color: black !important;
-}
-
 /* email input and placeholder use in newslatter section */
 .emailinput input {
   outline: none;
@@ -185,7 +179,7 @@
 .bg_footerimg {
   background-image: url(./assets/img/png/bgfooter.png);
   background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0,0.50);
   border-radius: 150px 150px 0 0;
 }
 

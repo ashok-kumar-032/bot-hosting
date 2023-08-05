@@ -15,11 +15,12 @@ const Home = () => {
     <div className="page_back">
       <Hero />
       <div className="overflow-hidden">
-      <Pricing Price={pricing_data} />
-      <Hosting />
+        <Pricing Price={pricing_data} />
+        <Hosting />
       </div>
       <Our />
-      <div className="bg_footerimg py-sm-5 py-3 mt-1 my-sm-0 mt-xl-5">
+      <ChooseUs ChooseUs={Choose} />
+      <div className="bg_footerimg">
         <div className="about_top">
           <Testimonials clients={Clientdata} />
           <Newsletter />
