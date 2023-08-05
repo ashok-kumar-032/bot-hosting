@@ -7,7 +7,7 @@ import linkdin from "../../assets/img/png/footer_linkdin.png";
 const Footer = () => {
   return (
     <>
-      <section className="bg-dark py-5 footer_s">
+      <section className="py-5 footer_s">
         <Container>
           <Row className="justify-content-between pb-1 pb-sm-0">
             <Col lg={4}>

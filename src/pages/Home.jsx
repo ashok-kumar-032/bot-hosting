@@ -10,6 +10,7 @@ import Our from "../components/home/Our";
 import Footer from "../components/product/Footer";
 
 import { Clientdata } from "../components/common/Helper";
+import Newsletter from "../components/home/Newsletter";
 const Home = () => {
   return (
     <div className="page_back">
@@ -18,8 +19,11 @@ const Home = () => {
       <Hosting />
       <ChooseUs ChooseUs={Choose} />
       <Our />
-      <Testimonials clients={Clientdata} />
-      <Footer/>
+      <div className="bg_footerimg">
+        <Testimonials clients={Clientdata} />
+        <Newsletter />
+        <Footer />
+      </div>
     </div>
   );
 };
