@@ -18,7 +18,7 @@ const Home = () => {
       <Hosting />
       <ChooseUs ChooseUs={Choose} />
       <Our />
-      <div className="bg_footerimg">
+      <div className="bg_footerimg py-sm-5 py-3 mt-1 my-sm-0 mt-xl-5">
         <Testimonials clients={Clientdata} />
         <Newsletter />
         <Footer />

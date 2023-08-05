@@ -7,7 +7,7 @@ import btn_arrow from "../../assets/img/png/started_r_arrow.png"
 const Pricing = ({ Price }) => {
   return (
     <>
-      <section className="py-5 overflow-hidden">
+      <section className="py-sm-5 py-3 my-1 my-sm-0 my-xl-5 overflow-hidden">
         <Container>
           <h2 className="common_heading text-center">
             Awesome <span className="clr_blue">Pricing Plan</span>

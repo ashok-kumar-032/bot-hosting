@@ -6,7 +6,7 @@ import rightarrow from "../../assets/img/png/started_r_arrow.png"
 const ModPAck = ({ modpack }) => {
   return (
     <>
-      <section className="position-relative py-5 mt-5">
+      <section className="position-relative py-sm-5 py-3 my-1 my-sm-0 my-xl-5">
         <img src={modpack_right} alt="box_grops" className="modpack_rightimg z-0 position-absolute" />
         <Container className="position-relative z-1">
           <h2 className="common_heading text-center">

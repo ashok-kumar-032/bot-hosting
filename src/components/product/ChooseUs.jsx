@@ -6,7 +6,7 @@ import arrow from "../../assets/img/png/right_arrow.png";
 const ChooseUs = ({ ChooseUs }) => {
   return (
     <>
-      <section className="py-5 position-relative mw_1920 mx-auto overflow-hidden">
+      <section className="py-sm-5 py-3 my-1 my-sm-0 my-xl-5 position-relative mw_1920 mx-auto overflow-hidden">
         <img
           src={bg_line}
           className="chooseus_bgline position-absolute w-100 d-none d-md-block"
@@ -21,7 +21,7 @@ const ChooseUs = ({ ChooseUs }) => {
               return (
                 <Col key={Choose} lg={4} md={6} sm={11} className="px-1 mt-3">
                   <div
-                    className={`p_md_40 p_xs_36 ms-md-1 ${Choose.choose_card}`}
+                    className={`p_md_40 p_xs_36 ms-md-1 cards_h ${Choose.choose_card}`}
                   >
                     <h3 className="ff_inter clr_white fw-semibold fs_4xl mb-0">
                       {Choose.bigheading}

@@ -8,7 +8,7 @@ import our_back_1 from "../../assets/img/webp/our_back_1.webp";
 
 const Our = () => {
   return (
-    <section className="py-5">
+    <section className="py-sm-5 py-3 my-1 my-sm-0 my-xl-5">
       <div className="back_effect our_card rounded-4">
         <div className="pt-3">
           <Container>
