@@ -39,8 +39,13 @@
 
 /* top */
 .top_btn {
+<<<<<<< HEAD
+    width: 50px;
+    z-index: 10;
+=======
   width: 50px;
   z-index: 80;
+>>>>>>> f8e227ff68cd89f1a1722298c4e05524488c3981
 }
 
 .top_animtion {
