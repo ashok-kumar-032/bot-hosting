@@ -20,8 +20,22 @@
 * {
   list-style: none !important;
   text-decoration: none !important;
+  scroll-behavior: smooth !important;
 }
 
 .page_back {
   background-image: url(../src/assets/img/svg/page_back_img.svg);
+}
+body::-webkit-scrollbar {
+  width: 12px;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #0851F6;
+  outline: 1px solid #0851F6;
+  border-radius: 10px;
 }
