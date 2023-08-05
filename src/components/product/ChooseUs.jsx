@@ -6,13 +6,13 @@ import arrow from "../../assets/img/png/right_arrow.png";
 const ChooseUs = ({ ChooseUs }) => {
   return (
     <>
-      <section className="py-sm-5 py-3 my-1 my-sm-0 my-xl-5 mw_1920 mx-auto overflow-hidden position-relative mw_1920 mx-auto overflow-hidden mt-5">
+      <section className="py-sm-5 py-4 my-1 my-sm-0 my-xl-5 mw_1920 mx-auto overflow-hidden position-relative mw_1920 mx-auto overflow-hidden mt-5">
         <img
           src={bg_line}
           className="chooseus_bgline position-absolute w-100 d-none d-md-block"
           alt="bg_line"
         />
-        <Container className="position-relative z-2">
+        <Container className="position-relative z-2 pt-xl-4">
           <h2 className="common_heading text-center">
             Why <span className="clr_blue">Choose Us?</span>
           </h2>

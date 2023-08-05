@@ -44,7 +44,7 @@ const Testimonials = ({ clients }) => {
   const clintsbtn = useRef();
   return (
     <>
-      <section>
+      <section className="pt-4 mt-4 mt-xl-0 pt-xl-0">
         <Container >
           <div
             className="text-center "

@@ -5,9 +5,9 @@ import arrow from "../../assets/img/png/right_arrow.png"
 const Feature = ({ feature }) => {
   return (
     <>
-      <section className="py-sm-5 py-3 my-1 my-sm-0 my-xl-5">
+      <section className="pt-sm-5 pb-3 my-sm-0 my-xl-5">
         <Container>
-          <h2 className="common_heading mw_750 mx-auto text-center">
+          <h2 className="common_heading mw_750 mx-auto text-center pt-sm-5 pt-xl-0">
             YOU SHOULDN'T HAVE TO PAY EXTRA FORs
             <span className="clr_blue"> BASIC FEATURES</span>
           </h2>

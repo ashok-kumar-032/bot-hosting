@@ -557,11 +557,9 @@ body::-webkit-scrollbar-thumb {
   border-radius: 150px 150px 0 0;
   background-size: cover;
 }
-
 .footer_s ul li {
   padding-top: 20px;
 }
-
 .footer_s ul li a {
   color: #FFF;
   font-family: 'DM Sans';
@@ -750,7 +748,7 @@ body::-webkit-scrollbar-thumb {
   }
 
   .mw_534 {
-    max-width: 292px;
+    max-width: 305px;
   }
 
   /* /friendly image width 51px in our clients say about us section */

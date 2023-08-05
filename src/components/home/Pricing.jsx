@@ -8,7 +8,7 @@ import pricing_right from "../../assets/img/png/pricing_right.png"
 const Pricing = ({ Price }) => {
   return (
     <>
-      <section className="py-sm-5 py-3 my-1 my-sm-0 my-xl-5 position-relative">
+      <section className="py-sm-5 py-sm-3 my-sm-0 my-xl-5 position-relative">
         <div className="pricing_right position-absolute d-none d-xl-block">
           <img src={pricing_right} alt="pricing_right" />
         </div>
@@ -16,7 +16,7 @@ const Pricing = ({ Price }) => {
           <h2 className="common_heading text-center">
             Awesome <span className="clr_blue">Pricing Plan</span>
           </h2>
-          <p className="common_para mw_550 mx-auto mb-4 pt-lg-4 pt-3 pb-lg-5 pb-3">
+          <p className="common_para mw_550 mx-auto mb-4 pt-lg-4 pt-3 pb-lg-2 pb-3">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lacus
             facilisi donec egestas egestas pellentesque magna.
           </p>
