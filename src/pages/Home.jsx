@@ -7,6 +7,7 @@ import ChooseUs from "../components/product/ChooseUs";
 import { Choose } from "../components/common/Helper";
 import Testimonials from "../components/common/Testimonials";
 import Our from "../components/home/Our";
+import Footer from "../components/product/Footer";
 
 import { Clientdata } from "../components/common/Helper";
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
       <ChooseUs ChooseUs={Choose} />
       <Our />
       <Testimonials clients={Clientdata} />
+      <Footer/>
     </div>
   );
 };

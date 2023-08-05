@@ -41,8 +41,8 @@ const Hero = () => {
                   <div className="crical_host"></div>
                 </div>
               </div>
-              <div className=" border-0">
-                <button className="bg-transparent border-5">
+              <div className="">
+                <button className="bg-transparent border-0">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="50"
@@ -62,7 +62,7 @@ const Hero = () => {
                       fill="white"
                     />
                   </svg>
-                  <p>Scroll</p>
+                  <p className=" fw-medium fs_3xl ff_inter clr_white">Scroll</p>
                 </button>
               </div>
             </Col>
