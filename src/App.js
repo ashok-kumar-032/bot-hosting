@@ -7,8 +7,13 @@ import Home from "./pages/Home";
 import Product from "./pages/Product";
 import Loading from "./components/home/Loading";
 import BackToTop from "./components/home/BackToTop";
-
+import AOS from "aos";
+import { useEffect } from "react";
+import "aos/dist/aos.css";
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <BackToTop />

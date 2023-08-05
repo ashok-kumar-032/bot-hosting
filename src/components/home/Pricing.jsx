@@ -29,7 +29,6 @@ const Pricing = ({ Price }) => {
               />
             </div>
             <div>
-              {" "}
               <img
                 src={box_group}
                 className="position-absolute pricing_bottom_box d-none d-md-inline-block"
