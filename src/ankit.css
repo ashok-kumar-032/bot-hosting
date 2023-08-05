@@ -5,30 +5,30 @@
 
 /* login button hover effect use */
 .btn_login:hover {
-  background: linear-gradient(27deg, rgba(0, 63, 243, 0.80) 0%, rgba(48, 156, 255, 0.80) 100%), #2898FF;
+  background: linear-gradient(
+      27deg,
+      rgba(0, 63, 243, 0.8) 0%,
+      rgba(48, 156, 255, 0.8) 100%
+    ),
+    #2898ff;
 }
-
 .line_h28 {
   line-height: 28.5px;
 }
-
 /* navbar icons in hover effect  */
 .iconsnav a {
   transition: all 0.3s linear;
 }
-
 .iconsnav a:hover {
   transform: translateY(-5px);
 }
-
 /* navbar hover effect use text bottom line use before */
 .nav_hvoer {
   position: relative;
 }
-
 .nav_hvoer::before {
   position: absolute;
-  content: '';
+  content: "";
   height: 2px;
   width: 0%;
   left: 50%;
@@ -77,7 +77,7 @@
   display: flex !important;
 }
 
-.slick-slide>div {
+.slick-slide > div {
   display: flex;
 }
 
@@ -155,9 +155,11 @@
 /* buttion submit in newsletter section */
 .btn_subimt {
   border-radius: 5px;
-  background: linear-gradient(27deg,
+  background: linear-gradient(
+      27deg,
       rgba(0, 63, 243, 0.8) 0%,
-      rgba(48, 156, 255, 0.8) 100%),
+      rgba(48, 156, 255, 0.8) 100%
+    ),
     linear-gradient(0deg, #2898ff 0%, #2898ff 100%), #ff604b;
   padding: 15px 38px;
   transition: all 0.3s linear;
@@ -228,7 +230,6 @@
 }
 
 @media (max-width: 1200px) {
-
   /* nav bar tab and phone size */
   .phone {
     position: fixed;
