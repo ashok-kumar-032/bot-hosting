@@ -44,7 +44,7 @@ const Testimonials = ({ clients }) => {
   const clintsbtn = useRef();
   return (
     <>
-      <section className="py-5">
+      <section>
         <Container>
           <div className="text-center">
             <p className="ff_rubik fw-normal fs_2xl text-uppercase clr_blue mb-2">
@@ -56,7 +56,7 @@ const Testimonials = ({ clients }) => {
             {clients.map((card) => {
               return (
                 <div key={card.id} className="px_5px px-1 mt-5">
-                  <div className="bg_darkblack py-3 px-2 rounded-3 h-100">
+                  <div className="bg_darkblack py-3 px-2 rounded-3 h-100 cards_h">
                     <div className="d-flex gap-1 mb-4 pt-1 px-1">
                       <img src={star} alt="star" width={19} height={19} />
                       <img src={star} alt="star" width={19} height={19} />
