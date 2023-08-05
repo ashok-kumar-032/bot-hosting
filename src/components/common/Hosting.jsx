@@ -4,10 +4,10 @@ import grap from "../../assets/img/webp/grap.webp";
 const Hosting = () => {
   return (
     <>
-      <section className="py-sm-5 py-3 my-1 my-sm-0 my-xl-5">
+      <section className="py-lg-5 py-3 my-1 my-sm-0 my-xl-5">
         <Container className="position-relative z-3">
           <div className="text-center">
-            <p className="common_heading mb-3">
+            <p className="common_heading mb-lg-3 mb-2">
               Game Hosting, <span className="clr_blue">simplified</span>
             </p>
             <p className="ff_inter fw-normal fs_2xl clr_white">
