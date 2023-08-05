@@ -134,8 +134,8 @@ export const pricing_data = [
   {
     topimg: price1,
     main_heading: "Starter",
-    normal:"opacity-25",
-    mobile:"opacity-25",
+    normal: "opacity-25",
+    mobile: "opacity-25",
   },
   {
     topimg: price2,
@@ -144,7 +144,7 @@ export const pricing_data = [
   {
     topimg: price1,
     main_heading: "Enterprise",
-    mobile:"opacity-25",
+    mobile: "opacity-25",
   },
 ];
 //client data

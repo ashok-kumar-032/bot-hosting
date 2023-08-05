@@ -16,6 +16,7 @@ const Home = () => {
       <Pricing Price={pricing_data} />
       <Hosting />
       <ChooseUs ChooseUs={Choose} />
+      <Our />
       <Testimonials clients={Clientdata} />
     </div>
   );

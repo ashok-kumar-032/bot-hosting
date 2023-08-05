@@ -21,21 +21,52 @@ const Hero = () => {
                   Instantly Deploy Minecraft, Rust, CSGO & More Game Servers in
                   8 Locations Globally.
                 </p>
-                <button className=" border-0 bg-transparent d-flex align-items-center gap-2 ff_rubik fw-medium fs_3xl clr_white crical_host position-relative">
-                  View Projects
+                <div className=" position-relative">
+                  <button className="ps-4 border-0 bg-transparent d-flex align-items-center gap-2 ff_rubik fw-medium fs_3xl clr_white position-relative z-3">
+                    View Projects
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="8"
+                      height="13"
+                      viewBox="0 0 8 13"
+                      fill="none"
+                    >
+                      <path
+                        d="M1 12L6 6.5L1 1"
+                        stroke="white"
+                        stroke-width="2"
+                      />
+                    </svg>
+                  </button>
+                  <div className="crical_host"></div>
+                </div>
+              </div>
+              <div className=" border-0">
+                <button className="bg-transparent border-5">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="8"
-                    height="13"
-                    viewBox="0 0 8 13"
+                    width="50"
+                    height="50"
+                    viewBox="0 0 80 80"
                     fill="none"
                   >
-                    <path d="M1 12L6 6.5L1 1" stroke="white" stroke-width="2" />
+                    <circle
+                      cx="40"
+                      cy="40"
+                      r="39.5"
+                      stroke="white"
+                      stroke-opacity="0.45"
+                    />
+                    <path
+                      d="M39.6464 50.3536C39.8417 50.5488 40.1583 50.5488 40.3536 50.3536L43.5355 47.1716C43.7308 46.9763 43.7308 46.6597 43.5355 46.4645C43.3403 46.2692 43.0237 46.2692 42.8284 46.4645L40 49.2929L37.1716 46.4645C36.9763 46.2692 36.6597 46.2692 36.4645 46.4645C36.2692 46.6597 36.2692 46.9763 36.4645 47.1716L39.6464 50.3536ZM39.5 30V50H40.5V30H39.5Z"
+                      fill="white"
+                    />
                   </svg>
+                  <p>Scroll</p>
                 </button>
               </div>
             </Col>
-            <Col xl={5} lg={5} sm={6} className="pt-4">
+            <Col xl={5} lg={5} sm={6} className="pt-5">
               <div>
                 <img src={herocomputer} alt="herocomputer" className="w-100" />
               </div>

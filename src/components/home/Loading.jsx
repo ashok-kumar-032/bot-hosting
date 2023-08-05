@@ -3,7 +3,7 @@ import loader from "../../assets/img/gif/loader.gif";
 const Loading = () => {
   setTimeout(() => {
     document.getElementById("none").classList.add("d-none");
-    document.body.classList.remove("overflow-hidden");
+    document.body.style.overflow="unset";
   }, 4000);
   return (
     <div
