@@ -4,7 +4,7 @@ import email from "../../assets/img/svg/emailicon.svg";
 const Newsletter = () => {
   return (
     <>
-      <section className="py-5 my-lg-5">
+      <section className="py-sm-5 py-4 my-lg-5">
         <Container>
           <div className="text-center">
             <h4 className="ff_rubik fw-medium fs_5xl text-uppercase clr_white mb-2 pb-1">

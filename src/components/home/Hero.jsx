@@ -5,10 +5,10 @@ import herocomputer from "../../assets/img/svg/hero-img.svg";
 const Hero = () => {
   return (
     <>
-      <section className="bg_heroimg ">
+      <section className="bg_heroimg d-flex flex-column">
         <Header />
-        <Container className="pt-lg-5 mt-3 pb-5">
-          <Row className="align-items-center justify-content-center">
+        <Container className="pt-lg-5 mt-3 pb-5 flex-grow-1">
+          <Row className="align-items-center justify-content-center h-75">
             <Col xl={6}>
               <div className="text-center text-xl-start align-items-xl-start d-flex flex-column align-items-center position-relative z-3">
                 <p className="ff_inter fs_md fw-medium text-uppercase clr_white mb-2 box_host ls_4 ps-4 ms-2 position-relative">
@@ -41,7 +41,7 @@ const Hero = () => {
                   <div className="crical_host"></div>
                 </div>
               </div>
-              <div className="position-relative top_left d-none d-lg-block">
+              <div className="position-relative top_left d-none d-xl-block">
                 <button className="bg-transparent border-0">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -71,7 +71,7 @@ const Hero = () => {
                 </button>
               </div>
             </Col>
-            <Col xl={5} lg={8} sm={11} className="pt-5">
+            <Col xl={5} lg={8} sm={11} className="pt-5 pb-5 mb-sm-5 mb-xl-0 mb-xl-0">
               <div>
                 <img src={herocomputer} alt="herocomputer" className="w-100" />
               </div>

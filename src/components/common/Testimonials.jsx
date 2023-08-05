@@ -172,9 +172,9 @@ const Testimonials = ({ clients }) => {
                   <img
                     src={friendly}
                     alt="friendly"
-                    className="friendlyimg mb-3 pb-1"
+                    className="friendlyimg mb-lg-3 mb-1 pb-1"
                   />
-                  <p className="ff_open fs_lg fw-normal clr_graywhite">
+                  <p className="ff_open clignts_fs_16 fw-normal clr_graywhite">
                     <span className="fw-bold">Friendly</span> customer support
                     team
                   </p>
@@ -186,7 +186,7 @@ const Testimonials = ({ clients }) => {
                     alt="trustpilot"
                     className="trustpilotwidth"
                   />
-                  <div className="d-flex justify-content-center gap-1 my-3">
+                  <div className="d-flex justify-content-center gap-1 my-lg-3 my-2">
                     <img
                       src={yellowstar}
                       alt="yellowstar"
@@ -213,7 +213,7 @@ const Testimonials = ({ clients }) => {
                       className="yellowstartwidth"
                     />
                   </div>
-                  <p className="ff_open fs_lg fw-normal clr_graywhite">
+                  <p className="ff_open clignts_fs_16 fw-normal clr_graywhite">
                     <span className="fw-bold">4.6 out of 5 stars </span> from
                     8.6k reviews
                   </p>
@@ -223,9 +223,9 @@ const Testimonials = ({ clients }) => {
                   <img
                     src={likethem}
                     alt="likethem"
-                    className="likethem_w48 mb-3 pb-1"
+                    className="likethem_w48 mb-lg-3 mb-1 pb-1"
                   />
-                  <p className="ff_open fs_lg fw-normal clr_graywhite">
+                  <p className="ff_open clignts_fs_16 fw-normal clr_graywhite">
                     We’re making
                     <span className="fw-bold"> insurance as simple as</span> can
                     be
