@@ -62,9 +62,11 @@
   --color-bg-offblack: #18181f !important;
   --color-bg-darkblack: #111116 !important;
   --color-clr-gray: #b2b8c8 !important;
+  --color-clr-graylight: #9a9ea6 !important;
   --color-clr-green: #a4d6c5 !important;
   --color-clr-lightgreen: #8ba3b7 !important;
   --color-clr-graywhite: #eaeef1 !important;
+  --color-bg-blacklight: #212132 !important;
 }
 
 .bg_offblack {
@@ -74,12 +76,13 @@
 .bg_darkblack {
   background-color: var(--color-bg-darkblack);
 }
-
+.bg_blacklight {
+  background-color: var(--color-bg-blacklight);
+}
 /* coloer */
 .clr_blue100 {
   color: var(--color-clr_blue100);
 }
-
 .clr_white {
   color: var(--color-clr_white);
 }
@@ -99,7 +102,9 @@
 .clr_blue {
   color: var(--color-clr_blue);
 }
-
+.clr_graylight {
+  color: var(--color-clr-graylight);
+}
 .clr_offblue {
   color: var(--color-clr_offblue);
 }

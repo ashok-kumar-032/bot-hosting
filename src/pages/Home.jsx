@@ -9,6 +9,7 @@ import Testimonials from "../components/common/Testimonials";
 import Our from "../components/home/Our";
 
 import { Clientdata } from "../components/common/Helper";
+import Newsletter from "../components/home/Newsletter";
 const Home = () => {
   return (
     <div className="page_back">
@@ -17,6 +18,7 @@ const Home = () => {
       <Hosting />
       <ChooseUs ChooseUs={Choose} />
       <Testimonials clients={Clientdata} />
+      <Newsletter/>
     </div>
   );
 };

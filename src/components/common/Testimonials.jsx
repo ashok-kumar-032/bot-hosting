@@ -2,6 +2,11 @@ import React, { useRef } from "react";
 import Slider from "react-slick";
 import { Col, Container, Row } from "react-bootstrap";
 import star from "../../assets/img/svg/star.svg";
+import friendly from "../../assets/img/webp/friendly.webp";
+import trustpilot from "../../assets/img/svg/trustpilot.svg";
+import yellowstar from "../../assets/img/svg/yellowstar.svg";
+import likethem from "../../assets/img/svg/Icon_Like.svg";
+import divider from "../../assets/img/svg/Divider.svg";
 const Testimonials = ({ clients }) => {
   var clientsslider = {
     dots: false,
@@ -39,7 +44,7 @@ const Testimonials = ({ clients }) => {
   const clintsbtn = useRef();
   return (
     <>
-      <section className="py-5">
+      <section className="py-5 bg_footerimg">
         <Container>
           <div className="text-center">
             <p className="ff_rubik fw-normal fs_2xl text-uppercase clr_blue mb-2">
@@ -158,19 +163,76 @@ const Testimonials = ({ clients }) => {
               </svg>
             </div>
           </div>
-          <Row>
-            <Col>
-              <p className="ff_open fs_lg fw-normal clr_graywhite">
-                <span className="fw-bold">Friendly</span> customer support team
-              </p>
-            </Col>
-            <Col>
-              <p className="ff_open fs_lg fw-normal clr_graywhite"><span className="fw-bold">4.6 out of 5 stars </span> from 8.6k reviews</p>
-            </Col>
-            <Col>
-              <p className="ff_open fs_lg fw-normal clr_graywhite">We’re making <span className="fw-bold"> insurance as simple as</span> can be</p>
+          <Row className="justify-content-center mt-5">
+            <Col lg={9}>
+              <div className="d-flex gap-2">
+                <div className="text-center">
+                  <img
+                    src={friendly}
+                    alt="friendly"
+                    className="friendlyimg mb-3 pb-1"
+                  />
+                  <p className="ff_open fs_lg fw-normal clr_graywhite">
+                    <span className="fw-bold">Friendly</span> customer support
+                    team
+                  </p>
+                </div>
+                <img src={divider} alt="divider" />
+                <div className="text-center">
+                  <img
+                    src={trustpilot}
+                    alt="trustpilot"
+                    className="trustpilotwidth"
+                  />
+                  <div className="d-flex justify-content-center gap-1 my-3">
+                    <img
+                      src={yellowstar}
+                      alt="yellowstar"
+                      className="yellowstartwidth"
+                    />
+                    <img
+                      src={yellowstar}
+                      alt="yellowstar"
+                      className="yellowstartwidth"
+                    />
+                    <img
+                      src={yellowstar}
+                      alt="yellowstar"
+                      className="yellowstartwidth"
+                    />
+                    <img
+                      src={yellowstar}
+                      alt="yellowstar"
+                      className="yellowstartwidth"
+                    />
+                    <img
+                      src={yellowstar}
+                      alt="yellowstar"
+                      className="yellowstartwidth"
+                    />
+                  </div>
+                  <p className="ff_open fs_lg fw-normal clr_graywhite">
+                    <span className="fw-bold">4.6 out of 5 stars </span> from
+                    8.6k reviews
+                  </p>
+                </div>
+                <img src={divider} alt="divider" />
+                <div className="text-center pe-lg-5">
+                  <img
+                    src={likethem}
+                    alt="likethem"
+                    className="likethem_w48 mb-3 pb-1"
+                  />
+                  <p className="ff_open fs_lg fw-normal clr_graywhite">
+                    We’re making
+                    <span className="fw-bold"> insurance as simple as</span> can
+                    be
+                  </p>
+                </div>
+              </div>
             </Col>
           </Row>
+          
         </Container>
       </section>
     </>

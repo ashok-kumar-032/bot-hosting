@@ -8,7 +8,6 @@
 .bg_clrblue {
   background: #206dfd;
 }
-
 .bg_heroimg {
   background-image: url(./assets/img/webp/herobg_image.webp);
   background-repeat: no-repeat;
@@ -16,6 +15,7 @@
   background-size: cover;
   height: 100vh;
 }
+/*What Our Clients Say About Us section in card slick slider height same */
 .slick-track {
   display: flex !important;
 }
@@ -26,12 +26,14 @@
 .slick-slide > div {
   display: flex;
 }
+/* background image product page hero section */
 .bg_productimg {
   background-image: url(./assets/img/webp/productimg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   height: 425px;
 }
+/* slick slider button next and previous and hover effect */
 .btn_slider {
   border-radius: 6px;
   background: white;
@@ -56,11 +58,26 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+/* /friendly image width in our clients say about us section */
+.friendlyimg {
+  width: 110px;
+}
+/* Trustpilot image width 127px in our clients say about us section */
+.trustpilotwidth {
+  width: 127px;
+}
+/* Yellow star width 18px in our clients say about us section */
+.yellowstartwidth {
+  width: 18px;
+}
+/* like icon width 48px in our clients say about us section */
+.likethem_w48 {
+  width: 48px;
+}
+/*www.ComeUp.ai input and placholder */
 .wwwcome input {
   outline: none;
 }
-
 .wwwcome ::placeholder {
   color: var(--color-clr-gray);
   font-family: DM Sans;
@@ -68,10 +85,58 @@
   font-style: normal;
   font-weight: 400;
 }
-
+/* buttion submit in newsletter section */
+.btn_subimt {
+  border-radius: 5px;
+  background: linear-gradient(
+      27deg,
+      rgba(0, 63, 243, 0.8) 0%,
+      rgba(48, 156, 255, 0.8) 100%
+    ),
+    linear-gradient(0deg, #2898ff 0%, #2898ff 100%), #ff604b;
+  padding: 15px 38px;
+}
+/* email input and placeholder use in newslatter section */
+.emailinput input {
+  outline: none;
+}
+.emailinput input::placeholder {
+  font-family: "Inter";
+  color: var(--color-clr-graylight);
+  font-weight: normal;
+  font-size: var(--fs-lg);
+}
+/* footer background image */
+.bg_footerimg {
+  background-image: url(./assets/img/png/bgfooter.png);
+  background-repeat: no-repeat;
+  background-color: rgba(3, 4, 5, 0.9);
+}
 @media (max-width: 576px) {
   .mw_534 {
     max-width: 292px;
+  }
+  /* /friendly image width 51px in our clients say about us section */
+  .friendlyimg {
+    width: 51px;
+  }
+  /* Trustpilot image width 59px in our clients say about us section */
+  .trustpilotwidth {
+    width: 59px;
+  }
+  /* Yellow star width 8px in our clients say about us section */
+  .yellowstartwidth {
+    width: 8px;
+  }
+  /* like icon width 22px in our clients say about us section */
+  .likethem_w48 {
+    width: 22px;
+  }
+  .btn_subimt {
+    padding: 10px 15px;
+  }
+  .emailinput input {
+    max-width: 160px !important;
   }
 }
 

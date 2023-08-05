@@ -13,7 +13,7 @@ const Hosting = () => {
             <p className="ff_inter fw-normal fs_2xl clr_white">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lacus
               facilisi donec
-              <span className="d-block">
+              <span className="d-md-block">
                 egestas egestas pellentesque magna.
               </span>
             </p>
