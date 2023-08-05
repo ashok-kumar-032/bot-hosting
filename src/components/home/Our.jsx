@@ -5,10 +5,14 @@ import los_2 from "../../assets/img/webp/los_2.webp";
 import los_3 from "../../assets/img/webp/los_3.webp";
 import los_4 from "../../assets/img/webp/los_4.webp";
 import our_back_1 from "../../assets/img/webp/our_back_1.webp";
+import our_left_img from "../../assets/img/png/our_left_img.png";
 
-const Our = () => {
+const Our = ({img_none}) => {
   return (
-    <section className="py-sm-5 py-3 my-1 my-sm-0 my-xl-5">
+    <section className="py-sm-5 py-3 my-1 my-sm-0 my-xl-5 position-relative our_card_2">
+      <div className={`our_left_img position-absolute ${img_none}`}>
+                <img src={our_left_img} alt="our_left_img" />
+      </div>
       <div className="back_effect our_card rounded-4">
         <div className="pt-3">
           <Container>

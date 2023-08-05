@@ -4,10 +4,14 @@ import checkmark from "../../assets/img/png/checkmark.png";
 import rightarrow from "../../assets/img/png/started_r_arrow.png";
 import box_group from "../../assets/img/webp/modpack_rightimg.webp";
 import btn_arrow from "../../assets/img/png/started_r_arrow.png"
+import pricing_right from "../../assets/img/png/pricing_right.png"
 const Pricing = ({ Price }) => {
   return (
     <>
-      <section className="py-sm-5 py-3 my-1 my-sm-0 my-xl-5 overflow-hidden">
+      <section className="py-sm-5 py-3 my-1 my-sm-0 my-xl-5 position-relative">
+        <div className="pricing_right position-absolute ">
+          <img src={pricing_right} alt="pricing_right" />
+        </div>
         <Container>
           <h2 className="common_heading text-center">
             Awesome <span className="clr_blue">Pricing Plan</span>

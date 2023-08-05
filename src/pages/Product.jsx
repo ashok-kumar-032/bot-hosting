@@ -8,6 +8,7 @@ import Hosting from "../components/common/Hosting";
 import Footer from "../components/product/Footer";
 import Testimonials from "../components/common/Testimonials";
 import { Clientdata } from "../components/common/Helper";
+import Our from "../components/home/Our";
 const Product = () => {
   return (
     <div className="page_back">
@@ -15,9 +16,12 @@ const Product = () => {
       <Feature feature={feature} />
       <ModPAck modpack={modpack} />
       <Hosting />
+      <Our img_none="d-none" />
       <div className="bg_footerimg">
-        <Testimonials clients={Clientdata} />
-        <Footer />
+        <div className="about_top">
+          <Testimonials clients={Clientdata}/>
+          <Footer />
+        </div>
       </div>
     </div>
   );

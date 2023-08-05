@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <>
       <section className="footer_s py-4 mt-3">
-        <Container className="pb-xl-5">
+        <Container className="pb-xl-5 about_b">
           <Row className="justify-content-between pb-1 pb-sm-0">
             <Col lg={4}>
               <h3 className="ff_oswald clr_white fw-medium mb-0 pb-3 pb-sm-0 fs_5xl text-center text-sm-start c_pointer">
