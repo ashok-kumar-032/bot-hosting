@@ -10,7 +10,7 @@ import our_left_img from "../../assets/img/png/our_left_img.png";
 const Our = ({img_none}) => {
   return (
     <section className="py-sm-5 py-3 my-1 my-sm-0 my-xl-5 position-relative our_card_2">
-      <div className={`our_left_img position-absolute ${img_none}`}>
+      <div className={`our_left_img position-absolute d-none d-xl-block ${img_none}`}>
                 <img src={our_left_img} alt="our_left_img" />
       </div>
       <div className="back_effect our_card rounded-4">

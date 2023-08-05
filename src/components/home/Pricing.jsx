@@ -9,7 +9,7 @@ const Pricing = ({ Price }) => {
   return (
     <>
       <section className="py-sm-5 py-3 my-1 my-sm-0 my-xl-5 position-relative">
-        <div className="pricing_right position-absolute ">
+        <div className="pricing_right position-absolute d-none d-xl-block">
           <img src={pricing_right} alt="pricing_right" />
         </div>
         <Container>
