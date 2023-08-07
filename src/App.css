@@ -3,6 +3,7 @@
   text-decoration: none !important;
   scroll-behavior: smooth !important;
 }
+
 /* common heading and para */
 .common_heading {
   color: var(--color-clr_white);
@@ -12,6 +13,7 @@
   font-weight: 700;
   margin-bottom: 0;
 }
+
 .common_para {
   color: var(--color-clr_white100);
   text-align: "center";
@@ -234,6 +236,7 @@ body::-webkit-scrollbar-thumb {
 .btn_login {
   padding: 18px 40px;
 }
+
 .btn_login:hover {
   background: linear-gradient(
       27deg,
@@ -358,15 +361,19 @@ body::-webkit-scrollbar-thumb {
 .trustpilotwidth {
   width: 127px;
 }
+
 .yellowstartwidth {
   width: 18px;
 }
+
 .likethem_w48 {
   width: 48px;
 }
+
 .wwwcome input {
   outline: none;
 }
+
 .wwwcome ::placeholder {
   color: var(--color-clr-gray);
   font-family: DM Sans;
@@ -374,6 +381,7 @@ body::-webkit-scrollbar-thumb {
   font-style: normal;
   font-weight: 400;
 }
+
 .btn_subimt {
   border-radius: 5px;
   background: linear-gradient(
@@ -385,6 +393,7 @@ body::-webkit-scrollbar-thumb {
   padding: 15px 38px;
   transition: all 0.3s linear;
 }
+
 .emailinput input {
   outline: none;
 }
@@ -395,6 +404,7 @@ body::-webkit-scrollbar-thumb {
   font-weight: normal;
   font-size: var(--fs-lg);
 }
+
 /* our clients and newslater section end */
 
 /* feature card start */
@@ -612,9 +622,11 @@ body::-webkit-scrollbar-thumb {
   border-radius: 150px 150px 0 0;
   background-size: cover;
 }
+
 .footer_s ul li {
   padding-top: 20px;
 }
+
 .footer_s ul li a {
   color: #fff;
   font-family: "DM Sans";
@@ -692,10 +704,14 @@ body::-webkit-scrollbar-thumb {
 
 /* media min screen 1200 */
 @media (min-width: 1200px) {
-  .hero_img_overflow{position: absolute;
+  .hero_img_overflow {
+    position: absolute;
     width: 100%;
     max-width: 765px;
-  top: 25%; right:0;}
+    top: 25%;
+    right: 0;
+  }
+
   .our_card_1 {
     border-radius: 20px;
   }
@@ -808,9 +824,11 @@ body::-webkit-scrollbar-thumb {
   .friendlyimg {
     width: 51px;
   }
+
   .trustpilotwidth {
     width: 59px;
   }
+
   .yellowstartwidth {
     width: 8px;
   }

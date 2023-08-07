@@ -30,22 +30,27 @@ import George from "../../assets/img/png/george.png";
 // features map data start
 export const feature = [
   {
+    id: 1,
     f_img: f_img1,
     f_heading: "NA & EU LOCATIONS",
   },
   {
+    id: 2,
     f_img: f_img2,
     f_heading: "ENTERPRISE HARDWARE",
   },
   {
+    id: 3,
     f_img: f_img3,
     f_heading: "JAVA 8, 11, 16 & 17 SUPPORT",
   },
   {
+    id: 4,
     f_img: f_img4,
     f_heading: "CUSTOM GAME CONTROL PANEL",
   },
   {
+    id: 5,
     f_img: f_img5,
     f_heading: "SCHEDULED TASKS",
   },
@@ -54,26 +59,32 @@ export const feature = [
     f_heading: "UNMETERED STORAGE",
   },
   {
+    id: 6,
     f_img: f_img7,
     f_heading: "72 HOUR MONEY BACK POLICY",
   },
   {
+    id: 7,
     f_img: f_img8,
     f_heading: "FREE MYSQL DATABASE",
   },
   {
+    id: 8,
     f_img: f_img9,
     f_heading: "24/7 DISCORD SUPPORT",
   },
   {
+    id: 9,
     f_img: f_img10,
     f_heading: "FREE SUBDOMAIN CREATOR",
   },
   {
+    id: 10,
     f_img: f_img11,
     f_heading: "BUILT IN FIREWALL MANAGER",
   },
   {
+    id: 11,
     f_img: f_img12,
     f_heading: "FULL FTP ACCESS",
   },
@@ -83,21 +94,27 @@ export const feature = [
 // modpack map data start
 export const modpack = [
   {
+    id: 1,
     modimg: mod_1,
   },
   {
+    id: 2,
     modimg: mod_2,
   },
   {
+    id: 3,
     modimg: mod_3,
   },
   {
+    id: 4,
     modimg: mod_4,
   },
   {
+    id: 5,
     modimg: mod_5,
   },
   {
+    id: 6,
     modimg: mod_6,
   },
 ];
@@ -106,26 +123,32 @@ export const modpack = [
 // chooseus start
 export const Choose = [
   {
+    id: 1,
     choose_card: "choose_lightbg",
     bigheading: "Enterprise Hardware",
   },
   {
+    id: 2,
     choose_card: "choose_darkbg",
     bigheading: "Budget Friendly",
   },
   {
+    id: 3,
     choose_card: "choose_lightbg",
     bigheading: "Amazing Support",
   },
   {
+    id: 4,
     choose_card: "choose_darkbg",
     bigheading: "Premium Locations",
   },
   {
+    id: 5,
     choose_card: "choose_lightbg",
     bigheading: "Instant Setup",
   },
   {
+    id: 6,
     choose_card: "choose_darkbg",
     bigheading: "DDoS Protection",
   },
@@ -134,16 +157,19 @@ export const Choose = [
 // pricing plan section map data
 export const pricing_data = [
   {
+    id: 1,
     topimg: price1,
     main_heading: "Starter",
     normal: "opacity-25",
     mobile: "opacity-25",
   },
   {
+    id: 2,
     topimg: price2,
     main_heading: "Business",
   },
   {
+    id: 3,
     topimg: price1,
     main_heading: "Enterprise",
     mobile: "opacity-25",

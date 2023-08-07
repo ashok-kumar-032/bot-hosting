@@ -9,7 +9,7 @@ import our_left_img from "../../assets/img/png/our_left_img.png";
 
 const Our = ({ img_none }) => {
   return (
-    <section className="position-relative our_card_2 pb-4 py-ms-4">
+    <section className="position-relative our_card_2 pb-4 py-ms-4 pt-lg-5">
       <div
         className={`our_left_img position-absolute d-none d-xl-block ${img_none}`}
       >
@@ -34,12 +34,12 @@ const Our = ({ img_none }) => {
               </div>
               <Row className="pb-3">
                 <Col
-                  lg={4}
+                  lg={4} md={6}
                   data-aos="fade-right"
                   data-aos-delay="300"
                   data-aos-duration="2000"
                 >
-                  <div className="d-flex align-items-center">
+                  <div className="d-flex align-items-center pt-3">
                     <span>
                       <img src={los} alt="los" />
                     </span>
@@ -54,7 +54,7 @@ const Our = ({ img_none }) => {
                   </div>
                 </Col>
                 <Col
-                  lg={4}
+                  lg={4} md={6}
                   className="pt-3"
                   data-aos="fade-right"
                   data-aos-delay="600"
@@ -75,7 +75,7 @@ const Our = ({ img_none }) => {
                   </div>
                 </Col>
                 <Col
-                  lg={4}
+                  lg={4} md={6}
                   className="pt-3"
                   data-aos="fade-right"
                   data-aos-delay="900"
@@ -96,7 +96,7 @@ const Our = ({ img_none }) => {
                   </div>
                 </Col>
                 <Col
-                  lg={4}
+                  lg={4} md={6}
                   className="pt-lg-5 pt-3"
                   data-aos="fade-right"
                   data-aos-delay="300"
@@ -117,7 +117,7 @@ const Our = ({ img_none }) => {
                   </div>
                 </Col>
                 <Col
-                  lg={4}
+                  lg={4} md={6}
                   className="pt-lg-5 pt-3"
                   data-aos="fade-right"
                   data-aos-delay="600"
@@ -138,7 +138,7 @@ const Our = ({ img_none }) => {
                   </div>
                 </Col>
                 <Col
-                  lg={4}
+                  lg={4} md={6}
                   className="pt-lg-5 pt-3"
                   data-aos="fade-right"
                   data-aos-delay="900"
