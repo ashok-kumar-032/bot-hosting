@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Container } from "react-bootstrap";
+import { Container, Dropdown } from "react-bootstrap";
 import facebook from "../../assets/img/png/facebook.png";
 import instagram from "../../assets/img/png/Instagram.png";
 import twitter from "../../assets/img/png/twiter.png";
@@ -57,27 +57,21 @@ const Header = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    to="/"
-                    className="ff_rubik fw-bold fs_2xl clr_white nav_hvoer"
-                  >
-                    MORE
-                    <svg
-                      className="ms-2"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="8"
-                      height="6"
-                      viewBox="0 0 8 6"
-                      fill="none"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M6.26423 0.917215L3.99994 3.08399L1.73564 0.917215C1.48483 0.678249 1.11927 0.584923 0.776654 0.67239C0.434039 0.759858 0.166427 1.01483 0.0746236 1.34126C-0.0171796 1.6677 0.0807733 2.016 0.331585 2.25496L3.29791 5.08119C3.48357 5.25954 3.73629 5.35986 3.99994 5.35986C4.26358 5.35986 4.51631 5.25954 4.70197 5.08119L7.66829 2.25496C8.05601 1.88556 8.05601 1.28662 7.66829 0.917215C7.28057 0.547806 6.65195 0.547806 6.26423 0.917215Z"
-                        fill="white"
-                      />
-                    </svg>
-                  </Link>
+                  <Dropdown>
+                    <Dropdown.Toggle className="ff_rubik fw-bold fs_2xl clr_white nav_hvoer">
+                      MORE
+                    </Dropdown.Toggle>
+
+                    <Dropdown.Menu>
+                      <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                      <Dropdown.Item href="#/action-2">
+                        Another action
+                      </Dropdown.Item>
+                      <Dropdown.Item href="#/action-3">
+                        Something else
+                      </Dropdown.Item>
+                    </Dropdown.Menu>
+                  </Dropdown>
                 </li>
               </ul>
               <div className="d-flex align-items-center gap-2 d-xl-none iconsnav">

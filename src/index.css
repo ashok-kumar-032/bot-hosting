@@ -11,7 +11,7 @@
 }
 
 .ff_rubik {
-  font-family: "Rubik";
+  font-family: "Rubik" !important;
 }
 
 .ff_inter {
@@ -172,7 +172,7 @@
 }
 
 .fs_2xl {
-  font-size: var(--fs-2xl);
+  font-size: var(--fs-2xl) !important;
 }
 
 .fs_xl {
