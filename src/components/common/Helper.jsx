@@ -28,7 +28,7 @@ import Bryan from "../../assets/img/png/bryan.png";
 import Joshua from "../../assets/img/png/joshua.png";
 import George from "../../assets/img/png/george.png";
 // features map data start
-export const feature = [
+export const featuredata = [
   {
     id: 1,
     f_img: f_img1,
@@ -55,36 +55,37 @@ export const feature = [
     f_heading: "SCHEDULED TASKS",
   },
   {
+    id: 6,
     f_img: f_img6,
     f_heading: "UNMETERED STORAGE",
   },
   {
-    id: 6,
+    id: 7,
     f_img: f_img7,
     f_heading: "72 HOUR MONEY BACK POLICY",
   },
   {
-    id: 7,
+    id: 8,
     f_img: f_img8,
     f_heading: "FREE MYSQL DATABASE",
   },
   {
-    id: 8,
+    id: 9,
     f_img: f_img9,
     f_heading: "24/7 DISCORD SUPPORT",
   },
   {
-    id: 9,
+    id: 10,
     f_img: f_img10,
     f_heading: "FREE SUBDOMAIN CREATOR",
   },
   {
-    id: 10,
+    id: 11,
     f_img: f_img11,
     f_heading: "BUILT IN FIREWALL MANAGER",
   },
   {
-    id: 11,
+    id: 12,
     f_img: f_img12,
     f_heading: "FULL FTP ACCESS",
   },
