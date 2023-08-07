@@ -6,7 +6,13 @@ import arrow from "../../assets/img/png/right_arrow.png";
 const ChooseUs = ({ ChooseUs }) => {
   return (
     <>
+<<<<<<< HEAD
       <section className="py-sm-5 py-4 my-1 my-sm-0 my-xl-5 mw_1920 mx-auto overflow-hidden position-relative mw_1920 mx-auto overflow-hidden mt-5">
+=======
+      <section
+        className="py-sm-5 py-4 my-1 my-sm-0 my-xl-5 position-relative overflow-hidden mt-5"
+      >
+>>>>>>> 8ef5fa7cafbdb553894da7d730fb2eddc9c44404
         <img
           src={bg_line}
           className="chooseus_bgline position-absolute w-100 d-none d-md-block"
@@ -34,7 +40,7 @@ const ChooseUs = ({ ChooseUs }) => {
                   data-aos-duration="3000"
                 >
                   <div
-                    className={`p_md_40 p_xs_36 ms-md-1 cards_h ${Choose.choose_card}`}
+                    className={`p_md_40 p_xs_36 ms-md-1 cards_h rounded-5 ${Choose.choose_card}`}
                   >
                     <h3 className="ff_inter clr_white fw-semibold fs_4xl mb-0">
                       {Choose.bigheading}

@@ -9,7 +9,7 @@ import our_left_img from "../../assets/img/png/our_left_img.png";
 
 const Our = ({ img_none }) => {
   return (
-    <section className="position-relative our_card_2 py-4">
+    <section className="position-relative our_card_2 pb-4 py-ms-4">
       <div
         className={`our_left_img position-absolute d-none d-xl-block ${img_none}`}
       >
