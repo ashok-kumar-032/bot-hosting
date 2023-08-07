@@ -86,6 +86,7 @@ export const featuredata = [
   },
   {
     id: 12,
+    id: 12,
     f_img: f_img12,
     f_heading: "FULL FTP ACCESS",
   },
