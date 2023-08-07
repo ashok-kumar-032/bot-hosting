@@ -638,8 +638,12 @@ body::-webkit-scrollbar-thumb {
 
 }
 
-/* media screen 1200 */
+/* media min screen 1200 */
 @media (min-width: 1200px) {
+  .hero_img_overflow{position: absolute;
+    width: 100%;
+    max-width: 765px;
+  top: 25%; right:0;}
   .our_card_1 {
     border-radius: 20px;
   }
@@ -751,22 +755,16 @@ body::-webkit-scrollbar-thumb {
     max-width: 305px;
   }
 
-  /* /friendly image width 51px in our clients say about us section */
   .friendlyimg {
     width: 51px;
   }
-
-  /* Trustpilot image width 59px in our clients say about us section */
   .trustpilotwidth {
     width: 59px;
   }
-
-  /* Yellow star width 8px in our clients say about us section */
   .yellowstartwidth {
     width: 8px;
   }
 
-  /* like icon width 22px in our clients say about us section */
   .likethem_w48 {
     width: 22px;
   }
