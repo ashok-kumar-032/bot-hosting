@@ -7,8 +7,7 @@ const ChooseUs = ({ ChooseUs }) => {
   return (
     <>
       <section
-        className="py-sm-5 py-4 my-1 my-sm-0 my-xl-5 mw_1920 mx-auto overflow-hidden position-relative mw_1920 mx-auto overflow-hidden mt-5"
-        data-aos="fade-right"
+        className="py-sm-5 py-4 my-1 my-sm-0 my-xl-5 position-relative overflow-hidden mt-5"
       >
         <img
           src={bg_line}
