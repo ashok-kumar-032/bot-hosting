@@ -3,7 +3,7 @@ import Producthero from "../components/product/Producthero";
 import Feature from "../components/product/Feature";
 import ModPAck from "../components/product/ModPAck";
 import { modpack } from "../components/common/Helper";
-import { feature } from "../components/common/Helper";
+import { featuredata } from "../components/common/Helper";
 import Hosting from "../components/common/Hosting";
 import Footer from "../components/product/Footer";
 import Testimonials from "../components/common/Testimonials";
@@ -13,7 +13,7 @@ const Product = () => {
   return (
     <div className="page_back">
       <Producthero />
-      <Feature feature={feature} />
+      <Feature feature={featuredata} />
       <ModPAck modpack={modpack} />
       <Hosting />
       <Our img_none="d-none" />
