@@ -45,9 +45,11 @@ const Testimonials = ({ clients }) => {
   return (
     <>
       <section className="pt-4 mt-4 mt-xl-0 pt-xl-0">
-        <Container >
+        <Container>
           <div
-            className="text-center "
+            className="text-center"
+            data-aos="zoom-in"
+            data-aos-duration="2000"
           >
             <p className="ff_rubik fw-normal fs_2xl text-uppercase clr_blue mb-2">
               testimonials
@@ -57,7 +59,12 @@ const Testimonials = ({ clients }) => {
           <Slider {...clientsslider} ref={clintsbtn}>
             {clients.map((card) => {
               return (
-                <div key={card.id} className="px_5px px-1 mt-5">
+                <div
+                  key={card.id}
+                  className="px_5px px-1 mt-5"
+                  data-aos="flip-left"
+                  data-aos-duration="3000"
+                >
                   <div className="bg_darkblack py-3 px-2 rounded-3 h-100 cards_h">
                     <div className="d-flex gap-1 mb-4 pt-1 px-1">
                       <img src={star} alt="star" width={19} height={19} />
@@ -166,7 +173,12 @@ const Testimonials = ({ clients }) => {
             </div>
           </div>
           <Row className="justify-content-center mt-5">
-            <Col lg={9}>
+            <Col
+              lg={9}
+              data-aos="fade-down"
+              data-aos-delay="300"
+              data-aos-duration="2000"
+            >
               <div className="d-flex gap-2">
                 <div className="text-center">
                   <img

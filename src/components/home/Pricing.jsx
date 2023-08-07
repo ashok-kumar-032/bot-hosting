@@ -3,8 +3,8 @@ import { Col, Container, Row } from "react-bootstrap";
 import checkmark from "../../assets/img/png/checkmark.png";
 import rightarrow from "../../assets/img/png/started_r_arrow.png";
 import box_group from "../../assets/img/webp/modpack_rightimg.webp";
-import btn_arrow from "../../assets/img/png/started_r_arrow.png"
-import pricing_right from "../../assets/img/png/pricing_right.png"
+import btn_arrow from "../../assets/img/png/started_r_arrow.png";
+import pricing_right from "../../assets/img/png/pricing_right.png";
 const Pricing = ({ Price }) => {
   return (
     <>
@@ -13,14 +13,29 @@ const Pricing = ({ Price }) => {
           <img src={pricing_right} alt="pricing_right" />
         </div>
         <Container>
-          <h2 className="common_heading text-center">
+          <h2
+            className="common_heading text-center"
+            data-aos="fade-down"
+            data-aos-delay="300"
+            data-aos-duration="2000"
+          >
             Awesome <span className="clr_blue">Pricing Plan</span>
           </h2>
-          <p className="common_para mw_550 mx-auto mb-4 pt-lg-4 pt-3 pb-lg-2 pb-3">
+          <p
+            className="common_para mw_550 mx-auto mb-4 pt-lg-4 pt-3 pb-lg-2 pb-3"
+            data-aos="fade-down"
+            data-aos-delay="300"
+            data-aos-duration="2000"
+          >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lacus
             facilisi donec egestas egestas pellentesque magna.
           </p>
-          <Row className="justify-content-center position-relative">
+          <Row
+            className="justify-content-center position-relative"
+            data-aos="fade-right"
+            data-aos-delay="300"
+            data-aos-duration="3000"
+          >
             <div>
               <img
                 src={box_group}
@@ -43,6 +58,9 @@ const Pricing = ({ Price }) => {
                   md={6}
                   sm={11}
                   className="mt_10 px_5px position-relative z-3"
+                  data-aos="fade-right"
+                  data-aos-delay="600"
+                  data-aos-duration="3000"
                 >
                   <div className="p-3 bg_darkblack rounded-3 pricing_card">
                     <div className="p-sm-3">
@@ -118,9 +136,7 @@ const Pricing = ({ Price }) => {
                             alt="checkmark"
                           />
                         </div>
-                        <p
-                          className="clr_white300 ps-2 fs_lg fw-medium ff_inter lh_143"
-                        >
+                        <p className="clr_white300 ps-2 fs_lg fw-medium ff_inter lh_143">
                           Mobile app
                         </p>
                       </div>
@@ -148,7 +164,7 @@ const Pricing = ({ Price }) => {
               );
             })}
           </Row>
-          <div className="text-center pt-5"><button className="ff_inter pricing_getbtn clr_white fw-semibold fs_2xl">Get a Quote<img src={btn_arrow} alt="right_arrow" className="ps-1"></img></button></div>
+          <div className="text-center pt-5 d-none d-sm-block"><button className="ff_inter pricing_getbtn clr_white fw-semibold fs_2xl">Get a Quote<img src={btn_arrow} alt="right_arrow" className="ps-1"></img></button></div>
         </Container>
       </section>
     </>

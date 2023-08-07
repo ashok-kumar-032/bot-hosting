@@ -4,20 +4,32 @@ import email from "../../assets/img/svg/emailicon.svg";
 const Newsletter = () => {
   return (
     <>
-      <section className="pt-sm-5 pt-4 pb-lg-5 my-lg-5">
+      <section className="pt-sm-5 pt-4 pb-lg-5 pb-sm-4 my-lg-5">
         <Container>
           <div className="text-center">
-            <h4 className="ff_rubik fw-medium fs_5xl text-uppercase clr_white mb-2 pb-1">
+            <h4
+              className="ff_rubik fw-medium fs_5xl text-uppercase clr_white mb-2 pb-1"
+              data-aos="zoom-in"
+              data-aos-duration="2000"
+            >
               Newsletter
             </h4>
-            <p className="ff_rubik fw-normal fs_sm clr_blue mb-4 clr_graylight">
+            <p
+              className="ff_rubik fw-normal fs_sm clr_blue mb-4 clr_graylight"
+              data-aos="zoom-in"
+              data-aos-duration="2000"
+            >
               Be the first one to know about discounts, offers and events weekly
               in
               <span className="d-sm-block">
                 your mailbox. Unsubscribe whenever you like with one click.
               </span>
             </p>
-            <div className="bg_blacklight m-auto rounded-2 p-2 mw_750 d-flex justify-content-between align-items-center">
+            <div
+              className="bg_blacklight m-auto rounded-2 p-2 mw_750 d-flex justify-content-between align-items-center"
+              data-aos="flip-down"
+              data-aos-duration="2000"
+            >
               <div className="ps-sm-4 emailinput">
                 <img src={email} alt="email" className="me-1" width={20} />
                 <input
