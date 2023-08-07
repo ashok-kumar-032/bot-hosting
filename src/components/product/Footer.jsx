@@ -7,14 +7,11 @@ import linkdin from "../../assets/img/png/footer_linkdin.png";
 const Footer = () => {
   return (
     <>
-      <section className="footer_s py-4 mt-3">
-        <Container className="pb-xl-5 about_b">
+      <section className="footer_s">
+        <Container className="about_b">
           <Row className="justify-content-between pb-1 pb-sm-0">
             <Col
               lg={4}
-              data-aos="fade-right"
-              data-aos-delay="300"
-              data-aos-duration="1500"
             >
               <h3 className=" ff_overpass clr_white fw-medium mb-0 pb-3 pb-sm-0 fs_5xl text-center text-sm-start c_pointer">
                 Logo
@@ -63,9 +60,7 @@ const Footer = () => {
                   sm={6}
                   md={3}
                   className="px-0"
-                  data-aos="fade-right"
-                  data-aos-delay="600"
-                  data-aos-duration="1500"
+                  
                 >
                   <h4 className="clr_white ff_rubik fw-medium fs_2xl mb-0">
                     Company
@@ -88,9 +83,7 @@ const Footer = () => {
                   sm={6}
                   md={3}
                   className="px-0"
-                  data-aos="fade-right"
-                  data-aos-delay="900"
-                  data-aos-duration="1500"
+                 
                 >
                   <h4 className="clr_white ff_rubik fw-medium fs_2xl mb-0">
                     Services
@@ -114,9 +107,6 @@ const Footer = () => {
                   sm={6}
                   md={3}
                   className="px-0 pt-3 pt-md-0"
-                  data-aos="fade-right"
-                  data-aos-delay="1200"
-                  data-aos-duration="1500"
                 >
                   <h4 className="clr_white ff_rubik fw-medium fs_2xl mb-0">
                     About
@@ -140,9 +130,7 @@ const Footer = () => {
                   sm={6}
                   md={3}
                   className="px-0 pt-3 pt-md-0"
-                  data-aos="fade-right"
-                  data-aos-delay="1500"
-                  data-aos-duration="1500"
+                 
                 >
                   <h4 className="clr_white ff_rubik fw-medium fs_2xl mb-0">
                     Help
@@ -161,8 +149,7 @@ const Footer = () => {
           </Row>
           <p
             className="text-center clr_white ff_roboto fw-light mb-0 fs_xl mt-4 pt-2 pt-lg-5"
-            data-aos="flip-down"
-            data-aos-duration="2000"
+        
           >
             © Copyright 2023
           </p>

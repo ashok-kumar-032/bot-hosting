@@ -17,7 +17,7 @@ const ModPAck = ({ modpack }) => {
             className="common_heading text-center"
             data-aos="fade-down"
             data-aos-delay="300"
-            data-aos-duration="2000"
+            data-aos-duration="1500"
           >
             GET A PRE <span className="clr_blue">-INSTALLED MODPACK</span>
           </h2>
@@ -25,7 +25,7 @@ const ModPAck = ({ modpack }) => {
             className="common_para mw_550 mx-auto pb-xl-4 pt-2 pt-xxl-4"
             data-aos="fade-down"
             data-aos-delay="300"
-            data-aos-duration="2000"
+            data-aos-duration="1500"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lacus
             facilisi donec egestas egestas pellentesque magna.
