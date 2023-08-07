@@ -68,7 +68,7 @@ const Testimonials = ({ clients }) => {
                   key={card.id}
                   className="px_5px px-1 mt-5"
                   data-aos="flip-left"
-                  data-aos-duration="3000"
+                  data-aos-duration="2000"
                 >
                   <div className="bg_darkblack py-3 px-2 rounded-3 h-100 cards_h">
                     <div className="d-flex gap-1 mb-4 pt-1 px-1">

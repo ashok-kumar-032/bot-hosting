@@ -37,7 +37,7 @@ const Our = ({ img_none }) => {
                   lg={4} md={6}
                   data-aos="fade-right"
                   data-aos-delay="300"
-                  data-aos-duration="3000"
+                  data-aos-duration="2000"
                 >
                   <div className="d-flex align-items-center pt-3">
                     <span>
@@ -58,7 +58,7 @@ const Our = ({ img_none }) => {
                   className="pt-3"
                   data-aos="fade-right"
                   data-aos-delay="600"
-                  data-aos-duration="3000"
+                  data-aos-duration="2000"
                 >
                   <div className=" d-flex align-items-center">
                     <span>
@@ -79,7 +79,7 @@ const Our = ({ img_none }) => {
                   className="pt-3"
                   data-aos="fade-right"
                   data-aos-delay="900"
-                  data-aos-duration="3000"
+                  data-aos-duration="2000"
                 >
                   <div className=" d-flex align-items-center">
                     <span>
@@ -100,7 +100,7 @@ const Our = ({ img_none }) => {
                   className="pt-lg-5 pt-3"
                   data-aos="fade-right"
                   data-aos-delay="300"
-                  data-aos-duration="3000"
+                  data-aos-duration="2000"
                 >
                   <div className=" d-flex align-items-center">
                     <span>
@@ -121,7 +121,7 @@ const Our = ({ img_none }) => {
                   className="pt-lg-5 pt-3"
                   data-aos="fade-right"
                   data-aos-delay="600"
-                  data-aos-duration="3000"
+                  data-aos-duration="2000"
                 >
                   <div className="d-flex align-items-center">
                     <span>
@@ -142,7 +142,7 @@ const Our = ({ img_none }) => {
                   className="pt-lg-5 pt-3"
                   data-aos="fade-right"
                   data-aos-delay="900"
-                  data-aos-duration="3000"
+                  data-aos-duration="2000"
                 >
                   <div className=" d-flex align-items-center">
                     <span>

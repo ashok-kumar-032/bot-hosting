@@ -14,9 +14,9 @@ const Footer = () => {
               lg={4}
               data-aos="fade-right"
               data-aos-delay="300"
-              data-aos-duration="3000"
+              data-aos-duration="1500"
             >
-              <h3 className="ff_overpass clr_white fw-medium mb-0 pb-3 pb-sm-0 fs_5xl text-center text-sm-start c_pointer">
+              <h3 className=" ff_overpass clr_white fw-medium mb-0 pb-3 pb-sm-0 fs_5xl text-center text-sm-start c_pointer">
                 Logo
               </h3>
               <p className="clr_gray ff_overpass fw-normal fs_sm lh_24 mb-lg-4 pb-2 pt-2 mt-1 mx-auto ms-sm-0 mw_457 text-center text-sm-start">
@@ -65,7 +65,7 @@ const Footer = () => {
                   className="px-0"
                   data-aos="fade-right"
                   data-aos-delay="600"
-                  data-aos-duration="3000"
+                  data-aos-duration="1500"
                 >
                   <h4 className="clr_white ff_rubik fw-medium fs_2xl mb-0">
                     Company
@@ -90,7 +90,7 @@ const Footer = () => {
                   className="px-0"
                   data-aos="fade-right"
                   data-aos-delay="900"
-                  data-aos-duration="3000"
+                  data-aos-duration="1500"
                 >
                   <h4 className="clr_white ff_rubik fw-medium fs_2xl mb-0">
                     Services
@@ -116,7 +116,7 @@ const Footer = () => {
                   className="px-0 pt-3 pt-md-0"
                   data-aos="fade-right"
                   data-aos-delay="1200"
-                  data-aos-duration="3000"
+                  data-aos-duration="1500"
                 >
                   <h4 className="clr_white ff_rubik fw-medium fs_2xl mb-0">
                     About
@@ -142,7 +142,7 @@ const Footer = () => {
                   className="px-0 pt-3 pt-md-0"
                   data-aos="fade-right"
                   data-aos-delay="1500"
-                  data-aos-duration="3000"
+                  data-aos-duration="1500"
                 >
                   <h4 className="clr_white ff_rubik fw-medium fs_2xl mb-0">
                     Help
