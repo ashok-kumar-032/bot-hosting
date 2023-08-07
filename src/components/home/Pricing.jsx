@@ -164,7 +164,7 @@ const Pricing = ({ Price }) => {
               );
             })}
           </Row>
-          <div className="text-center pt-5 d-none d-sm-block"><button className="ff_inter pricing_getbtn clr_white fw-semibold fs_2xl">Get a Quote<img src={btn_arrow} alt="right_arrow" className="ps-1"></img></button></div>
+          <div className="text-center pt-lg-5 pt-4 d-none d-sm-block"><button className="ff_inter pricing_getbtn clr_white fw-semibold fs_2xl">Get a Quote<img src={btn_arrow} alt="right_arrow" className="ps-1"></img></button></div>
         </Container>
       </section>
     </>
