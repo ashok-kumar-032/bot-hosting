@@ -6,7 +6,7 @@
 /* common heading and para */
 .common_heading {
   color: var(--color-clr_white);
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-size: var(--fs-8xl);
   font-style: normal;
   font-weight: 700;
@@ -14,14 +14,13 @@
 }
 .common_para {
   color: var(--color-clr_white100);
-  text-align: 'center';
-  font-family: 'Rubik';
+  text-align: "center";
+  font-family: "Rubik";
   font-size: var(--fs-sm);
   font-weight: 400;
   margin-bottom: 0;
   text-align: center;
 }
-
 
 /* custom scroll scroll  */
 .page_back {
@@ -37,8 +36,8 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #0851F6;
-  outline: 1px solid #0851F6;
+  background-color: #0851f6;
+  outline: 1px solid #0851f6;
   border-radius: 10px;
 }
 
@@ -181,7 +180,35 @@ body::-webkit-scrollbar-thumb {
   left: 2px;
   top: 4px;
 }
-
+.btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+  background-color: transparent;
+  box-shadow: none !important;
+  border: none !important;
+}
+.btn-primary{
+  background: none !important;
+}
+.btn {
+  padding: 0 !important;
+  border: none !important;
+}
+.dropdown-toggle::after {
+  content: url(./assets/img/svg/navarrow.svg) !important;
+  border: none !important;
+  display: inline-block;
+  margin-left: 0.255em;
+  padding-left: 5px;
+  margin-top: -40px;
+  vertical-align: 0.255em;
+ }
+.btn:hover {
+  background: none !important;
+  border: none !important;
+}
 .top_btn {
   width: 50px;
   z-index: 10;
@@ -208,9 +235,11 @@ body::-webkit-scrollbar-thumb {
   padding: 18px 40px;
 }
 .btn_login:hover {
-  background: linear-gradient(27deg,
+  background: linear-gradient(
+      27deg,
       rgba(0, 63, 243, 0.8) 0%,
-      rgba(48, 156, 255, 0.8) 100%),
+      rgba(48, 156, 255, 0.8) 100%
+    ),
     #2898ff;
 }
 
@@ -271,7 +300,6 @@ body::-webkit-scrollbar-thumb {
 
 /* our clients and newslater section start */
 
-
 /*What Our Clients Say About Us section in card slick slider height same */
 .slick-track {
   display: flex !important;
@@ -282,7 +310,7 @@ body::-webkit-scrollbar-thumb {
   display: flex !important;
 }
 
-.slick-slide>div {
+.slick-slide > div {
   display: flex;
 }
 
@@ -348,9 +376,11 @@ body::-webkit-scrollbar-thumb {
 }
 .btn_subimt {
   border-radius: 5px;
-  background: linear-gradient(27deg,
+  background: linear-gradient(
+      27deg,
       rgba(0, 63, 243, 0.8) 0%,
-      rgba(48, 156, 255, 0.8) 100%),
+      rgba(48, 156, 255, 0.8) 100%
+    ),
     linear-gradient(0deg, #2898ff 0%, #2898ff 100%), #ff604b;
   padding: 15px 38px;
   transition: all 0.3s linear;
@@ -381,7 +411,12 @@ body::-webkit-scrollbar-thumb {
 /* modpack components start */
 .popular_btn {
   border-radius: 10px;
-  background: linear-gradient(27deg, rgba(0, 63, 243, 0.80) 0%, rgba(48, 156, 255, 0.80) 100%), #2898FF;
+  background: linear-gradient(
+      27deg,
+      rgba(0, 63, 243, 0.8) 0%,
+      rgba(48, 156, 255, 0.8) 100%
+    ),
+    #2898ff;
   padding: 16px 32px;
   border: 1px solid transparent;
   transition: all 300ms linear !important;
@@ -401,7 +436,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 .officalr_btn:hover {
-  background: linear-gradient(27deg, rgba(0, 63, 243, 0.80) 0%, rgba(48, 156, 255, 0.80) 100%), #2898FF;
+  background: linear-gradient(
+      27deg,
+      rgba(0, 63, 243, 0.8) 0%,
+      rgba(48, 156, 255, 0.8) 100%
+    ),
+    #2898ff;
   padding: 16px 32px;
   border: 1px solid transparent;
 }
@@ -414,7 +454,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 .started_btn:hover {
-  background: linear-gradient(27deg, rgba(0, 63, 243, 0.80) 0%, rgba(48, 156, 255, 0.80) 100%), #2898FF;
+  background: linear-gradient(
+      27deg,
+      rgba(0, 63, 243, 0.8) 0%,
+      rgba(48, 156, 255, 0.8) 100%
+    ),
+    #2898ff;
 }
 
 .modpack_rightimg {
@@ -503,7 +548,7 @@ body::-webkit-scrollbar-thumb {
 .pricing_popular_btn {
   padding: 10px 22px;
   border-radius: 45px;
-  background: rgba(132, 160, 232, 0.10);
+  background: rgba(132, 160, 232, 0.1);
   border: none;
   transition: all 300ms linear !important;
   opacity: 0;
@@ -514,7 +559,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 .pricing_card:hover .pricing_startup_btn {
-  background: linear-gradient(27deg, rgba(0, 63, 243, 0.80) 0%, rgba(48, 156, 255, 0.80) 100%), #2898FF;
+  background: linear-gradient(
+      27deg,
+      rgba(0, 63, 243, 0.8) 0%,
+      rgba(48, 156, 255, 0.8) 100%
+    ),
+    #2898ff;
 }
 
 .pricing_top_box {
@@ -536,7 +586,12 @@ body::-webkit-scrollbar-thumb {
 .pricing_getbtn {
   padding: 18px 35px;
   border-radius: 90px;
-  background: linear-gradient(27deg, rgba(0, 63, 243, 0.80) 0%, rgba(48, 156, 255, 0.80) 100%), #2898FF;
+  background: linear-gradient(
+      27deg,
+      rgba(0, 63, 243, 0.8) 0%,
+      rgba(48, 156, 255, 0.8) 100%
+    ),
+    #2898ff;
   border: 1px solid transparent;
   transition: all 300ms linear;
 }
@@ -553,7 +608,7 @@ body::-webkit-scrollbar-thumb {
 .bg_footerimg {
   background-image: url(./assets/img/png/bgfooter.png);
   background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.50);
+  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 150px 150px 0 0;
   background-size: cover;
 }
@@ -561,8 +616,8 @@ body::-webkit-scrollbar-thumb {
   padding-top: 20px;
 }
 .footer_s ul li a {
-  color: #FFF;
-  font-family: 'DM Sans';
+  color: #fff;
+  font-family: "DM Sans";
   font-size: var(--fs-md);
   margin-bottom: 0;
   font-weight: 400;
@@ -583,14 +638,14 @@ body::-webkit-scrollbar-thumb {
 
 /* media screen 576 */
 
-@media (min-width:576px) {
+@media (min-width: 576px) {
   .clignts_fs_16 {
     font-size: 16px;
   }
 }
 
 /* media screen 768 */
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .chooseus_bgline {
     top: 40%;
     z-index: 1;
@@ -602,7 +657,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* media screen 992 */
-@media (min-width:992px) {
+@media (min-width: 992px) {
   .our_card_2 {
     margin-top: -200px !important;
   }
@@ -614,8 +669,6 @@ body::-webkit-scrollbar-thumb {
     background-repeat: no-repeat;
     box-shadow: 8px 24px 96px 0px rgba(68, 77, 163, 0.08);
   }
-
-
 
   .our_box {
     transform: translateY(175px) !important;
@@ -635,7 +688,6 @@ body::-webkit-scrollbar-thumb {
     z-index: 1;
     right: -20%;
   }
-
 }
 
 /* media screen 1200 */
@@ -680,7 +732,6 @@ body::-webkit-scrollbar-thumb {
 
 /* media max width screen 1200 */
 @media (max-width: 1200px) {
-
   /* nav bar tab and phone size */
   .phone {
     position: fixed;
@@ -731,7 +782,6 @@ body::-webkit-scrollbar-thumb {
     transform: translateY(70px) !important;
   }
 }
-
 
 /* max width 576px */
 @media (max-width: 576px) {
