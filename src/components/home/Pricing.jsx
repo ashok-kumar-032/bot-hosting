@@ -34,7 +34,7 @@ const Pricing = ({ Price }) => {
             className="justify-content-center position-relative"
             data-aos="fade-right"
             data-aos-delay="300"
-            data-aos-duration="3000"
+            data-aos-duration="2000"
           >
             <div>
               <img
@@ -60,7 +60,7 @@ const Pricing = ({ Price }) => {
                   className="mt_10 px_5px position-relative z-3"
                   data-aos="fade-right"
                   data-aos-delay="600"
-                  data-aos-duration="3000"
+                  data-aos-duration="2000"
                 >
                   <div className="p-3 bg_darkblack rounded-3 pricing_card">
                     <div className="p-sm-3">
