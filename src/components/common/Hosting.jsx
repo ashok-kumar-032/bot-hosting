@@ -5,8 +5,8 @@ import { Hostingcircle } from "./icons/Svgicons";
 const Hosting = () => {
   return (
     <>
-      <section className="">
-        <Container className="position-relative z-3">
+      <section className="mt-4 my-md-5 py-xl-5">
+        <Container className="position-relative z-3 pt-xl-5 pb-md-4">
           <div className="text-center">
             <p
               className="common_heading mb-lg-3 mb-2"
@@ -36,7 +36,7 @@ const Hosting = () => {
               <Col md={11}>
                 <div className="bg_imggrap p-sm-4 p-2 rounded-2 border-1 border border-black">
                   <div className="d-flex align-items-center gap-sm-4 gap-2 mb-sm-3 mb-2 wwwcome">
-                    <Hostingcircle/>
+                    <Hostingcircle />
                     <input
                       type="search"
                       placeholder="www.ComeUp.ai"
