@@ -6,23 +6,33 @@ import arrow from "../../assets/img/png/right_arrow.png";
 const ChooseUs = ({ ChooseUs }) => {
   return (
     <>
-      <section
-        className="py-sm-5 py-4 my-1 my-sm-0 my-xl-5 mw_1920 mx-auto overflow-hidden position-relative mw_1920 mx-auto overflow-hidden mt-5"
-        data-aos="fade-right"
-      >
+      <section className="py-sm-5 py-4 my-1 my-sm-0 my-xl-5 mw_1920 mx-auto overflow-hidden position-relative mw_1920 mx-auto overflow-hidden mt-5">
         <img
           src={bg_line}
           className="chooseus_bgline position-absolute w-100 d-none d-md-block"
           alt="bg_line"
         />
         <Container className="position-relative z-2 pt-xl-4">
-          <h2 className="common_heading text-center">
+          <h2
+            className="common_heading text-center"
+            data-aos="fade-down"
+            data-aos-delay="300"
+            data-aos-duration="2000"
+          >
             Why <span className="clr_blue">Choose Us?</span>
           </h2>
           <Row className="justify-content-center">
             {ChooseUs.map((Choose) => {
               return (
-                <Col key={Choose} lg={4} md={6} sm={11} className="px-1 mt-3">
+                <Col
+                  key={Choose}
+                  lg={4}
+                  md={6}
+                  sm={11}
+                  className="px-1 mt-3"
+                  data-aos="flip-left"
+                  data-aos-duration="3000"
+                >
                   <div
                     className={`p_md_40 p_xs_36 ms-md-1 cards_h ${Choose.choose_card}`}
                   >

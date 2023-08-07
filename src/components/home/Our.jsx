@@ -7,7 +7,7 @@ import los_4 from "../../assets/img/webp/los_4.webp";
 import our_back_1 from "../../assets/img/webp/our_back_1.webp";
 import our_left_img from "../../assets/img/png/our_left_img.png";
 
-const Our = ({img_none}) => {
+const Our = ({ img_none }) => {
   return (
     <section className="position-relative our_card_2 py-4">
       <div
@@ -19,7 +19,12 @@ const Our = ({img_none}) => {
         <div className="pt-3">
           <Container>
             <div className="our_box our_card_1 p-3">
-              <div className="text-white text-center pt-lg-4 pb-lg-5 pb-2 ">
+              <div
+                className="text-white text-center pt-lg-4 pb-lg-5 pb-2 "
+                data-aos="fade-down"
+                data-aos-delay="300"
+                data-aos-duration="2000"
+              >
                 <p className="common_heading">
                   Our <span className="clr_blue">Locations</span>
                 </p>
@@ -28,7 +33,12 @@ const Our = ({img_none}) => {
                 </p>
               </div>
               <Row className="pb-3">
-                <Col lg={4}>
+                <Col
+                  lg={4}
+                  data-aos="fade-right"
+                  data-aos-delay="300"
+                  data-aos-duration="3000"
+                >
                   <div className="d-flex align-items-center">
                     <span>
                       <img src={los} alt="los" />
@@ -43,7 +53,13 @@ const Our = ({img_none}) => {
                     </span>
                   </div>
                 </Col>
-                <Col lg={4} className="pt-3">
+                <Col
+                  lg={4}
+                  className="pt-3"
+                  data-aos="fade-right"
+                  data-aos-delay="600"
+                  data-aos-duration="3000"
+                >
                   <div className=" d-flex align-items-center">
                     <span>
                       <img src={los} alt="los" />
@@ -58,7 +74,13 @@ const Our = ({img_none}) => {
                     </span>
                   </div>
                 </Col>
-                <Col lg={4} className="pt-3">
+                <Col
+                  lg={4}
+                  className="pt-3"
+                  data-aos="fade-right"
+                  data-aos-delay="900"
+                  data-aos-duration="3000"
+                >
                   <div className=" d-flex align-items-center">
                     <span>
                       <img src={los} alt="los" />
@@ -73,7 +95,13 @@ const Our = ({img_none}) => {
                     </span>
                   </div>
                 </Col>
-                <Col lg={4} className="pt-lg-5 pt-3">
+                <Col
+                  lg={4}
+                  className="pt-lg-5 pt-3"
+                  data-aos="fade-right"
+                  data-aos-delay="300"
+                  data-aos-duration="3000"
+                >
                   <div className=" d-flex align-items-center">
                     <span>
                       <img src={los_2} alt="los_2" />
@@ -88,7 +116,13 @@ const Our = ({img_none}) => {
                     </span>
                   </div>
                 </Col>
-                <Col lg={4} className="pt-lg-5 pt-3">
+                <Col
+                  lg={4}
+                  className="pt-lg-5 pt-3"
+                  data-aos="fade-right"
+                  data-aos-delay="600"
+                  data-aos-duration="3000"
+                >
                   <div className="d-flex align-items-center">
                     <span>
                       <img src={los_3} alt="los_3" />
@@ -103,7 +137,13 @@ const Our = ({img_none}) => {
                     </span>
                   </div>
                 </Col>
-                <Col lg={4} className="pt-lg-5 pt-3">
+                <Col
+                  lg={4}
+                  className="pt-lg-5 pt-3"
+                  data-aos="fade-right"
+                  data-aos-delay="900"
+                  data-aos-duration="3000"
+                >
                   <div className=" d-flex align-items-center">
                     <span>
                       <img src={los_4} alt="los_4" />
