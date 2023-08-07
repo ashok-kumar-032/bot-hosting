@@ -12,7 +12,7 @@ const Hosting = () => {
               className="common_heading mb-lg-3 mb-2"
               data-aos="fade-down"
               data-aos-delay="300"
-              data-aos-duration="2000"
+              data-aos-duration="1500"
             >
               Game Hosting, <span className="clr_blue">simplified</span>
             </p>
@@ -20,7 +20,7 @@ const Hosting = () => {
               className="ff_inter fw-normal fs_2xl clr_white"
               data-aos="fade-down"
               data-aos-delay="300"
-              data-aos-duration="2000"
+              data-aos-duration="1500"
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lacus
               facilisi donec
@@ -31,7 +31,7 @@ const Hosting = () => {
             <Row
               className="justify-content-center pt-2"
               data-aos="zoom-in"
-              data-aos-duration="2000"
+              data-aos-duration="1500"
             >
               <Col md={11}>
                 <div className="bg_imggrap p-sm-4 p-2 rounded-2 border-1 border border-black">

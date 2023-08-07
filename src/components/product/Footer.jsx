@@ -162,7 +162,7 @@ const Footer = () => {
           <p
             className="text-center clr_white ff_roboto fw-light mb-0 fs_xl mt-4 pt-2 pt-lg-5"
             data-aos="flip-down"
-            data-aos-duration="2000"
+            data-aos-duration="1500"
           >
             © Copyright 2023
           </p>

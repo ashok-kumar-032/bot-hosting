@@ -17,7 +17,7 @@ const Pricing = ({ Price }) => {
             className="common_heading text-center"
             data-aos="fade-down"
             data-aos-delay="300"
-            data-aos-duration="2000"
+            data-aos-duration="1500"
           >
             Awesome <span className="clr_blue">Pricing Plan</span>
           </h2>
@@ -25,7 +25,7 @@ const Pricing = ({ Price }) => {
             className="common_para mw_550 mx-auto mb-4 pt-lg-4 pt-3 pb-lg-2 pb-3"
             data-aos="fade-down"
             data-aos-delay="300"
-            data-aos-duration="2000"
+            data-aos-duration="1500"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lacus
             facilisi donec egestas egestas pellentesque magna.
@@ -34,7 +34,7 @@ const Pricing = ({ Price }) => {
             className="justify-content-center position-relative"
             data-aos="fade-right"
             data-aos-delay="300"
-            data-aos-duration="2000"
+            data-aos-duration="1500"
           >
             <div>
               <img
@@ -60,7 +60,7 @@ const Pricing = ({ Price }) => {
                   className="mt_10 px_5px position-relative z-3"
                   data-aos="fade-right"
                   data-aos-delay="600"
-                  data-aos-duration="2000"
+                  data-aos-duration="1500"
                 >
                   <div className="p-3 bg_darkblack rounded-3 pricing_card">
                     <div className="p-sm-3">

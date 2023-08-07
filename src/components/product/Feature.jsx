@@ -11,7 +11,7 @@ const Feature = ({ feature }) => {
             className="common_heading mw_750 mx-auto text-center pt-sm-5 pt-xl-0"
             data-aos="fade-down"
             data-aos-delay="300"
-            data-aos-duration="2000"
+            data-aos-duration="1500"
           >
             YOU SHOULDN'T HAVE TO PAY EXTRA FORs
             <span className="clr_blue"> BASIC FEATURES</span>
@@ -20,7 +20,7 @@ const Feature = ({ feature }) => {
             className="common_para mw_550 mx-auto pb-md-4 mb-2 pt-4"
             data-aos="fade-down"
             data-aos-delay="300"
-            data-aos-duration="2000"
+            data-aos-duration="1500"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lacus
             facilisi donec egestas egestas pellentesque magna.

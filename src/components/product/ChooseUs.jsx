@@ -17,7 +17,7 @@ const ChooseUs = ({ ChooseUs }) => {
             className="common_heading text-center"
             data-aos="fade-down"
             data-aos-delay="300"
-            data-aos-duration="2000"
+            data-aos-duration="1500"
           >
             Why <span className="clr_blue">Choose Us?</span>
           </h2>
@@ -31,7 +31,7 @@ const ChooseUs = ({ ChooseUs }) => {
                   sm={11}
                   className="px-1 mt-3"
                   data-aos="flip-left"
-                  data-aos-duration="2000"
+                  data-aos-duration="1500"
                 >
                   <div
                     className={`p_md_40 p_xs_36 ms-md-1 cards_h rounded-5 ${chosecard.choose_card}`}
