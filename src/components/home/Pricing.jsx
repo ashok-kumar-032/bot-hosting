@@ -50,10 +50,10 @@ const Pricing = ({ Price }) => {
                 alt="box_group"
               />
             </div>
-            {Price.map((price, plan) => {
+            {Price.map((price) => {
               return (
                 <Col
-                  key={plan}
+                  key={price.id}
                   lg={4}
                   md={6}
                   sm={11}

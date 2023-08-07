@@ -26,10 +26,10 @@ const Feature = ({ feature }) => {
             facilisi donec egestas egestas pellentesque magna.
           </p>
           <Row className="pt-1">
-            {feature.map((feature, f_card) => {
+            {feature.map((featurecard) => {
               return (
                 <Col
-                  key={f_card}
+                  key={featurecard.id}
                   xl={4}
                   md={6}
                   className="px-2"
@@ -39,13 +39,13 @@ const Feature = ({ feature }) => {
                     <div className="d-flex align-items-center">
                       <div>
                         <img
-                          src={feature.f_img}
+                          src={featurecard.f_img}
                           className="w_48 h_48"
                           alt="out_features"
                         />
                       </div>
                       <h4 className="ps-3 fs_xl ff_inter clr_white mb-0 fw-semibold">
-                        {feature.f_heading}
+                        {featurecard.f_heading}
                       </h4>
                     </div>
                     <div>
