@@ -706,10 +706,9 @@ body::-webkit-scrollbar-thumb {
 @media (min-width: 1200px) {
   .hero_img_overflow {
     position: absolute;
-    width: 100%;
-    max-width: 765px;
-    top: 25%;
-    right: 0;
+    width: 50%;
+    top: 20%;
+    right: 5%;
   }
 
   .our_card_1 {
@@ -722,7 +721,7 @@ body::-webkit-scrollbar-thumb {
 
   .about_top {
     transform: translateY(-300px) !important;
-    margin-top: 400px;
+    margin-top: 300px;
   }
 
   .our_box {

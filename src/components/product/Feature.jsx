@@ -5,7 +5,7 @@ import arrow from "../../assets/img/png/right_arrow.png";
 const Feature = ({ feature }) => {
   return (
     <>
-      <section className="pt-sm-5 pb-3 my-sm-0 my-xl-5">
+      <section className="">
         <Container>
           <h2
             className="common_heading mw_750 mx-auto text-center pt-sm-5 pt-xl-0"

@@ -8,7 +8,7 @@ import pricing_right from "../../assets/img/png/pricing_right.png";
 const Pricing = ({ Price }) => {
   return (
     <>
-      <section className="py-sm-5 py-sm-3 my-sm-0 my-xl-5 position-relative">
+      <section className="position-relative">
         <div className="pricing_right position-absolute d-none d-xl-block">
           <img src={pricing_right} alt="pricing_right" />
         </div>

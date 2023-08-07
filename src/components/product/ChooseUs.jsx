@@ -6,7 +6,7 @@ import arrow from "../../assets/img/png/right_arrow.png";
 const ChooseUs = ({ ChooseUs }) => {
   return (
     <>
-      <section className="py-sm-5 py-4 my-1 my-sm-0 my-xl-5 position-relative overflow-hidden mt-5">
+      <section className="position-relative overflow-hidden mt-5">
         <img
           src={bg_line}
           className="chooseus_bgline position-absolute w-100 d-none d-md-block"

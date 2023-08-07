@@ -9,14 +9,14 @@ import our_left_img from "../../assets/img/png/our_left_img.png";
 
 const Our = ({ img_none }) => {
   return (
-    <section className="position-relative our_card_2 pb-4 py-ms-4 pt-lg-5">
+    <section className="position-relative our_card_2">
       <div
         className={`our_left_img position-absolute d-none d-xl-block ${img_none}`}
       >
         <img src={our_left_img} alt="our_left_img" />
       </div>
       <div className="back_effect our_card rounded-4">
-        <div className="pt-3">
+        <div>
           <Container>
             <div className="our_box our_card_1 p-3">
               <div

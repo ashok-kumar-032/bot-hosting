@@ -6,17 +6,17 @@ import { Scrollicon, Viewproject } from "../common/icons/Svgicons";
 const Hero = () => {
   return (
     <>
-      <section className="bg_heroimg d-flex flex-column position-relative overflow-x-hidden">
+      <section className="bg_heroimg d-flex flex-column position-relative overflow-hidden mw_1920 mx-auto">
         <Header />
         <Container className="pt-lg-5 mt-3 pb-5 flex-grow-1">
           <Row className="align-items-center justify-content-xl-between justify-content-center h-75">
-            <Col xl={6}>
+            <Col xl={5}>
               <div className="text-center text-xl-start align-items-xl-start d-flex flex-column align-items-center position-relative z-3">
                 <p className="ff_inter fs_md fw-medium text-uppercase clr_white mb-2 box_host ls_4 ps-4 ms-2 position-relative">
                   Hosting
                 </p>
                 <h2 className="ff_rubik fw-bold fs_9xl clr_white py-lg-4 mb-0">
-                  Discord Bot Hosting
+                  Discord <span className="d-block">Bot Hosting</span>
                 </h2>
                 <p className="ff_rubik fw-normal fs_4xl clr_white pb-lg-3">
                   Instantly Deploy Minecraft, Rust, CSGO & More Game Servers in
