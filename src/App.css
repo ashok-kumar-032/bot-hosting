@@ -720,8 +720,8 @@ body::-webkit-scrollbar-thumb {
   }
 
   .about_top {
-    transform: translateY(-300px) !important;
-    margin-top: 300px;
+    transform: translateY(-260px) !important;
+    margin-top: 300px !important;
   }
 
   .our_box {

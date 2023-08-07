@@ -49,7 +49,7 @@ const Testimonials = ({ clients }) => {
   const clintsbtn = useRef();
   return (
     <>
-      <section className="">
+      <section>
         <Container>
           <div
             className="text-center"

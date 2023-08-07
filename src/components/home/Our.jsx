@@ -17,7 +17,7 @@ const Our = ({ img_none }) => {
       </div>
       <div className="back_effect our_card rounded-4">
         <div>
-          <Container>
+          <Container className="pt-sm-5 mb-sm-3 pt-3 mb-xl-0 pt-xl-0">
             <div className="our_box our_card_1 p-3">
               <div
                 className="text-white text-center pt-lg-4 pb-lg-5 pb-2 "

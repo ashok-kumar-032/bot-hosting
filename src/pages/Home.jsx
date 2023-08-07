@@ -23,8 +23,8 @@ const Home = () => {
       <Our />
       <ChooseUs ChooseUs={Choose} />
        </div>
-      <div className="bg_footerimg">
-        <div className="about_top">
+      <div className="bg_footerimg py-5 py-lg-0">
+        <div className="about_top my-3 my-lg-0">
           <Testimonials clients={Clientdata} />
           <Newsletter />
           <Footer />
