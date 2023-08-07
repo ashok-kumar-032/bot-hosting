@@ -16,10 +16,10 @@ const Footer = () => {
               data-aos-delay="300"
               data-aos-duration="3000"
             >
-              <h3 className="ff_oswald clr_white fw-medium mb-0 pb-3 pb-sm-0 fs_5xl text-center text-sm-start c_pointer">
+              <h3 className="ff_overpass clr_white fw-medium mb-0 pb-3 pb-sm-0 fs_5xl text-center text-sm-start c_pointer">
                 Logo
               </h3>
-              <p className="clr_gray ff_oswald fw-normal fs_sm lh_24 mb-lg-4 pb-2 pt-2 mt-1 mx-auto ms-sm-0 mw_457 text-center text-sm-start">
+              <p className="clr_gray ff_overpass fw-normal fs_sm lh_24 mb-lg-4 pb-2 pt-2 mt-1 mx-auto ms-sm-0 mw_457 text-center text-sm-start">
                 We ara a lorem ipsum dolor sit amet, consectetur adipiscing
                 elit, sed do eiusmod tempor incididunt ut labore et dolore magna
                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation

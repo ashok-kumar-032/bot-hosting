@@ -21,7 +21,6 @@ const Pricing = ({ Price }) => {
           >
             Awesome <span className="clr_blue">Pricing Plan</span>
           </h2>
-<<<<<<< HEAD
           <p
             className="common_para mw_550 mx-auto mb-4 pt-lg-4 pt-3 pb-lg-2 pb-3"
             data-aos="fade-down"
@@ -37,13 +36,6 @@ const Pricing = ({ Price }) => {
             data-aos-delay="300"
             data-aos-duration="3000"
           >
-=======
-          <p className="common_para mw_550 mx-auto mb-sm-4 pt-lg-4 pt-3 pb-lg-2 pb-3">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lacus
-            facilisi donec egestas egestas pellentesque magna.
-          </p>
-          <Row className="justify-content-center position-relative pt-lg-4 mt-lg-3">
->>>>>>> 8ef5fa7cafbdb553894da7d730fb2eddc9c44404
             <div>
               <img
                 src={box_group}
@@ -172,16 +164,7 @@ const Pricing = ({ Price }) => {
               );
             })}
           </Row>
-<<<<<<< HEAD
-          <div className="text-center pt-5">
-            <button className="ff_inter pricing_getbtn clr_white fw-semibold fs_2xl">
-              Get a Quote
-              <img src={btn_arrow} alt="right_arrow" className="ps-1"></img>
-            </button>
-          </div>
-=======
           <div className="text-center pt-5 d-none d-sm-block"><button className="ff_inter pricing_getbtn clr_white fw-semibold fs_2xl">Get a Quote<img src={btn_arrow} alt="right_arrow" className="ps-1"></img></button></div>
->>>>>>> 8ef5fa7cafbdb553894da7d730fb2eddc9c44404
         </Container>
       </section>
     </>
