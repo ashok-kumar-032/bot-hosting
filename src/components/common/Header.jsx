@@ -19,7 +19,7 @@ const Header = () => {
   }
   return (
     <>
-      <section className="pt-5">
+      <section className="pt-lg-5 pt-4">
         <Container>
           <div className="d-flex justify-content-between align-items-center">
             <h4 className="ff_oswald fs_6xl fw-semibold clr_white pointer">

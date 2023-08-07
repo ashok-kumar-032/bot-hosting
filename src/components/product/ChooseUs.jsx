@@ -24,7 +24,7 @@ const ChooseUs = ({ ChooseUs }) => {
               return (
                 <Col key={Choose} lg={4} md={6} sm={11} className="px-1 mt-3">
                   <div
-                    className={`p_md_40 p_xs_36 ms-md-1 cards_h ${Choose.choose_card}`}
+                    className={`p_md_40 p_xs_36 ms-md-1 cards_h rounded-5 ${Choose.choose_card}`}
                   >
                     <h3 className="ff_inter clr_white fw-semibold fs_4xl mb-0">
                       {Choose.bigheading}

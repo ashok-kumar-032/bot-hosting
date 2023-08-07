@@ -16,11 +16,11 @@ const Pricing = ({ Price }) => {
           <h2 className="common_heading text-center">
             Awesome <span className="clr_blue">Pricing Plan</span>
           </h2>
-          <p className="common_para mw_550 mx-auto mb-4 pt-lg-4 pt-3 pb-lg-2 pb-3">
+          <p className="common_para mw_550 mx-auto mb-sm-4 pt-lg-4 pt-3 pb-lg-2 pb-3">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lacus
             facilisi donec egestas egestas pellentesque magna.
           </p>
-          <Row className="justify-content-center position-relative">
+          <Row className="justify-content-center position-relative pt-lg-4 mt-lg-3">
             <div>
               <img
                 src={box_group}
@@ -148,7 +148,7 @@ const Pricing = ({ Price }) => {
               );
             })}
           </Row>
-          <div className="text-center pt-5"><button className="ff_inter pricing_getbtn clr_white fw-semibold fs_2xl">Get a Quote<img src={btn_arrow} alt="right_arrow" className="ps-1"></img></button></div>
+          <div className="text-center pt-5 d-none d-sm-block"><button className="ff_inter pricing_getbtn clr_white fw-semibold fs_2xl">Get a Quote<img src={btn_arrow} alt="right_arrow" className="ps-1"></img></button></div>
         </Container>
       </section>
     </>
