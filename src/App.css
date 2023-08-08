@@ -191,7 +191,7 @@ body::-webkit-scrollbar-thumb {
   box-shadow: none !important;
   border: none !important;
 }
-.btn-primary{
+.btn-primary {
   background: none !important;
 }
 .btn {
@@ -206,7 +206,7 @@ body::-webkit-scrollbar-thumb {
   padding-left: 5px;
   margin-top: -40px;
   vertical-align: 0.255em;
- }
+}
 .btn:hover {
   background: none !important;
   border: none !important;
@@ -647,7 +647,9 @@ body::-webkit-scrollbar-thumb {
 .footer_icon:hover {
   transform: translateY(-10px);
 }
-
+.our_card_1 {
+  border-radius: 20px;
+}
 /* media screen 576 */
 
 @media (min-width: 576px) {
@@ -710,18 +712,13 @@ body::-webkit-scrollbar-thumb {
     top: 20%;
     right: 5%;
   }
-
-  .our_card_1 {
-    border-radius: 20px;
-  }
-
   .about_b {
     margin-bottom: -300px !important;
   }
 
   .about_top {
-    transform: translateY(-300px) !important;
-    margin-top: 300px;
+    transform: translateY(-260px) !important;
+    margin-top: 300px !important;
   }
 
   .our_box {
@@ -781,10 +778,6 @@ body::-webkit-scrollbar-thumb {
 
 /* media max width 992 */
 @media (max-width: 992px) {
-  .our_card_1 {
-    border-radius: 20px;
-  }
-
   .our_box {
     background-image: url(../src/assets/img/webp/our_box_img.webp);
     background-position: center;
@@ -804,10 +797,6 @@ body::-webkit-scrollbar-thumb {
 
 /* max width 576px */
 @media (max-width: 576px) {
-  .our_card_1 {
-    border-radius: 0px !important;
-  }
-
   .our_card {
     transform: translateY(50px) !important;
   }

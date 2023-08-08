@@ -6,13 +6,13 @@ import arrow from "../../assets/img/png/right_arrow.png";
 const ChooseUs = ({ ChooseUs }) => {
   return (
     <>
-      <section className="position-relative overflow-hidden my-md-5 my-4 py-xl-5">
+      <section className="position-relative overflow-hidden py-sm-5 my-xl-4 py-3">
         <img
           src={bg_line}
           className="chooseus_bgline position-absolute w-100 d-none d-md-block"
           alt="bg_line"
         />
-        <Container className="position-relative z-2 py-xl-5">
+        <Container className="position-relative z-2 mt-xl-5">
           <h2
             className="common_heading text-center"
             data-aos="fade-down"

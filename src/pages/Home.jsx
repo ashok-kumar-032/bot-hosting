@@ -24,7 +24,7 @@ const Home = () => {
       <ChooseUs ChooseUs={Choose} />
        </div>
       <div className="bg_footerimg">
-        <div className="about_top">
+        <div className="about_top pt-2">
           <Testimonials clients={Clientdata} />
           <Newsletter />
           <Footer />

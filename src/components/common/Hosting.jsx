@@ -5,8 +5,8 @@ import { Hostingcircle } from "./icons/Svgicons";
 const Hosting = () => {
   return (
     <>
-      <section className="mt-4 my-md-5 py-xl-5">
-        <Container className="position-relative z-3 pt-xl-5 pb-md-4">
+      <section className="py-sm-5 my-xl-4 py-3">
+        <Container className="position-relative z-3">
           <div className="text-center">
             <p
               className="common_heading mb-lg-3 mb-2"

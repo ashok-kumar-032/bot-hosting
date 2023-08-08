@@ -26,15 +26,13 @@ const Testimonials = ({ clients }) => {
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
-          infinite: true,
         },
       },
       {
         breakpoint: 768,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2,
+          slidesToScroll: 1,
         },
       },
       {
@@ -49,8 +47,8 @@ const Testimonials = ({ clients }) => {
   const clintsbtn = useRef();
   return (
     <>
-      <section className="">
-        <Container>
+      <section className="my-sm-5 my-3">
+        <Container className="my-xl-4">
           <div
             className="text-center"
             data-aos="zoom-in"
@@ -66,19 +64,19 @@ const Testimonials = ({ clients }) => {
               return (
                 <div
                   key={card.id}
-                  className="px_5px px-1 mt-5"
+                  className="px_5px mt-2 mt-lg-4 mt-xxl-5"
                   data-aos="flip-left"
                   data-aos-duration="1500"
                 >
-                  <div className="bg_darkblack py-3 px-2 rounded-3 h-100 cards_h">
-                    <div className="d-flex gap-1 mb-4 pt-1 px-1">
+                  <div className="bg_darkblack py-lg-3 py-2  px-2 rounded-3 h-100 cards_h">
+                    <div className="d-flex gap-1 mb-lg-4 mb-2 pt-1 px-1">
                       <img src={star} alt="star" width={19} height={19} />
                       <img src={star} alt="star" width={19} height={19} />
                       <img src={star} alt="star" width={19} height={19} />
                       <img src={star} alt="star" width={19} height={19} />
                       <img src={star} alt="star" width={19} height={19} />
                     </div>
-                    <p className="ff_open fs_lg fw-normal clr_gray py-2 mb-4 px-1 line_h28">
+                    <p className="ff_open fs_lg fw-normal clr_gray py-2 mb-lg-4 mb-2 px-1 line_h28">
                       {card.para}
                     </p>
                     <div className="d-flex align-items-center gap-2 px-1 pb-1">

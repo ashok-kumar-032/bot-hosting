@@ -7,12 +7,10 @@ import linkdin from "../../assets/img/png/footer_linkdin.png";
 const Footer = () => {
   return (
     <>
-      <section className="footer_s">
+      <section className="footer_s pt-sm-5 mt-xl-4 pt-3">
         <Container className="about_b">
           <Row className="justify-content-between pb-1 pb-sm-0">
-            <Col
-              lg={4}
-            >
+            <Col lg={4}>
               <h3 className=" ff_overpass clr_white fw-medium mb-0 pb-3 pb-sm-0 fs_5xl text-center text-sm-start c_pointer">
                 Logo
               </h3>
@@ -56,12 +54,7 @@ const Footer = () => {
             </Col>
             <Col lg={7} className="d-none d-sm-block">
               <Row className="justify-content-between pt-4 pt-lg-0 px-2">
-                <Col
-                  sm={6}
-                  md={3}
-                  className="px-0"
-                  
-                >
+                <Col sm={6} md={3} className="px-0">
                   <h4 className="clr_white ff_rubik fw-medium fs_2xl mb-0">
                     Company
                   </h4>
@@ -79,12 +72,7 @@ const Footer = () => {
                     </li>
                   </ul>
                 </Col>
-                <Col
-                  sm={6}
-                  md={3}
-                  className="px-0"
-                 
-                >
+                <Col sm={6} md={3} className="px-0">
                   <h4 className="clr_white ff_rubik fw-medium fs_2xl mb-0">
                     Services
                   </h4>
@@ -103,11 +91,7 @@ const Footer = () => {
                     </li>
                   </ul>
                 </Col>
-                <Col
-                  sm={6}
-                  md={3}
-                  className="px-0 pt-3 pt-md-0"
-                >
+                <Col sm={6} md={3} className="px-0 pt-3 pt-md-0">
                   <h4 className="clr_white ff_rubik fw-medium fs_2xl mb-0">
                     About
                   </h4>
@@ -126,12 +110,7 @@ const Footer = () => {
                     </li>
                   </ul>
                 </Col>
-                <Col
-                  sm={6}
-                  md={3}
-                  className="px-0 pt-3 pt-md-0"
-                 
-                >
+                <Col sm={6} md={3} className="px-0 pt-3 pt-md-0">
                   <h4 className="clr_white ff_rubik fw-medium fs_2xl mb-0">
                     Help
                   </h4>
@@ -147,10 +126,7 @@ const Footer = () => {
               </Row>
             </Col>
           </Row>
-          <p
-            className="text-center clr_white ff_roboto fw-light mb-0 fs_xl mt-4 pt-2 pt-lg-5"
-        
-          >
+          <p className="text-center clr_white ff_roboto fw-light mb-0 fs_xl mt-4 pt-2 pt-lg-5">
             © Copyright 2023
           </p>
         </Container>
