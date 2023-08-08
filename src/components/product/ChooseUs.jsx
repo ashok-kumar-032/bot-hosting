@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import bg_line from "../../assets/img/webp/chooseus_bg_layer.webp";
 import massageimg from "../../assets/img/png/message_icon.png";
-import arrow from "../../assets/img/png/right_arrow.png";
+import arrow from "../../assets/img/svg/right_arrow.svg";
 const ChooseUs = ({ ChooseUs }) => {
   return (
     <>
@@ -15,9 +15,6 @@ const ChooseUs = ({ ChooseUs }) => {
         <Container className="position-relative z-2 mt-xl-5">
           <h2
             className="common_heading text-center"
-            data-aos="fade-down"
-            data-aos-delay="300"
-            data-aos-duration="1500"
           >
             Why <span className="clr_blue">Choose Us?</span>
           </h2>
@@ -30,8 +27,7 @@ const ChooseUs = ({ ChooseUs }) => {
                   md={6}
                   sm={11}
                   className="px-1 mt-3"
-                  data-aos="flip-left"
-                  data-aos-duration="1500"
+                  
                 >
                   <div
                     className={`p_md_40 p_xs_36 ms-md-1 cards_h rounded-5 ${chosecard.choose_card}`}
@@ -47,11 +43,13 @@ const ChooseUs = ({ ChooseUs }) => {
                       Verkaufsorganisationen auf eine kapitaleffiziente Weise
                       aufzubauen und zu skalieren
                     </p>
-                    <div className="d-flex pt-4 mt-2 align-items-center justify-content-between">
+                    <div className="d-flex pt-4 mt-2 align-items-center justify-content-between choose_card_h">
                       <div>
                         <img
                           className="w_48 h_48"
                           src={massageimg}
+                          width={43}
+                          height={43}
                           alt="massage_icon"
                         />
                       </div>

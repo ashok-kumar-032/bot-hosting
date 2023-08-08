@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row } from "react-bootstrap";
 import { Col } from "react-bootstrap/esm";
 import modpack_right from "../../assets/img/webp/modpack_rightimg.webp";
-import rightarrow from "../../assets/img/png/started_r_arrow.png";
+import rightarrow from "../../assets/img/svg/started_r_arrow.svg";
 const ModPAck = ({ modpack }) => {
   return (
     <>

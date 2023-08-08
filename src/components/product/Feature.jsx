@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import { Col, Row } from "react-bootstrap/esm";
-import arrow from "../../assets/img/png/right_arrow.png";
+import arrow from "../../assets/img/svg/right_arrow.svg";
 const Feature = ({ feature }) => {
   return (
     <>
@@ -17,10 +17,8 @@ const Feature = ({ feature }) => {
             <span className="clr_blue"> BASIC FEATURES</span>
           </h2>
           <p
-            className="common_para mw_550 mx-auto pb-md-4 mb-2 pt-4"
-            data-aos="fade-down"
-            data-aos-delay="300"
-            data-aos-duration="1500"
+            className="common_para mw_550 mx-auto pb-md-4 mb-2 pt-sm-4 pt-2"
+
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lacus
             facilisi donec egestas egestas pellentesque magna.
@@ -32,8 +30,8 @@ const Feature = ({ feature }) => {
                   key={featurecard.id}
                   xl={4}
                   md={6}
-                  className="px-2"
-                  data-aos="fade-right"
+                  className="px-3"
+                  
                 >
                   <div className="feature_card d-flex align-items-center p_20 border_r_10 bg_offblack mt-3 justify-content-between">
                     <div className="d-flex align-items-center">
@@ -41,6 +39,8 @@ const Feature = ({ feature }) => {
                         <img
                           src={featurecard.f_img}
                           className="w_48 h_48"
+                          width={43}
+                          height={43}
                           alt="out_features"
                         />
                       </div>
