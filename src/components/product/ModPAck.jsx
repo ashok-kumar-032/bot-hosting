@@ -6,27 +6,17 @@ import rightarrow from "../../assets/img/svg/started_r_arrow.svg";
 const ModPAck = ({ modpack }) => {
   return (
     <>
-      <section className="position-relative  py-3 my-1 my-sm-0 my-xl-5">
+      <section className="position-relative py-sm-5 my-xl-4 py-3">
         <img
           src={modpack_right}
           alt="box_grops"
           className="modpack_rightimg z-0 position-absolute"
         />
         <Container className="position-relative z-1">
-          <h2
-            className="common_heading text-center"
-            data-aos="fade-down"
-            data-aos-delay="300"
-            data-aos-duration="1500"
-          >
+          <h2 className="common_heading text-center">
             GET A PRE <span className="clr_blue">-INSTALLED MODPACK</span>
           </h2>
-          <p
-            className="common_para mw_550 mx-auto pb-xl-4 pt-2 pt-xxl-4"
-            data-aos="fade-down"
-            data-aos-delay="300"
-            data-aos-duration="1500"
-          >
+          <p className="common_para mw_550 mx-auto py-lg-4 py-3 mb-xl-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lacus
             facilisi donec egestas egestas pellentesque magna.
           </p>
@@ -39,7 +29,6 @@ const ModPAck = ({ modpack }) => {
                   md={6}
                   sm={11}
                   className="px-2 mt-3"
-                  data-aos="zoom-in-up"
                 >
                   <div className="bg_darkblack p_25 border_r_15 mod_card">
                     <div>

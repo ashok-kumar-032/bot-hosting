@@ -49,12 +49,8 @@ const Testimonials = ({ clients }) => {
     <>
       <section className="my-sm-5 my-3">
         <Container className="my-xl-4">
-          <div
-            className="text-center"
-            data-aos="zoom-in"
-            data-aos-duration="1500"
-          >
-            <p className="ff_rubik fw-normal fs_2xl text-uppercase clr_blue mb-2">
+          <div className="text-center">
+            <p className="ff_rubik fw-normal fs_2xl text-uppercase clr_blue mb-2 pb-md-1">
               testimonials
             </p>
             <p className="common_heading">What Our Clients Say About Us</p>
@@ -62,12 +58,7 @@ const Testimonials = ({ clients }) => {
           <Slider {...clientsslider} ref={clintsbtn}>
             {clients.map((card) => {
               return (
-                <div
-                  key={card.id}
-                  className="px_5px mt-2 mt-lg-4 mt-xxl-5"
-                  data-aos="flip-left"
-                  data-aos-duration="1500"
-                >
+                <div key={card.id} className="px_5px mt-2 mt-lg-4 mt-xxl-5">
                   <div className="bg_darkblack py-lg-3 py-2  px-2 rounded-3 h-100 cards_h">
                     <div className="d-flex gap-1 mb-lg-4 mb-2 pt-1 px-1">
                       <img src={star} alt="star" width={19} height={19} />
@@ -101,7 +92,7 @@ const Testimonials = ({ clients }) => {
               );
             })}
           </Slider>
-          <div className="d-flex gap-3 justify-content-center mt-3 pt-1 d-xl-none">
+          <div className="d-flex gap-3 justify-content-center mt-3 pt-md-1 d-xl-none">
             <div
               className="btn_slider d-flex justify-content-center align-items-center"
               onClick={() => clintsbtn.current.slickPrev()}
@@ -115,7 +106,7 @@ const Testimonials = ({ clients }) => {
               <Sliderarrowright />
             </div>
           </div>
-          <Row className="justify-content-center mt-5">
+          <Row className="justify-content-center mt-lg-5 mt-sm-4 mt-3 ">
             <Col
               lg={9}
               data-aos="fade-down"
@@ -129,7 +120,7 @@ const Testimonials = ({ clients }) => {
                     alt="friendly"
                     className="friendlyimg mb-lg-3 mb-1 pb-1"
                   />
-                  <p className="ff_open clignts_fs_16 fw-normal clr_graywhite">
+                  <p className="ff_open clignts_fs_16 fw-normal clr_graywhite mb-0">
                     <span className="fw-bold">Friendly</span> customer support
                     team
                   </p>
@@ -168,7 +159,7 @@ const Testimonials = ({ clients }) => {
                       className="yellowstartwidth"
                     />
                   </div>
-                  <p className="ff_open clignts_fs_16 fw-normal clr_graywhite">
+                  <p className="ff_open clignts_fs_16 fw-normal clr_graywhite mb-0">
                     <span className="fw-bold">4.6 out of 5 stars </span> from
                     8.6k reviews
                   </p>
@@ -180,7 +171,7 @@ const Testimonials = ({ clients }) => {
                     alt="likethem"
                     className="likethem_w48 mb-lg-3 mb-1 pb-1"
                   />
-                  <p className="ff_open clignts_fs_16 fw-normal clr_graywhite">
+                  <p className="ff_open clignts_fs_16 fw-normal clr_graywhite mb-0">
                     We’re making
                     <span className="fw-bold"> insurance as simple as</span> can
                     be

@@ -147,7 +147,9 @@ body::-webkit-scrollbar-thumb {
 .mt_10 {
   margin-top: 10px !important;
 }
-
+.h_45 {
+  height: 45px !important;
+}
 .px_5px {
   padding-left: 5px !important;
   padding-right: 5px !important;
@@ -227,7 +229,11 @@ body::-webkit-scrollbar-thumb {
   margin-top: -40px;
   vertical-align: 0.255em;
 }
-
+.dropdown-item {
+  color: black !important;
+  font-family: "Rubik" !important;
+  font-weight: 700 !important;
+}
 .btn:hover {
   background: none !important;
   border: none !important;
@@ -256,14 +262,13 @@ body::-webkit-scrollbar-thumb {
 }
 
 .btn_login {
-  padding: 18px 40px;
+  padding: 14px 40px;
+  border: 1px solid transparent;
 }
 
 .btn_login:hover {
-  background: linear-gradient(27deg,
-      rgba(0, 63, 243, 0.8) 0%,
-      rgba(48, 156, 255, 0.8) 100%),
-    #2898ff;
+  background-color: transparent;
+  border: 1px solid white !important;
 }
 
 .line_h28 {
@@ -394,7 +399,7 @@ body::-webkit-scrollbar-thumb {
 .wwwcome ::placeholder {
   color: var(--color-clr-gray);
   font-family: DM Sans;
-  font-size: 17.071px;
+  font-size: var(--fs-xl);
   font-style: normal;
   font-weight: 400;
 }
@@ -584,10 +589,6 @@ body::-webkit-scrollbar-thumb {
       rgba(0, 63, 243, 0.8) 0%,
       rgba(48, 156, 255, 0.8) 100%),
     #2898ff;
-  background-position: center !important;
-  background-size: 105% 105% !important;
-  margin: 5px !important;
-
 }
 
 .pricing_top_box {
@@ -633,7 +634,7 @@ body::-webkit-scrollbar-thumb {
   background-image: url(./assets/img/png/bgfooter.png);
   background-repeat: no-repeat;
   background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 150px 150px 0 0;
+  border-radius: 190px 190px 0 0;
   background-size: cover;
 }
 
@@ -802,10 +803,11 @@ body::-webkit-scrollbar-thumb {
     position: fixed;
     right: 0;
     top: 0;
-    width: 400px;
-    background-color: black;
-    height: 50%;
+    width: 306px;
+    background-color: var(--color-clr-black200);
+    padding: 70px 45px;
     z-index: 29;
+    border-radius: 0px 0px 0px 10px;
     clip-path: circle(0px at calc(100% - 45px) 45px);
     transition: all 500ms ease-out;
     pointer-events: none;
@@ -848,10 +850,6 @@ body::-webkit-scrollbar-thumb {
 @media (max-width: 576px) {
   .our_card {
     transform: translateY(50px) !important;
-  }
-
-  .phone {
-    width: 100%;
   }
 
   .mw_534 {

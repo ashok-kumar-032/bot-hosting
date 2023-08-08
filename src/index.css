@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
@@ -43,21 +43,21 @@
   --fs-4xl: 14px;
   --fs-3xl: 16px;
   --fs-2xl: 16px;
-  --fs-xl: 17px;
+  --fs-xl: 13px;
   --fs-lg: 16px;
   --fs-md: 15px;
   --fs-sm: 14px;
   --fs-xsm: 12px;
-  --color-clr_white: #FFF !important;
-  --color-clr-gray: #9A9EA6 !important;
-  --color-clr-blue200: #0062FF !important;
-  --color-clr_white100: #FCFCFF !important;
-  --color-clr_white200: #FbFbFb !important;
-  --color-clr_white300: #F9F9F9 !important;
-  --color-clr_blue: #0D6EFD !important;
-  --color-clr_offblue: #2F7FEE !important;
-  --color-clr_blue100: #0F4BFD !important;
-  --color-bg-offblack: #18181F !important;
+  --color-clr_white: #fff !important;
+  --color-clr-gray: #9a9ea6 !important;
+  --color-clr-blue200: #0062ff !important;
+  --color-clr_white100: #fcfcff !important;
+  --color-clr_white200: #fbfbfb !important;
+  --color-clr_white300: #f9f9f9 !important;
+  --color-clr_blue: #0d6efd !important;
+  --color-clr_offblue: #2f7fee !important;
+  --color-clr_blue100: #0f4bfd !important;
+  --color-bg-offblack: #18181f !important;
   --color-clr_blue: #0d6efd !important;
   --color-bg-darkblack: #111116 !important;
   --color-clr-gray: #b2b8c8 !important;
@@ -66,6 +66,7 @@
   --color-clr-lightgreen: #8ba3b7 !important;
   --color-clr-graywhite: #eaeef1 !important;
   --color-bg-blacklight: #212132 !important;
+  --color-clr-black200: #1d1d27;
   --color-bg-blue: #206dfd !important;
 }
 
@@ -84,7 +85,9 @@
 .bg_blacklight {
   background-color: var(--color-bg-blacklight);
 }
-
+.bg_black200 {
+  background-color: var(--color-clr-black200);
+}
 /* coloer */
 .clr_blue100 {
   color: var(--color-clr_blue100);

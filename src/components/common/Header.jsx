@@ -7,6 +7,7 @@ import linkdin from "../../assets/img/png/linkdin.png";
 import add from "../../assets/img/png/adduser.png";
 import navbtn from "../../assets/img/svg/navbtn.svg";
 import { Link } from "react-router-dom";
+import { RxCross1 } from "react-icons/rx";
 const Header = () => {
   const [head, sethead] = useState(true);
   function showUl() {
@@ -22,24 +23,31 @@ const Header = () => {
       <section className="pt-xxl-5 pt-lg-4 pt-3">
         <Container>
           <div className="d-flex justify-content-between align-items-center">
-            <h4 className="ff_oswald fs_6xl fw-semibold clr_white pointer">
-              Web Design
+            <h4>
+              <Link to="/" className="ff_oswald fs_6xl fw-semibold clr_white">
+                Web Design
+              </Link>
             </h4>
             <div onClick={showUl} className="z_30">
-              <h3 className="d-xl-none mb-0 clr_blue">
-                <img src={navbtn} alt="navbtn" />
+              <h3 className="d-xl-none mb-0 clr_white">
+                {head ? (
+                  <img src={navbtn} alt="navbtn" width={45} height={45} />
+                ) : (
+                  <div className="h_45">
+                    <RxCross1 />
+                  </div>
+                )}
               </h3>
             </div>
             <div
-              className={`d-flex align-items-center justify-content-center flex-column phone ${
+              className={`d-flex flex-column phone ${
                 head ? "" : "left_0  clip_path"
               }`}
-              onClick={() => sethead(true)}
             >
-              <button className="bg_clrblue border-0 rounded-pill clr_white ff_rubik fs_3xl fw-bold btn_login mb-4 d-xl-none">
+              <button className="bg_clrblue rounded-pill clr_white d-flex gap-2 justify-content-center ff_rubik fs_3xl fw-bold btn_login mb-4 d-xl-none">
                 <img src={add} alt="add" width={23} height={23} /> Login
               </button>
-              <ul className="d-flex gap-xl-4 gap-3 align-xl-items-center p-0 mb-0 flex-column flex-xl-row">
+              <ul className="d-flex gap-xl-4 mt-2 mt-xl-0 gap-3 align-xl-items-center p-0 mb-0 flex-column flex-xl-row">
                 <li>
                   <Link
                     to="/"
@@ -63,46 +71,49 @@ const Header = () => {
                     </Dropdown.Toggle>
 
                     <Dropdown.Menu>
-                      <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                      <Dropdown.Item href="#/action-1">Discord</Dropdown.Item>
                       <Dropdown.Item href="#/action-2">
-                        Another action
-                      </Dropdown.Item>
-                      <Dropdown.Item href="#/action-3">
-                        Something else
+                        Bot Hosting
                       </Dropdown.Item>
                     </Dropdown.Menu>
                   </Dropdown>
                 </li>
               </ul>
-              <div className="d-flex align-items-center gap-2 d-xl-none iconsnav">
-                <a href="#">
+              <div className="d-flex align-items-center gap-2 d-xl-none iconsnav mt-4 pt-1">
+                <a href="https://www.facebook.com/" target=" blank">
                   <img src={facebook} alt="facebook" width={48} height={48} />
                 </a>
-                <a href="#">
+                <a href="https://www.instagram.com/" target=" blank">
                   <img src={instagram} alt="instagram" width={48} height={48} />
                 </a>
-                <a href="#">
+                <a
+                  href="https://twitter.com/settings/account?lang=en"
+                  target=" blank"
+                >
                   <img src={twitter} alt="twitter" width={48} height={48} />
                 </a>
-                <a href="#">
+                <a href="https://in.linkedin.com/" target=" blank">
                   <img src={linkdin} alt="linkdin" width={48} height={48} />
                 </a>
               </div>
             </div>
             <div className="align-items-center gap-2 d-none d-xl-flex iconsnav">
-              <a href="#">
+              <a href="https://www.facebook.com/" target=" blank">
                 <img src={facebook} alt="facebook" width={48} height={48} />
               </a>
-              <a href="#">
+              <a href="https://www.instagram.com/" target=" blank">
                 <img src={instagram} alt="instagram" width={48} height={48} />
               </a>
-              <a href="#">
+              <a
+                href="https://twitter.com/settings/account?lang=en"
+                target=" blank"
+              >
                 <img src={twitter} alt="twitter" width={48} height={48} />
               </a>
-              <a href="#">
+              <a href="https://in.linkedin.com/" target=" blank">
                 <img src={linkdin} alt="linkdin" width={48} height={48} />
               </a>
-              <button className="bg-black border-0 rounded-pill clr_white ff_rubik fs_3xl fw-bold btn_login ms-2 d-flex align-items-center gap-2 end-0">
+              <button className="bg_black200 rounded-pill clr_white ff_rubik fs_3xl fw-bold btn_login ms-2 d-flex align-items-center gap-2">
                 <img src={add} alt="add" width={23} height={23} /> Login
               </button>
             </div>
