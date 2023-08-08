@@ -16,13 +16,17 @@ const Home = () => {
       <Hero />
       <div className="overflow-hidden">
         <Pricing Price={pricing_data} />
-        <div className="d-none d-sm-block"><Hosting /></div>
+        <div className="d-none d-sm-block">
+          <Hosting />
+        </div>
       </div>
-       <div className="d-flex flex-column-reverse flex-sm-column">
-       <div className="d-sm-none"> <Hosting /></div>
-      <Our />
-      <ChooseUs ChooseUs={Choose} />
-       </div>
+      <div className="d-flex flex-column-reverse flex-sm-column">
+        <div className="d-sm-none">
+          <Hosting />
+        </div>
+        <Our />
+        <ChooseUs ChooseUs={Choose} />
+      </div>
       <div className="bg_footerimg">
         <div className="about_top pt-2">
           <Testimonials clients={Clientdata} />
