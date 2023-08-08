@@ -27,6 +27,7 @@ const Footer = () => {
                     src={facebook}
                     alt="facebook_icon"
                     className="w_48 footer_icon"
+                    width={43}
                   />
                 </a>
                 <a href="#">
@@ -34,6 +35,7 @@ const Footer = () => {
                     src={instagram}
                     alt="instagram_icon"
                     className="w_48 footer_icon"
+                    width={43}
                   />
                 </a>
                 <a href="#">
@@ -41,6 +43,7 @@ const Footer = () => {
                     src={twitter}
                     alt="twitter_icon"
                     className="w_48 footer_icon"
+                    width={43}
                   />
                 </a>
                 <a href="#">
@@ -48,6 +51,7 @@ const Footer = () => {
                     src={linkdin}
                     alt="linkdin_icon"
                     className="w_48 footer_icon"
+                    width={43}
                   />
                 </a>
               </div>

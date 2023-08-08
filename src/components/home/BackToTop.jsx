@@ -1,5 +1,5 @@
 import React from "react";
-import top_btn from "../../assets/img/png/top.png";
+import top_btn from "../../assets/img/svg/right_arrow.svg";
 const BackToTop = () => {
   const [backTop, setBackTop] = React.useState(false);
   const moveToTop = () => {
@@ -16,16 +16,16 @@ const BackToTop = () => {
     <>
       <div>
         {backTop ? (
-          <img
+          <span
             onClick={moveToTop}
-            className="top_animtion position-fixed bottom-0 end-0 me-4 mb-4 top_btn rounded-circle pointer"
-            src={top_btn}
-            alt="top_btn"
-          />
+            className="top_animtion position-fixed bottom-0 end-0 me-4 mb-4 top_btn rounded-circle pointer back_to"
+            
+          ><img src={top_btn}
+          alt="top_btn" /></span>
         ) : (
           ""
         )}
-        <div></div>
+        <span></span>
       </div>
     </>
   );

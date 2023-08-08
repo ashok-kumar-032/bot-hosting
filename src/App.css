@@ -30,7 +30,7 @@
 }
 
 body::-webkit-scrollbar {
-  width: 12px;
+  width: 10px;
 }
 
 body::-webkit-scrollbar-track {
@@ -41,6 +41,21 @@ body::-webkit-scrollbar-thumb {
   background-color: #0851f6;
   outline: 1px solid #0851f6;
   border-radius: 10px;
+}
+
+.back_to {
+  background: linear-gradient(27deg,
+      rgba(0, 63, 243, 0.8) 0%,
+      rgba(48, 156, 255, 0.8) 100%),
+    #2898ff;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(-90deg) !important;
+  width: 50px;
+  clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+
 }
 
 /* utilites classes */
@@ -112,8 +127,8 @@ body::-webkit-scrollbar-thumb {
   max-width: 550px;
 }
 
-.w_48 {
-  width: 48px;
+.mw_534 {
+  max-width: 534px;
 }
 
 .w_24 {
@@ -124,9 +139,6 @@ body::-webkit-scrollbar-thumb {
   width: 40px;
 }
 
-.h_48 {
-  height: 48px;
-}
 
 .lh_143 {
   line-height: 143%;
@@ -171,6 +183,10 @@ body::-webkit-scrollbar-thumb {
   opacity: 0.75;
 }
 
+.ws_nowrap {
+  white-space: nowrap;
+}
+
 /* utilits end */
 
 /* nav and hero */
@@ -184,22 +200,26 @@ body::-webkit-scrollbar-thumb {
   left: 2px;
   top: 4px;
 }
-.btn-check:checked + .btn,
+
+.btn-check:checked+.btn,
 .btn.active,
 .btn.show,
 .btn:first-child:active,
-:not(.btn-check) + .btn:active {
+:not(.btn-check)+.btn:active {
   background-color: transparent;
   box-shadow: none !important;
   border: none !important;
 }
+
 .btn-primary {
   background: none !important;
 }
+
 .btn {
   padding: 0 !important;
   border: none !important;
 }
+
 .dropdown-toggle::after {
   content: url(./assets/img/svg/navarrow.svg) !important;
   border: none !important;
@@ -218,6 +238,7 @@ body::-webkit-scrollbar-thumb {
   background: none !important;
   border: none !important;
 }
+
 .top_btn {
   width: 50px;
   z-index: 10;
@@ -299,8 +320,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .top_left {
-  top: 63px;
-  left: 28%;
+  top: 30px;
+  left: 60%;
 }
 
 /* hero end */
@@ -317,7 +338,7 @@ body::-webkit-scrollbar-thumb {
   display: flex !important;
 }
 
-.slick-slide > div {
+.slick-slide>div {
   display: flex;
 }
 
@@ -347,9 +368,6 @@ body::-webkit-scrollbar-thumb {
   stroke: white;
 }
 
-.mw_534 {
-  max-width: 534px;
-}
 
 .bg_imggrap {
   background-image: url(./assets/img/webp/grapbg.webp);
@@ -388,11 +406,9 @@ body::-webkit-scrollbar-thumb {
 
 .btn_subimt {
   border-radius: 5px;
-  background: linear-gradient(
-      27deg,
+  background: linear-gradient(27deg,
       rgba(0, 63, 243, 0.8) 0%,
-      rgba(48, 156, 255, 0.8) 100%
-    ),
+      rgba(48, 156, 255, 0.8) 100%),
     linear-gradient(0deg, #2898ff 0%, #2898ff 100%), #ff604b;
   padding: 15px 38px;
   transition: all 0.3s linear;
@@ -425,11 +441,9 @@ body::-webkit-scrollbar-thumb {
 /* modpack components start */
 .popular_btn {
   border-radius: 10px;
-  background: linear-gradient(
-      27deg,
+  background: linear-gradient(27deg,
       rgba(0, 63, 243, 0.8) 0%,
-      rgba(48, 156, 255, 0.8) 100%
-    ),
+      rgba(48, 156, 255, 0.8) 100%),
     #2898ff;
   padding: 16px 32px;
   border: 1px solid transparent;
@@ -450,11 +464,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 .officalr_btn:hover {
-  background: linear-gradient(
-      27deg,
+  background: linear-gradient(27deg,
       rgba(0, 63, 243, 0.8) 0%,
-      rgba(48, 156, 255, 0.8) 100%
-    ),
+      rgba(48, 156, 255, 0.8) 100%),
     #2898ff;
   padding: 16px 32px;
   border: 1px solid transparent;
@@ -468,11 +480,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 .started_btn:hover {
-  background: linear-gradient(
-      27deg,
+  background: linear-gradient(27deg,
       rgba(0, 63, 243, 0.8) 0%,
-      rgba(48, 156, 255, 0.8) 100%
-    ),
+      rgba(48, 156, 255, 0.8) 100%),
     #2898ff;
 }
 
@@ -504,12 +514,12 @@ body::-webkit-scrollbar-thumb {
   background-size: 100% 100%;
 }
 
-.cards_h {
+.choose_card_h {
   transition: all 300ms linear;
 }
 
-.cards_h:hover {
-  transform: scale(1.03);
+.cards_h:hover .choose_card_h {
+  transform: translatey(-5px);
 }
 
 /* chooseus section end */
@@ -565,20 +575,24 @@ body::-webkit-scrollbar-thumb {
   background: rgba(132, 160, 232, 0.1);
   border: none;
   transition: all 300ms linear !important;
-  opacity: 0;
+  z-index: -5 !important;
+  position: relative;
+
 }
 
 .pricing_card:hover .pricing_popular_btn {
-  opacity: 1;
+  z-index: 1;
 }
 
 .pricing_card:hover .pricing_startup_btn {
-  background: linear-gradient(
-      27deg,
+  background: linear-gradient(27deg,
       rgba(0, 63, 243, 0.8) 0%,
-      rgba(48, 156, 255, 0.8) 100%
-    ),
+      rgba(48, 156, 255, 0.8) 100%),
     #2898ff;
+  background-position: center !important;
+  background-size: 105% 105% !important;
+  margin: 5px !important;
+
 }
 
 .pricing_top_box {
@@ -600,12 +614,13 @@ body::-webkit-scrollbar-thumb {
 .pricing_getbtn {
   padding: 18px 35px;
   border-radius: 90px;
-  background: linear-gradient(
-      27deg,
+  background: linear-gradient(27deg,
       rgba(0, 63, 243, 0.8) 0%,
-      rgba(48, 156, 255, 0.8) 100%
-    ),
+      rgba(48, 156, 255, 0.8) 100%),
     #2898ff;
+  background-position: center;
+  background-size: 102% 102%;
+  margin: 2px;
   border: 1px solid transparent;
   transition: all 300ms linear;
 }
@@ -651,14 +666,25 @@ body::-webkit-scrollbar-thumb {
 .footer_icon:hover {
   transform: translateY(-10px);
 }
+
 .our_card_1 {
   border-radius: 20px;
 }
+
 /* media screen 576 */
 
 @media (min-width: 576px) {
   .clignts_fs_16 {
     font-size: 16px;
+  }
+
+  .w_48 {
+    width: 48px;
+  }
+
+  .h_48 {
+    height: 48px;
+
   }
 }
 
@@ -693,7 +719,7 @@ body::-webkit-scrollbar-thumb {
   }
 
   .chooseus_bgline {
-    top: 15%;
+    top: 25%;
     z-index: 1;
   }
 
@@ -712,10 +738,11 @@ body::-webkit-scrollbar-thumb {
 @media (min-width: 1200px) {
   .hero_img_overflow {
     position: absolute;
-    width: 50%;
-    top: 20%;
-    right: 5%;
+    width: 45%;
+    top: 16%;
+    right: 8%;
   }
+
   .about_b {
     margin-bottom: -300px !important;
   }
@@ -746,12 +773,35 @@ body::-webkit-scrollbar-thumb {
   }
 
   .bg_heroimg {
-    height: 108vh;
+    background-image: url(./assets/img/webp/herobg_image.webp);
+    background-repeat: no-repeat;
+    top: 0;
+    background-size: 100% 100%;
   }
+  .mw_534{
+    max-width: 480px;
+  }
+}
+
+@media (min-width:1400px) {
+  .bg_heroimg {
+    min-height: 108vh;
+  }
+
+  .top_left {
+    top: 60px;
+    left: 30%;
+  }
+
+  .mw_534 {
+    max-width: 534px;
+  }
+
 }
 
 /* media max width screen 1200 */
 @media (max-width: 1200px) {
+
   /* nav bar tab and phone size */
   .phone {
     position: fixed;
