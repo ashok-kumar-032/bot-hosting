@@ -9,6 +9,7 @@ import Footer from "../components/product/Footer";
 import Testimonials from "../components/common/Testimonials";
 import { Clientdata } from "../components/common/Helper";
 import Our from "../components/home/Our";
+import Newsletter from "../components/home/Newsletter";
 const Product = () => {
   return (
     <div className="page_back">
@@ -17,11 +18,10 @@ const Product = () => {
       <ModPAck modpack={modpack} />
       <Hosting />
       <Our img_none="d-none" />
-      <div className="bg_footerimg">
-        <div className="about_top">
-          <Testimonials clients={Clientdata}/>
-          <Footer />
-        </div>
+      <Testimonials clients={Clientdata} />
+      <div className="bg_footerimg padding_top pb-5">
+        <Newsletter product_dnone="d-md-none"/>
+        <Footer />
       </div>
     </div>
   );

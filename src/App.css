@@ -44,9 +44,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 .back_to {
-  background: linear-gradient(27deg,
+  background: linear-gradient(
+      27deg,
       rgba(0, 63, 243, 0.8) 0%,
-      rgba(48, 156, 255, 0.8) 100%),
+      rgba(48, 156, 255, 0.8) 100%
+    ),
     #2898ff;
   height: 50px;
   display: flex;
@@ -54,8 +56,18 @@ body::-webkit-scrollbar-thumb {
   align-items: center;
   transform: rotate(-90deg) !important;
   width: 50px;
-  clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
-
+  clip-path: polygon(
+    50% 0%,
+    80% 10%,
+    100% 35%,
+    100% 70%,
+    80% 90%,
+    50% 100%,
+    20% 90%,
+    0% 70%,
+    0% 35%,
+    20% 10%
+  );
 }
 
 /* utilites classes */
@@ -139,7 +151,6 @@ body::-webkit-scrollbar-thumb {
   width: 40px;
 }
 
-
 .lh_143 {
   line-height: 143%;
 }
@@ -201,11 +212,11 @@ body::-webkit-scrollbar-thumb {
   top: 4px;
 }
 
-.btn-check:checked+.btn,
+.btn-check:checked + .btn,
 .btn.active,
 .btn.show,
 .btn:first-child:active,
-:not(.btn-check)+.btn:active {
+:not(.btn-check) + .btn:active {
   background-color: transparent;
   box-shadow: none !important;
   border: none !important;
@@ -338,7 +349,7 @@ body::-webkit-scrollbar-thumb {
   display: flex !important;
 }
 
-.slick-slide>div {
+.slick-slide > div {
   display: flex;
 }
 
@@ -367,7 +378,6 @@ body::-webkit-scrollbar-thumb {
 .btn_slider:hover svg path {
   stroke: white;
 }
-
 
 .bg_imggrap {
   background-image: url(./assets/img/webp/grapbg.webp);
@@ -406,9 +416,11 @@ body::-webkit-scrollbar-thumb {
 
 .btn_subimt {
   border-radius: 5px;
-  background: linear-gradient(27deg,
+  background: linear-gradient(
+      27deg,
       rgba(0, 63, 243, 0.8) 0%,
-      rgba(48, 156, 255, 0.8) 100%),
+      rgba(48, 156, 255, 0.8) 100%
+    ),
     linear-gradient(0deg, #2898ff 0%, #2898ff 100%), #ff604b;
   padding: 15px 38px;
   transition: all 0.3s linear;
@@ -441,9 +453,11 @@ body::-webkit-scrollbar-thumb {
 /* modpack components start */
 .popular_btn {
   border-radius: 10px;
-  background: linear-gradient(27deg,
+  background: linear-gradient(
+      27deg,
       rgba(0, 63, 243, 0.8) 0%,
-      rgba(48, 156, 255, 0.8) 100%),
+      rgba(48, 156, 255, 0.8) 100%
+    ),
     #2898ff;
   padding: 16px 32px;
   border: 1px solid transparent;
@@ -464,9 +478,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 .officalr_btn:hover {
-  background: linear-gradient(27deg,
+  background: linear-gradient(
+      27deg,
       rgba(0, 63, 243, 0.8) 0%,
-      rgba(48, 156, 255, 0.8) 100%),
+      rgba(48, 156, 255, 0.8) 100%
+    ),
     #2898ff;
   padding: 16px 32px;
   border: 1px solid transparent;
@@ -480,9 +496,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 .started_btn:hover {
-  background: linear-gradient(27deg,
+  background: linear-gradient(
+      27deg,
       rgba(0, 63, 243, 0.8) 0%,
-      rgba(48, 156, 255, 0.8) 100%),
+      rgba(48, 156, 255, 0.8) 100%
+    ),
     #2898ff;
 }
 
@@ -577,7 +595,6 @@ body::-webkit-scrollbar-thumb {
   transition: all 300ms linear !important;
   z-index: -5 !important;
   position: relative;
-
 }
 
 .pricing_card:hover .pricing_popular_btn {
@@ -585,14 +602,15 @@ body::-webkit-scrollbar-thumb {
 }
 
 .pricing_card:hover .pricing_startup_btn {
-  background: linear-gradient(27deg,
+  background: linear-gradient(
+      27deg,
       rgba(0, 63, 243, 0.8) 0%,
-      rgba(48, 156, 255, 0.8) 100%),
+      rgba(48, 156, 255, 0.8) 100%
+    ),
     #2898ff;
   background-position: center !important;
   background-size: 105% 105% !important;
   margin: 5px !important;
-
 }
 
 .pricing_top_box {
@@ -614,9 +632,11 @@ body::-webkit-scrollbar-thumb {
 .pricing_getbtn {
   padding: 18px 35px;
   border-radius: 90px;
-  background: linear-gradient(27deg,
+  background: linear-gradient(
+      27deg,
       rgba(0, 63, 243, 0.8) 0%,
-      rgba(48, 156, 255, 0.8) 100%),
+      rgba(48, 156, 255, 0.8) 100%
+    ),
     #2898ff;
   background-position: center;
   background-size: 102% 102%;
@@ -684,7 +704,6 @@ body::-webkit-scrollbar-thumb {
 
   .h_48 {
     height: 48px;
-
   }
 }
 
@@ -742,14 +761,12 @@ body::-webkit-scrollbar-thumb {
     top: 16%;
     right: 8%;
   }
-
-  .about_b {
-    margin-bottom: -300px !important;
+  .testimonials_set {
+    transform: translateY(360px) !important;  
+    margin-top: -310px !important;
   }
-
-  .about_top {
-    transform: translateY(-260px) !important;
-    margin-top: 300px !important;
+  .padding_top {
+    padding-top: 350px !important;
   }
 
   .our_box {
@@ -778,12 +795,12 @@ body::-webkit-scrollbar-thumb {
     top: 0;
     background-size: 100% 100%;
   }
-  .mw_534{
+  .mw_534 {
     max-width: 480px;
   }
 }
 
-@media (min-width:1400px) {
+@media (min-width: 1400px) {
   .bg_heroimg {
     min-height: 108vh;
   }
@@ -796,12 +813,10 @@ body::-webkit-scrollbar-thumb {
   .mw_534 {
     max-width: 534px;
   }
-
 }
 
 /* media max width screen 1200 */
 @media (max-width: 1200px) {
-
   /* nav bar tab and phone size */
   .phone {
     position: fixed;
@@ -882,5 +897,8 @@ body::-webkit-scrollbar-thumb {
 
   .emailinput input {
     max-width: 160px !important;
+  }
+  .bg_footerimg {
+    border-radius: 120px 120px 0 0;
   }
 }

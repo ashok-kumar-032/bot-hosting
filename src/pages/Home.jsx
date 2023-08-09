@@ -24,15 +24,13 @@ const Home = () => {
         <div className="d-sm-none">
           <Hosting />
         </div>
-        <Our />
+        <Our img_none="d-none d-xl-block"/>
         <ChooseUs ChooseUs={Choose} />
       </div>
-      <div className="bg_footerimg">
-        <div className="about_top pt-2">
-          <Testimonials clients={Clientdata} />
-          <Newsletter />
-          <Footer />
-        </div>
+      <Testimonials clients={Clientdata} />
+      <div className="bg_footerimg padding_top pb-5">
+        <Newsletter />
+        <Footer />
       </div>
     </div>
   );
