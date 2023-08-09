@@ -138,14 +138,16 @@ const Pricing = ({ Price }) => {
                           / Month
                         </span>
                       </h4>
-                     <div className="px-2 px-sm-0"> <button className="pricing_startup_btn ff_inter fw-normal clr_white fw-bold py-4 mt-4 mt-md-5 w-100">
-                        Get Started
-                        <img
-                          src={rightarrow}
-                          className="ps-1"
-                          alt="right arrow"
-                        />
-                      </button></div>
+                      <div className="px-2 px-sm-0">
+                        <button className="pricing_startup_btn ff_inter fw-normal clr_white fw-bold py-4 mt-4 mt-md-5 w-100">
+                          Get Started
+                          <img
+                            src={rightarrow}
+                            className="ps-1"
+                            alt="right arrow"
+                          />
+                        </button>
+                      </div>
                       <p className="ff_dmsans fw-normal clr_white300 fs_lg mb-0 pt-3 mt-1 text-center">
                         No credit card required
                       </p>
