@@ -249,17 +249,24 @@ body::-webkit-scrollbar-thumb {
   -webkit-animation: float 2.4s linear infinite;
 }
 
-.crical_host::before {
+.hero_project::before {
   content: "";
   position: absolute;
-  width: 55px;
-  height: 55px;
-  border-radius: 50% !important;
+  width: 35%;
+  height: 60px;
+  border-radius: 50px !important;
   background: #00cdfa !important;
   z-index: 0;
   left: 0px;
   top: -14px;
+  z-index: -1;
+  transition: all 300ms linear;
 }
+.hero_project:hover::before{width: 110%;}
+
+
+/* .hero_project:hover .crical_host::before{width: 100px;
+height: 100px;} */
 
 .btn_login {
   padding: 14px 40px;

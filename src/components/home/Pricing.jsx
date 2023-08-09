@@ -15,17 +15,11 @@ const Pricing = ({ Price }) => {
         <Container>
           <h2
             className="common_heading text-center"
-            data-aos="fade-down"
-            data-aos-delay="300"
-            data-aos-duration="1500"
           >
             Awesome <span className="clr_blue">Pricing Plan</span>
           </h2>
           <p
             className="common_para mw_550 mx-auto mb-4 pt-lg-4 pt-3 pb-lg-2 pb-3"
-            data-aos="fade-down"
-            data-aos-delay="300"
-            data-aos-duration="1500"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lacus
             facilisi donec egestas egestas pellentesque magna.

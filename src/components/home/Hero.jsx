@@ -22,13 +22,13 @@ const Hero = () => {
                   Instantly Deploy Minecraft, Rust, CSGO & More Game Servers in
                   8 Locations Globally.
                 </p>
-                <div className=" position-relative">
-                  <button className="ps-4 border-0 bg-transparent d-flex align-items-center gap-2 ff_rubik fw-medium fs_3xl clr_white position-relative z-3">
+               
+                  <button className="ps-4 position-relative hero_project border-0 bg-transparent d-flex align-items-center gap-2 ff_rubik fw-medium fs_3xl clr_white position-relative z-3">
                     View Projects
                     <Viewproject />
                   </button>
-                  <div className="crical_host"></div>
-                </div>
+                  
+                
               </div>
               <div className="position-relative top_left d-none d-xxl-block">
                <a href="#scroll"> <button className="bg-transparent border-0">
