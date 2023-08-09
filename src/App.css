@@ -608,9 +608,6 @@ body::-webkit-scrollbar-thumb {
       rgba(48, 156, 255, 0.8) 100%
     ),
     #2898ff;
-  background-position: center !important;
-  background-size: 105% 105% !important;
-  margin: 5px !important;
 }
 
 .pricing_top_box {
