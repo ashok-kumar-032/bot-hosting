@@ -13,14 +13,10 @@ const Pricing = ({ Price }) => {
           <img src={pricing_right} alt="pricing_right" />
         </div>
         <Container>
-          <h2
-            className="common_heading text-center"
-          >
+          <h2 className="common_heading text-center">
             Awesome <span className="clr_blue">Pricing Plan</span>
           </h2>
-          <p
-            className="common_para mw_550 mx-auto mb-4 pt-lg-4 pt-3 pb-lg-2 pb-3"
-          >
+          <p className="common_para mw_550 mx-auto mb-4 pt-lg-4 pt-3 pb-lg-2 pb-3">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lacus
             facilisi donec egestas egestas pellentesque magna.
           </p>
@@ -138,14 +134,16 @@ const Pricing = ({ Price }) => {
                           / Month
                         </span>
                       </h4>
-                     <div className="px-2 px-sm-0"> <button className="pricing_startup_btn ff_inter fw-normal clr_white fw-bold py-4 mt-4 mt-md-5 w-100">
-                        Get Started
-                        <img
-                          src={rightarrow}
-                          className="ps-1"
-                          alt="right arrow"
-                        />
-                      </button></div>
+                      <div className="px-2 px-sm-0">
+                        <button className="pricing_startup_btn ff_inter fw-normal clr_white fw-bold py-4 mt-4 mt-md-5 w-100">
+                          Get Started
+                          <img
+                            src={rightarrow}
+                            className="ps-1"
+                            alt="right arrow"
+                          />
+                        </button>
+                      </div>
                       <p className="ff_dmsans fw-normal clr_white300 fs_lg mb-0 pt-3 mt-1 text-center">
                         No credit card required
                       </p>

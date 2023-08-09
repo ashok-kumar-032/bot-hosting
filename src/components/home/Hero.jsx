@@ -22,34 +22,31 @@ const Hero = () => {
                   Instantly Deploy Minecraft, Rust, CSGO & More Game Servers in
                   8 Locations Globally.
                 </p>
-               
-                  <button className="ps-4 position-relative hero_project border-0 bg-transparent d-flex align-items-center gap-2 ff_rubik fw-medium fs_3xl clr_white position-relative z-3">
-                    View Projects
-                    <Viewproject />
-                  </button>
-                  
-                
+
+                <button className="ps-4 position-relative hero_project border-0 bg-transparent d-flex align-items-center gap-2 ff_rubik fw-medium fs_3xl clr_white position-relative z-3">
+                  View Projects
+                  <Viewproject />
+                </button>
               </div>
               <div className="position-relative top_left d-none d-xxl-block">
-               <a href="#scroll"> <button className="bg-transparent border-0">
-                 <a href="#scroll"> <Scrollicon /></a>
-                  <p
-                    className="fw-medium fs_3xl ff_inter clr_white mt-3 ps-4 letters_2px transforr_90 {
+                <a href="#scroll">
+                  <button className="bg-transparent border-0">
+                    <a href="#scroll">
+                      <Scrollicon />
+                    </a>
+                    <p
+                      className="fw-medium fs_3xl ff_inter clr_white mt-3 ps-4 letters_2px transforr_90 {
 "
-                  >
-                    Scroll
-                  </p>
-                </button></a>
+                    >
+                      Scroll
+                    </p>
+                  </button>
+                </a>
               </div>
             </Col>
-            <Col
-              xl={5}
-              lg={8}
-              sm={11}
-              className="pt-5 pb-5 mb-sm-5 mb-xxl-0"
-            >
+            <Col xl={5} lg={8} sm={11} className="pt-5 pb-5 mb-sm-5 mb-xxl-0">
               <div className="hero_img_overflow">
-                <img src={herocomputer} alt="herocomputer"className="w-100" />
+                <img src={herocomputer} alt="herocomputer" className="w-100" />
               </div>
             </Col>
           </Row>
