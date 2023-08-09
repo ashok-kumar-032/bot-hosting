@@ -8,21 +8,16 @@ import our_back_1 from "../../assets/img/webp/our_back_1.webp";
 import our_left_img from "../../assets/img/png/our_left_img.png";
 
 const Our = ({ img_none }) => {
-  return (  
+  return (
     <section className="position-relative our_card_2 py-lg-5 my-xl-4 pb-3 pb-sm-5">
-      <div
-        className={`our_left_img position-absolute d-none d-xl-block ${img_none}`}
-      >
+      <div className={`our_left_img position-absolute ${img_none}`}>
         <img src={our_left_img} alt="our_left_img" />
       </div>
       <div className="back_effect our_card rounded-4">
         <div className="">
           <Container className="pt-3">
-            <div className="our_box our_card_1 p-3">
-              <div
-                className="text-white text-center pt-lg-4 pb-lg-5 pb-2 "
-                
-              >
+            <div className="our_box our_card_1 p-5">
+              <div className="text-white text-center pt-lg-4 pb-lg-5 pb-2 ">
                 <p className="common_heading">
                   Our <span className="clr_blue">Locations</span>
                 </p>
@@ -31,10 +26,7 @@ const Our = ({ img_none }) => {
                 </p>
               </div>
               <Row className="pb-3">
-                <Col
-                  lg={4} md={6}
-                 
-                >
+                <Col lg={4} md={6}>
                   <div className="d-flex align-items-center pt-3">
                     <span>
                       <img src={los} alt="los" />
@@ -50,7 +42,8 @@ const Our = ({ img_none }) => {
                   </div>
                 </Col>
                 <Col
-                  lg={4} md={6}
+                  lg={4}
+                  md={6}
                   className="pt-3"
                   data-aos="fade-right"
                   data-aos-delay="600"
@@ -71,7 +64,8 @@ const Our = ({ img_none }) => {
                   </div>
                 </Col>
                 <Col
-                  lg={4} md={6}
+                  lg={4}
+                  md={6}
                   className="pt-3"
                   data-aos="fade-right"
                   data-aos-delay="900"
@@ -92,7 +86,8 @@ const Our = ({ img_none }) => {
                   </div>
                 </Col>
                 <Col
-                  lg={4} md={6}
+                  lg={4}
+                  md={6}
                   className="pt-lg-5 pt-3"
                   data-aos="fade-right"
                   data-aos-delay="300"
@@ -113,7 +108,8 @@ const Our = ({ img_none }) => {
                   </div>
                 </Col>
                 <Col
-                  lg={4} md={6}
+                  lg={4}
+                  md={6}
                   className="pt-lg-5 pt-3"
                   data-aos="fade-right"
                   data-aos-delay="600"
@@ -134,7 +130,8 @@ const Our = ({ img_none }) => {
                   </div>
                 </Col>
                 <Col
-                  lg={4} md={6}
+                  lg={4}
+                  md={6}
                   className="pt-lg-5 pt-3"
                   data-aos="fade-right"
                   data-aos-delay="900"

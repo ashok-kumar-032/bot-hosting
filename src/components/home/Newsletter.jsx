@@ -1,10 +1,10 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import email from "../../assets/img/svg/emailicon.svg";
-const Newsletter = () => {
+const Newsletter = ({ product_dnone }) => {
   return (
     <>
-      <section className="py-sm-5 my-xl-4 py-3">
+      <section className={`py-sm-5 my-xl-4 py-3 ${product_dnone}`}>
         <Container>
           <div className="text-center">
             <h4 className="ff_rubik fw-medium fs_5xl text-uppercase clr_white mb-2 pb-md-1">

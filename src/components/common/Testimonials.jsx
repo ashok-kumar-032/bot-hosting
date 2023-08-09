@@ -47,7 +47,7 @@ const Testimonials = ({ clients }) => {
   const clintsbtn = useRef();
   return (
     <>
-      <section className="my-sm-5 my-3">
+      <section className="my-sm-5 my-3 testimonials_set">
         <Container className="my-xl-4">
           <div className="text-center">
             <p className="ff_rubik fw-normal fs_2xl text-uppercase clr_blue mb-2 pb-md-1">

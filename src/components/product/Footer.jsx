@@ -7,8 +7,8 @@ import linkdin from "../../assets/img/png/footer_linkdin.png";
 const Footer = () => {
   return (
     <>
-      <section className="footer_s pt-sm-5 mt-xl-4 pt-3">
-        <Container className="about_b">
+      <section className="footer_s py-sm-5 mt-xl-4 py-3">
+        <Container>
           <Row className="justify-content-between pb-1 pb-sm-0">
             <Col lg={4}>
               <h3 className=" ff_overpass clr_white fw-medium mb-0 pb-3 pb-sm-0 fs_5xl text-center text-sm-start c_pointer">
