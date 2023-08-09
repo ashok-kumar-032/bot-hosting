@@ -22,38 +22,38 @@ const Footer = () => {
                 <span className="clr_blue200 c_pointer">Read More </span>
               </p>
               <div className="d-flex gap-2 mt-2 justify-content-center justify-content-sm-start">
-                <a href="#">
+                <span >
                   <img
                     src={facebook}
                     alt="facebook_icon"
                     className="w_48 footer_icon"
                     width={43}
                   />
-                </a>
-                <a href="#">
+                </span>
+                <span >
                   <img
                     src={instagram}
                     alt="instagram_icon"
                     className="w_48 footer_icon"
                     width={43}
                   />
-                </a>
-                <a href="#">
+                </span>
+                <span >
                   <img
                     src={twitter}
                     alt="twitter_icon"
                     className="w_48 footer_icon"
                     width={43}
                   />
-                </a>
-                <a href="#">
+                </span>
+                <span >
                   <img
                     src={linkdin}
                     alt="linkdin_icon"
                     className="w_48 footer_icon"
                     width={43}
                   />
-                </a>
+                </span>
               </div>
             </Col>
             <Col lg={7} className="d-none d-sm-block">
@@ -64,15 +64,15 @@ const Footer = () => {
                   </h4>
                   <ul className="ps-0">
                     <li>
-                      <a href="#" className="my-4">
+                      <span  className="my-4">
                         About
-                      </a>
+                      </span>
                     </li>
                     <li>
-                      <a href="#">Blog</a>
+                      <span >Blog</span>
                     </li>
                     <li>
-                      <a href="#">Career</a>
+                      <span >Career</span>
                     </li>
                   </ul>
                 </Col>
@@ -82,16 +82,16 @@ const Footer = () => {
                   </h4>
                   <ul className="ps-0">
                     <li>
-                      <a href="#">Email Marketing</a>
+                      <span >Email Marketing</span>
                     </li>
                     <li>
-                      <a href="#">Campaigns</a>
+                      <span >Campaigns</span>
                     </li>
                     <li>
-                      <a href="#">Branding</a>
+                      <span >Branding</span>
                     </li>
                     <li>
-                      <a href="#">Offline</a>
+                      <span >Offline</span>
                     </li>
                   </ul>
                 </Col>
@@ -101,16 +101,16 @@ const Footer = () => {
                   </h4>
                   <ul className="ps-0">
                     <li>
-                      <a href="#">Our Story</a>
+                      <span >Our Story</span>
                     </li>
                     <li>
-                      <a href="#">Benefits</a>
+                      <span >Benefits</span>
                     </li>
                     <li>
-                      <a href="#">Team</a>
+                      <span >Team</span>
                     </li>
                     <li>
-                      <a href="#">Careers</a>
+                      <span >Careers</span>
                     </li>
                   </ul>
                 </Col>
@@ -120,10 +120,10 @@ const Footer = () => {
                   </h4>
                   <ul className="ps-0">
                     <li>
-                      <a href="#">FAQs</a>
+                      <span >FAQs</span>
                     </li>
                     <li>
-                      <a href="#">Contact Us</a>
+                      <span >Contact Us</span>
                     </li>
                   </ul>
                 </Col>

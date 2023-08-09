@@ -10,8 +10,8 @@ const Hero = () => {
         <Header />
         <Container className="pt-lg-5 mt-3 pb-5 flex-grow-1 mb-5 mb-xxl-0 mb-lg-0">
           <Row className="align-items-center justify-content-xl-between justify-content-center h-75 pb-5 mb-5 pb-xxl-0 mb-xxl-0 pb-lg-0 mb-xl-0">
-            <Col xl={5} lg={8} className="py-xl-5 my-xl-5">
-              <div className="text-center text-xl-start align-items-xl-start d-flex flex-column align-items-center position-relative z-3">
+            <Col xl={5} lg={8} className="py-xl-5 my-xl-5 ">
+              <div className="text-center text-xl-start align-items-xl-start d-flex flex-column mb-xl-5 mb-xxl-0 mt-xxl-5 align-items-center position-relative z-3">
                 <p className="ff_inter fs_md fw-medium text-uppercase clr_white mb-2 box_host ls_4 ps-4 ms-2 position-relative">
                   Hosting
                 </p>
@@ -22,13 +22,10 @@ const Hero = () => {
                   Instantly Deploy Minecraft, Rust, CSGO & More Game Servers in
                   8 Locations Globally.
                 </p>
-               
                   <button className="ps-4 position-relative hero_project border-0 bg-transparent d-flex align-items-center gap-2 ff_rubik fw-medium fs_3xl clr_white position-relative z-3">
                     View Projects
                     <Viewproject />
                   </button>
-                  
-                
               </div>
               <div className="position-relative top_left d-none d-xxl-block">
                <a href="#scroll"> <button className="bg-transparent border-0">

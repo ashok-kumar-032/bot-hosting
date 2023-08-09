@@ -28,21 +28,6 @@
 .page_back {
   background-image: url(../src/assets/img/svg/page_back_img.svg);
 }
-
-body::-webkit-scrollbar {
-  width: 10px;
-}
-
-body::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: #0851f6;
-  outline: 1px solid #0851f6;
-  border-radius: 10px;
-}
-
 .back_to {
   background: linear-gradient(
       27deg,
@@ -670,16 +655,17 @@ height: 100px;} */
   padding-top: 20px;
 }
 
-.footer_s ul li a {
+.footer_s ul li span{
   color: #fff;
   font-family: "DM Sans";
   font-size: var(--fs-md);
   margin-bottom: 0;
   font-weight: 400;
   transition: all 200ms linear;
+  cursor: pointer;
 }
 
-.footer_s ul li a:hover {
+.footer_s ul li span:hover {
   color: var(--color-clr-blue200);
 }
 
@@ -761,7 +747,7 @@ height: 100px;} */
 @media (min-width: 1200px) {
   .hero_img_overflow {
     position: absolute;
-    width: 45%;
+    width: 43%;
     top: 16%;
     right: 8%;
   }

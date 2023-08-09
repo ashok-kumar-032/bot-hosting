@@ -5,13 +5,13 @@ import { Hostingcircle } from "./icons/Svgicons";
 const Hosting = () => {
   return (
     <>
-      <section className="py-sm-5 my-xl-4 py-3">
-        <Container className="position-relative z-3">
+      <section className="py-sm-5 mt-xl-4 py-3">
+        <Container className="position-relative z-3" data-aos="fade-up" data-aos-duration="1200">
           <div className="text-center">
             <p className="common_heading mb-lg-2 pb-xxl-1 mb-2">
               Game Hosting, <span className="clr_blue">simplified</span>
             </p>
-            <p className="ff_inter fw-normal fs_2xl clr_white mb-md-4">
+            <p className="ff_inter fw-normal fs_2xl clr_white mb-lg-5 mb-sm-4 pb-xl-3">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lacus
               facilisi donec
               <span className="d-md-block">

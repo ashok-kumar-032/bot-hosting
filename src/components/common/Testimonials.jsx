@@ -109,9 +109,7 @@ const Testimonials = ({ clients }) => {
           <Row className="justify-content-center mt-lg-5 mt-sm-4 mt-3 ">
             <Col
               lg={9}
-              data-aos="fade-down"
-              data-aos-delay="300"
-              data-aos-duration="1500"
+              data-aos="flip-left"
             >
               <div className="d-flex gap-2">
                 <div className="text-center">

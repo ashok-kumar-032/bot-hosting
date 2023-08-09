@@ -23,7 +23,8 @@ const ModPAck = ({ modpack }) => {
           <Row className="justify-content-center">
             {modpack.map((modpack, mod_card) => {
               return (
-                <Col
+                <Col data-aos="flip-right"
+                data-aos-duration="1500"
                   key={mod_card}
                   lg={4}
                   md={6}

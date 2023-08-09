@@ -5,7 +5,8 @@ const Newsletter = ({ product_dnone }) => {
   return (
     <>
       <section className={`py-sm-5 my-xl-4 py-3 ${product_dnone}`}>
-        <Container>
+        <Container data-aos="fade-up"
+     data-aos-duration="2000">
           <div className="text-center">
             <h4 className="ff_rubik fw-medium fs_5xl text-uppercase clr_white mb-2 pb-md-1">
               Newsletter

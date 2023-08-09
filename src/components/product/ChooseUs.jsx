@@ -14,14 +14,15 @@ const ChooseUs = ({ ChooseUs }) => {
         />
         <Container className="position-relative z-2 mt-xl-5">
           <h2
-            className="common_heading text-center"
+            className="common_heading text-center pb-sm-4 pb-2 mb-xl-3"
           >
             Why <span className="clr_blue">Choose Us?</span>
           </h2>
           <Row className="justify-content-center">
             {ChooseUs.map((chosecard) => {
               return (
-                <Col
+                <Col data-aos="flip-right"
+                data-aos-duration="3000"
                   key={chosecard.id}
                   lg={4}
                   md={6}

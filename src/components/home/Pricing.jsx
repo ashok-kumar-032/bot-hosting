@@ -14,21 +14,19 @@ const Pricing = ({ Price }) => {
         </div>
         <Container>
           <h2
-            className="common_heading text-center"
+            className="common_heading text-center" data-aos="fade-up" data-aos-duration="1000"
           >
             Awesome <span className="clr_blue">Pricing Plan</span>
           </h2>
           <p
-            className="common_para mw_550 mx-auto mb-4 pt-lg-4 pt-3 pb-lg-2 pb-3"
+            className="common_para mw_550 mx-auto mb-md-4 mb-3 pt-lg-4 pt-2 pb-xl-5"data-aos="fade-up"
+            data-aos-duration="1000"
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lacus
             facilisi donec egestas egestas pellentesque magna.
           </p>
           <Row
             className="justify-content-center position-relative"
-            data-aos="fade-right"
-            data-aos-delay="300"
-            data-aos-duration="1500"
           >
             <div>
               <img
@@ -47,6 +45,8 @@ const Pricing = ({ Price }) => {
             {Price.map((price) => {
               return (
                 <Col
+                data-aos="flip-left"
+                data-aos-duration="1200"
                   key={price.id}
                   lg={4}
                   md={6}

@@ -26,7 +26,8 @@ const Feature = ({ feature }) => {
           <Row className="pt-1">
             {feature.map((featurecard) => {
               return (
-                <Col
+                <Col  data-aos="flip-left"
+                data-aos-duration="1500"
                   key={featurecard.id}
                   xl={4}
                   md={6}
